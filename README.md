@@ -23,3 +23,4 @@
 21. Understand cron jobs and task scheduling in Linux.
 22. Learn disk management using df, du, fdisk, and mount.
 23. Practice compressing files using tar, zip, and gzip.
+24. Learn log monitoring using /var/log and journalctl.
