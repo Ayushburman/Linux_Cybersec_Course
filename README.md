@@ -8,3 +8,6 @@
 6. Learn file and directory operations using mkdir, rm, cp, and mv.
 7. Understand absolute and relative paths in Linux.
 8. Learn how to create and edit files using nano and vim.
+9. Understand Linux permissions using chmod, chown, and sudo.
+10. Learn user and group management commands.
+11. 
