@@ -5,3 +5,4 @@
 3. Install Linux using VirtualBox or dual boot.
 4. Learn Linux file system structure (/home, /etc, /bin, /usr).
 5. Practice basic terminal commands like ls, pwd, and cd.
+6. Learn file and directory operations using mkdir, rm, cp, and mv.
