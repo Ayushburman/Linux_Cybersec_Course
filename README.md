@@ -29,4 +29,5 @@
 27. Practice Git and GitHub on Linux terminal.
 28. Learn Docker basics and container management on Linux.
 29. Explore advanced Linux concepts like system administration and automation.
+30. Build real projects and use Linux daily to master it completely.
 
