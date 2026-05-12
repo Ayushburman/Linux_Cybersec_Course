@@ -11,3 +11,4 @@
 9. Understand Linux permissions using chmod, chown, and sudo.
 10. Learn user and group management commands.
 11. Practice searching files using find, locate, and grep.
+12. Learn input/output redirection using >, >>, and pipes |.
