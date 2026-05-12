@@ -24,3 +24,4 @@
 22. Learn disk management using df, du, fdisk, and mount.
 23. Practice compressing files using tar, zip, and gzip.
 24. Learn log monitoring using /var/log and journalctl.
+25. Understand Linux kernel basics and boot process.
