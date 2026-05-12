@@ -16,3 +16,4 @@
 14. Learn package management using apt, yum, dnf, or pacman.
 15. Understand environment variables and shell configuration files.
 16. Learn Bash shell scripting basics.
+17. Practice loops, conditions, and functions in Bash scripting.
