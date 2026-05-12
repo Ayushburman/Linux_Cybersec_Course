@@ -22,3 +22,4 @@
 20. Learn Linux services and systemctl commands.
 21. Understand cron jobs and task scheduling in Linux.
 22. Learn disk management using df, du, fdisk, and mount.
+23. Practice compressing files using tar, zip, and gzip.
