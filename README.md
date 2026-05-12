@@ -21,3 +21,4 @@
 19. Understand how SSH works for remote access.
 20. Learn Linux services and systemctl commands.
 21. Understand cron jobs and task scheduling in Linux.
+22. Learn disk management using df, du, fdisk, and mount.
