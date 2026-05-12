@@ -28,4 +28,5 @@
 26. Learn firewall and security basics using ufw or iptables.
 27. Practice Git and GitHub on Linux terminal.
 28. Learn Docker basics and container management on Linux.
+29. Explore advanced Linux concepts like system administration and automation.
 
