@@ -132,7 +132,7 @@ By following this roadmap, you will learn:
 
 ---
 
-# 🏆 Outcome
+#  Outcome
 
 After completing this roadmap, you will be able to:
 - Work confidently in Linux environments
@@ -140,3 +140,12 @@ After completing this roadmap, you will be able to:
 - Write Bash scripts
 - Automate tasks
 - Use Linux for development, cybersecurity, DevOps, and cloud computing
+
+  -------------------------------------------------------
+
+  #  20 Important Linux Syntax Commands (Stepwise)
+
+## 1. Print Current Directory
+```bash
+pwd
+```
