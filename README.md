@@ -10,4 +10,4 @@
 8. Learn how to create and edit files using nano and vim.
 9. Understand Linux permissions using chmod, chown, and sudo.
 10. Learn user and group management commands.
-11. 
+11. Practice searching files using find, locate, and grep.
