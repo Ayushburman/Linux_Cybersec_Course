@@ -18,3 +18,4 @@
 16. Learn Bash shell scripting basics.
 17. Practice loops, conditions, and functions in Bash scripting.
 18. Learn networking commands like ping, ifconfig, netstat, and ssh.
+19. Understand how SSH works for remote access.
