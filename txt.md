@@ -13,8 +13,7 @@
 | Storage | 256 GB SSD |
 | Graphics | Integrated Graphics |
 | Internet | Stable Broadband Connection |
------------------------------------------------
----
+---------------------------------------------
 
 ## 🔹 Recommended Requirements
 
@@ -25,5 +24,16 @@
 | Storage | 512 GB SSD or 1 TB SSD |
 | Graphics | Dedicated GPU (Optional) |
 | Internet | High-Speed Internet |
+
+---
+## 🔹 Advanced Lab Setup
+
+| Component | Requirement |
+|---|---|
+| Processor | Multi-core CPU with Virtualization Support |
+| RAM | 32 GB+ |
+| Storage | 1 TB SSD |
+| GPU | NVIDIA GPU (Optional for AI Security Research) |
+| Virtualization | VT-x / AMD-V Enabled |
 
 ---
