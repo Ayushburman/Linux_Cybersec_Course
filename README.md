@@ -14,3 +14,4 @@
 12. Learn input/output redirection using >, >>, and pipes |.
 13. Understand process management using ps, top, kill, and htop.
 14. Learn package management using apt, yum, dnf, or pacman.
+15. Understand environment variables and shell configuration files.
