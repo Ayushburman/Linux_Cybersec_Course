@@ -268,183 +268,235 @@ free -m
 sudo su
 ```
 --------------------------------------------------
+# 🔐 Cybersecurity Roadmap
 
+A complete step-by-step roadmap to learn Cybersecurity from beginner to advanced level.
 
+---
 
-🔐 Cybersecurity Roadmap
-🌱 Beginner Level
-1. Learn Computer Basics
+# 🌱 Beginner Level
 
+## 1. Learn Computer Basics
 Understand how computers, operating systems, and networks work.
 
-2. Learn Linux
-
+## 2. Learn Linux
 Master Linux commands, terminal usage, permissions, and file systems.
 
-3. Learn Networking Fundamentals
-
+## 3. Learn Networking Fundamentals
 Study IP addresses, DNS, HTTP, TCP/IP, routers, and ports.
 
-4. Understand Cybersecurity Basics
-
+## 4. Understand Cybersecurity Basics
 Learn CIA Triad, threats, vulnerabilities, malware, and attacks.
 
-5. Learn Programming Basics
-
+## 5. Learn Programming Basics
 Start with Python, Bash, and basic scripting automation.
 
-6. Understand Web Technologies
-
+## 6. Understand Web Technologies
 Learn HTML, CSS, JavaScript, APIs, and how websites work.
 
-7. Learn Git & GitHub
-
+## 7. Learn Git & GitHub
 Use version control and manage cybersecurity projects.
 
-8. Learn Virtualization
-
+## 8. Learn Virtualization
 Use VirtualBox or VMware for creating lab environments.
 
-9. Build a Home Lab
-
+## 9. Build a Home Lab
 Install Kali Linux and vulnerable machines like Metasploitable.
 
-10. Learn Basic Security Tools
-
+## 10. Learn Basic Security Tools
 Practice Nmap, Wireshark, Burp Suite, and Netcat.
 
-🛡️ Intermediate Level
-11. Learn Ethical Hacking Concepts
+---
 
+# 🛡️ Intermediate Level
+
+## 11. Learn Ethical Hacking Concepts
 Understand reconnaissance, scanning, exploitation, and reporting.
 
-12. Practice Information Gathering
-
+## 12. Practice Information Gathering
 Use WHOIS, DNS lookup, and OSINT techniques.
 
-13. Learn Vulnerability Scanning
-
+## 13. Learn Vulnerability Scanning
 Use Nessus and OpenVAS for finding vulnerabilities.
 
-14. Learn Web Application Security
-
+## 14. Learn Web Application Security
 Study SQL Injection, XSS, CSRF, authentication flaws, and OWASP Top 10.
 
-15. Learn Password Security
-
+## 15. Learn Password Security
 Understand hashing, salting, brute force, and password cracking.
 
-16. Learn Wireless Security
-
+## 16. Learn Wireless Security
 Study WiFi attacks, WPA/WPA2, and packet capturing.
 
-17. Learn System Security
-
+## 17. Learn System Security
 Understand Windows and Linux hardening techniques.
 
-18. Learn Firewalls & IDS/IPS
-
+## 18. Learn Firewalls & IDS/IPS
 Study firewall rules, Snort, Suricata, and intrusion detection.
 
-19. Learn Cryptography Basics
-
+## 19. Learn Cryptography Basics
 Understand encryption, hashing, RSA, AES, and digital signatures.
 
-20. Practice Capture The Flag (CTF)
-
+## 20. Practice Capture The Flag (CTF)
 Solve beginner cybersecurity challenges on CTF platforms.
 
-⚔️ Advanced Level
-21. Learn Malware Analysis
+---
 
+# ⚔️ Advanced Level
+
+## 21. Learn Malware Analysis
 Study trojans, ransomware, reverse engineering, and sandboxes.
 
-22. Learn Reverse Engineering
-
+## 22. Learn Reverse Engineering
 Use Ghidra, IDA Free, and debuggers to analyze binaries.
 
-23. Learn Exploit Development
-
+## 23. Learn Exploit Development
 Understand buffer overflows and memory exploitation.
 
-24. Learn Active Directory Security
-
+## 24. Learn Active Directory Security
 Study Windows domain attacks and privilege escalation.
 
-25. Learn Cloud Security
-
+## 25. Learn Cloud Security
 Understand AWS, Azure, IAM, and cloud misconfigurations.
 
-26. Learn Container Security
-
+## 26. Learn Container Security
 Study Docker and Kubernetes security concepts.
 
-27. Learn Digital Forensics
-
+## 27. Learn Digital Forensics
 Analyze logs, memory dumps, and incident evidence.
 
-28. Learn SIEM Tools
-
+## 28. Learn SIEM Tools
 Use Splunk, ELK Stack, or Wazuh for monitoring.
 
-29. Learn Incident Response
-
+## 29. Learn Incident Response
 Understand detection, containment, eradication, and recovery.
 
-30. Learn Security Automation
-
+## 30. Learn Security Automation
 Automate tasks using Python and Bash scripts.
 
-🧠 Specialized Paths
-🔴 Red Team
-Penetration Testing
-Exploit Development
-Social Engineering
-Web Hacking
-🔵 Blue Team
-SOC Analysis
-Threat Hunting
-Incident Response
-SIEM Monitoring
-🟣 Purple Team
-Combine Red Team + Blue Team strategies.
-🛠️ Important Tools to Learn
-Nmap
-Wireshark
-Burp Suite
-Metasploit
-Hydra
-John the Ripper
-Aircrack-ng
-Nikto
-Gobuster
-Hashcat
-🌍 Best Platforms for Practice
-TryHackMe
-Hack The Box
-OverTheWire
-PortSwigger Web Security Academy
-PicoCTF
-📜 Certifications (Optional)
-Beginner
-CompTIA Security+
-Google Cybersecurity Certificate
-Intermediate
-CEH
-eJPT
-PNPT
-Advanced
-OSCP
-CISSP
-OSEP
-🚀 Final Goal
+---
+
+# 🧠 Specialized Paths
+
+## 🔴 Red Team
+- Penetration Testing
+- Exploit Development
+- Social Engineering
+- Web Hacking
+
+## 🔵 Blue Team
+- SOC Analysis
+- Threat Hunting
+- Incident Response
+- SIEM Monitoring
+
+## 🟣 Purple Team
+- Combination of Red Team and Blue Team operations.
+
+---
+
+# 🛠️ Important Tools to Learn
+
+| Tool | Purpose |
+|---|---|
+| Nmap | Network Scanning |
+| Wireshark | Packet Analysis |
+| Burp Suite | Web Security Testing |
+| Metasploit | Exploitation Framework |
+| Hydra | Password Cracking |
+| John the Ripper | Password Recovery |
+| Aircrack-ng | Wireless Security |
+| Nikto | Web Vulnerability Scanner |
+| Gobuster | Directory Enumeration |
+| Hashcat | Advanced Password Cracking |
+
+---
+
+# 🌍 Best Platforms for Practice
+
+- TryHackMe
+- Hack The Box
+- OverTheWire
+- PortSwigger Web Security Academy
+- PicoCTF
+
+---
+
+# 📜 Certifications (Optional)
+
+## Beginner
+- CompTIA Security+
+- Google Cybersecurity Certificate
+
+## Intermediate
+- CEH
+- eJPT
+- PNPT
+
+## Advanced
+- OSCP
+- CISSP
+- OSEP
+
+---
+
+# 🚀 Final Goal
 
 By following this roadmap, you can become:
+- Ethical Hacker
+- Penetration Tester
+- SOC Analyst
+- Security Engineer
+- Malware Analyst
+- Cloud Security Engineer
+- Digital Forensics Expert
 
-Ethical Hacker
-Penetration Tester
-SOC Analyst
-Security Engineer
-Malware Analyst
-Cloud Security Engineer
-Digital Forensics Expert
+---
+
+# 🏆 Best Learning Strategy
+
+1. Learn theory  
+2. Build labs  
+3. Practice daily  
+4. Solve CTFs  
+5. Build projects  
+6. Document work on GitHub  
+7. Stay updated with cybersecurity news
+
+---
+
+# 📚 Recommended Projects
+
+- Port Scanner
+- Keylogger Detector
+- Vulnerability Scanner
+- Packet Sniffer
+- Password Strength Checker
+- Web Security Scanner
+- Log Analyzer
+- Network Monitoring Tool
+
+---
+
+# 🎯 Outcome
+
+After completing this roadmap, you will understand:
+- Ethical Hacking
+- Network Security
+- Web Security
+- Linux Security
+- Malware Analysis
+- Cloud Security
+- Security Automation
+- Incident Response
+
+---
+
+# 🔥 Final Advice
+
+- Practice more than you watch tutorials.
+- Build projects consistently.
+- Create a cybersecurity portfolio.
+- Participate in bug bounty programs.
+- Never stop learning because cybersecurity changes daily.
+
