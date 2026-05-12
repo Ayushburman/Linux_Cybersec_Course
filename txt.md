@@ -37,3 +37,11 @@
 | Virtualization | VT-x / AMD-V Enabled |
 
 ---
+# 🧠 Why These Requirements Matter
+
+- More RAM helps run multiple virtual machines.
+- SSD improves speed for Kali Linux and labs.
+- Multi-core CPU helps in virtualization and Docker.
+- Fast internet is useful for CTFs and labs.
+
+---
