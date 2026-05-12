@@ -26,6 +26,7 @@
 24. Learn log monitoring using /var/log and journalctl.
 25. Understand Linux kernel basics and boot process.
 26. Learn firewall and security basics using ufw or iptables.
+27. Practice Git and GitHub on Linux terminal.
 
 
 
