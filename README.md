@@ -142,10 +142,128 @@ After completing this roadmap, you will be able to:
 - Use Linux for development, cybersecurity, DevOps, and cloud computing
 
   -------------------------------------------------------
-
-  #  20 Important Linux Syntax Commands (Stepwise)
+# 🐧 20 Important Linux Syntax Commands (Stepwise)
 
 ## 1. Print Current Directory
 ```bash
 pwd
+```
+
+## 2. List Files and Folders
+```bash
+ls
+```
+
+## 3. Change Directory
+```bash
+cd folder_name
+```
+
+## 4. Create New Directory
+```bash
+mkdir new_folder
+```
+
+## 5. Create Empty File
+```bash
+touch file.txt
+```
+
+## 6. Remove File
+```bash
+rm file.txt
+```
+
+## 7. Remove Directory
+```bash
+rmdir folder_name
+```
+
+## 8. Copy Files
+```bash
+cp file1.txt file2.txt
+```
+
+## 9. Move or Rename File
+```bash
+mv old.txt new.txt
+```
+
+## 10. Display File Content
+```bash
+cat file.txt
+```
+
+## 11. Edit File Using Nano
+```bash
+nano file.txt
+```
+
+## 12. Search Text in File
+```bash
+grep "word" file.txt
+```
+
+## 13. Find Files
+```bash
+find /home -name file.txt
+```
+
+## 14. Change File Permissions
+```bash
+chmod 777 file.txt
+```
+
+## 15. Change File Owner
+```bash
+chown user file.txt
+```
+
+## 16. Check Running Processes
+```bash
+ps
+```
+
+## 17. Kill a Process
+```bash
+kill PID
+```
+
+## 18. Check Internet Connection
+```bash
+ping google.com
+```
+
+## 19. Install Package (Ubuntu/Debian)
+```bash
+sudo apt install package_name
+```
+
+## 20. Update System
+```bash
+sudo apt update && sudo apt upgrade
+```
+
+---
+
+# 🚀 Bonus Commands
+
+## Check System Information
+```bash
+uname -a
+```
+
+## Check Disk Usage
+```bash
+df -h
+```
+
+## Check Memory Usage
+```bash
+free -m
+```
+
+## Open Root Terminal
+```bash
+sudo su
 ```
