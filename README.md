@@ -7,3 +7,4 @@
 5. Practice basic terminal commands like ls, pwd, and cd.
 6. Learn file and directory operations using mkdir, rm, cp, and mv.
 7. Understand absolute and relative paths in Linux.
+8. Learn how to create and edit files using nano and vim.
