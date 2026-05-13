@@ -101,198 +101,169 @@ Linux Topics Index
 > usermod
 > groupadd
 ```
-```bash
-9. Package Management
-Package Managers
-apt
-yum
-dnf
-pacman
-Installing Packages
-Updating Packages
-Removing Packages
-Repository Management
-```
-```bash
-10. Networking
-Networking Basics
-IP Address
-MAC Address
-DNS
-Ports and Protocols
-ping
-ifconfig
-ip Command
-netstat
-ss
-traceroute
-curl
-wget
-SSH Basics
-SCP and SFTP
-```
-```bash
-11. Disk and Storage Management
-Disk Partitions
-Mounting and Unmounting
-df
-du
-fdisk
-lsblk
-File Systems
-Swap Space
-Disk Formatting
-RAID Basics
-```
-```bash
-12. Bash and Shell Scripting
-Bash Shell
-Shell Variables
-Environment Variables
-Bash Scripts
-Input and Output
-Conditional Statements
-Loops
-Functions
-Arrays in Bash
-Script Automation
-```
-```bash
-13. Redirection and Pipes
-Standard Input
-Standard Output
-Standard Error
->
->>
-<
-Pipes (|)
-Tee Command
-Redirecting Errors
-```
-```bash
-14. Services and System Management
-Systemd
-systemctl
-Starting Services
-Stopping Services
-Restarting Services
-Enabling Services
-Disabling Services
-Service Logs
-```
-
-```bash
-15. Scheduling and Automation
-Cron Jobs
-crontab
-at Command
-Task Scheduling
-Automated Backups
-```
-
-```bash
-16. Log Management
-Log Files
-/var/log
-journalctl
-Monitoring Logs
-Log Rotation
-```
-
-```bash
-17. Security in Linux
-Linux Security Basics
-Firewall Basics
-ufw
-iptables
-SELinux
-AppArmor
-SSH Security
-File Encryption
-User Security
-Malware Protection
-```
-
-```bash
-18. Linux Administration
-System Monitoring
-Resource Usage
-Performance Optimization
-Backup and Recovery
-Server Management
-User Auditing
-Kernel Updates
-Troubleshooting
-
-```
-```bash
-19. Virtualization and Containers
-Virtual Machines
-VirtualBox
-VMware
-Docker Basics
-Docker Containers
-Docker Images
-Docker Compose
-Kubernetes Basics
-```
-```bash
-20. DevOps and Cloud Basics
-Git and GitHub
-CI/CD Basics
-Linux for Cloud Computing
-AWS Linux Basics
-Linux Servers
-Nginx
-Apache Server
-
-```
-```bash
-21. Advanced Linux Concepts
-Linux Kernel Compilation
-Device Drivers
-Shell Internals
-Networking Internals
-Performance Tuning
-Linux Internals
-System Calls
-Advanced Bash Scripting
-
-```
-```bash
-22. Linux Tools
-grep
-find
-awk
-sed
-xargs
-sort
-uniq
-cut
-tar
-zip
-gzip
-```
-
-```bash
-23. Linux Projects
-Build a Home Server
-Bash Automation Scripts
-Web Server Setup
-Log Monitoring Tool
-Backup Automation
-Dockerized Applications
-Linux Networking Lab
-Security Hardening Project
-```
-```bash
-24. Linux Career Paths
-Linux Administrator
-DevOps Engineer
-Cloud Engineer
-Site Reliability Engineer (SRE)
-Cybersecurity Analyst
-Penetration Tester
-System Engineer
-Backend Developer
-```
+> Process Management
+> Processes in Linux
+> Foreground and Background Processes
+> ps
+> top
+> htop
+> kill
+> killall
+> Process Priority
+> nice and renice
+> Job Control
+> Package Management
+> Package Managers
+> apt
+> yum
+> dnf
+> pacman
+> Installing Packages
+> Updating Packages
+> Removing Packages
+> Repository Management
+> Networking
+> Networking Basics
+> IP Address
+> MAC Address
+> DNS
+> Ports and Protocols
+> ping
+> ifconfig
+> ip Command
+> netstat
+> ss
+> traceroute
+> curl
+> wget
+> SSH Basics
+> SCP and SFTP
+> Disk and Storage Management
+> Disk Partitions
+> Mounting and Unmounting
+> df
+> du
+> fdisk
+> lsblk
+> File Systems
+> Swap Space
+> Disk Formatting
+> RAID Basics
+> Bash and Shell Scripting
+> Bash Shell
+> Shell Variables
+> Environment Variables
+> Bash Scripts
+> Input and Output
+> Conditional Statements
+> Loops
+> Functions
+> Arrays in Bash
+> Script Automation
+> Redirection and Pipes
+> Standard Input
+> Standard Output
+> Standard Error
+> >
+> >>
+> <
+> Pipes (|)
+> Tee Command
+> Redirecting Errors
+> Services and System Management
+> Systemd
+> systemctl
+> Starting Services
+> Stopping Services
+> Restarting Services
+> Enabling Services
+> Disabling Services
+> Service Logs
+> Scheduling and Automation
+> Cron Jobs
+> crontab
+> at Command
+> Task Scheduling
+> Automated Backups
+> Log Management
+> Log Files
+> /var/log
+> journalctl
+> Monitoring Logs
+> Log Rotation
+> Security in Linux
+> Linux Security Basics
+> Firewall Basics
+> ufw
+> iptables
+> SELinux
+> AppArmor
+> SSH Security
+> File Encryption
+> User Security
+> Malware Protection
+> Linux Administration
+> System Monitoring
+> Resource Usage
+> Performance Optimization
+> Backup and Recovery
+> Server Management
+> User Auditing
+> Kernel Updates
+> Troubleshooting
+> Virtualization and Containers
+> Virtual Machines
+> VirtualBox
+> VMware
+> Docker Basics
+> Docker Containers
+> Docker Images
+> Docker Compose
+> Kubernetes Basics
+> DevOps and Cloud Basics
+> Git and GitHub
+> CI/CD Basics
+> Linux for Cloud Computing
+> AWS Linux Basics
+> Linux Servers
+> Nginx
+> Apache Server
+> Advanced Linux Concepts
+> Linux Kernel Compilation
+> Device Drivers
+> Shell Internals
+> Networking Internals
+> Performance Tuning
+> Linux Internals
+> System Calls
+> Advanced Bash Scripting
+> Linux Tools
+> grep
+> find
+> awk
+> sed
+> xargs
+> sort
+> uniq
+> cut
+> tar
+> zip
+> gzip
+> Linux Projects
+> Build a Home Server
+> Bash Automation Scripts
+> Web Server Setup
+> Log Monitoring Tool
+> Backup Automation
+> Dockerized Applications
+> Linux Networking Lab
+> Security Hardening Project
+> Linux Career Paths
+> Linux Administrator
+> DevOps Engineer
+> Cloud Engineer
+> Site Reliability Engineer (SRE)
+> Cybersecurity Analyst
+> Penetration Tester
+> System Engineer
+> Backend Developer
