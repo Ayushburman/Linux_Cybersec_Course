@@ -44,18 +44,18 @@ help
 ```
 
 ```bash
-4. File Handling
-Creating Files
-Editing Files
-Viewing Files
-Copying Files
-Moving Files
-Renaming Files
-Deleting Files
-Hidden Files
-File Compression
-Archiving Files
-File Searching
+> File Handling
+> Creating Files
+> Editing Files
+> Viewing Files
+> Copying Files
+> Moving Files
+> Renaming Files
+> Deleting Files
+> Hidden Files
+> File Compression
+> Archiving Files
+> File Searching
 ```
 ```bash
 5. Text Editors
