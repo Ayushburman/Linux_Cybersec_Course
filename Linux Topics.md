@@ -76,21 +76,18 @@ Linux Topics Index
 > sudo
 > SUID, SGID, Sticky Bit
 ```
-
 ```bash
-7. Users and Groups
-Root User
-Creating Users
-Deleting Users
-Modifying Users
-User Groups
-Password Management
-passwd
-useradd
-usermod
-groupadd
+> Permissions and Ownership
+> Linux Permissions
+> Read, Write, Execute
+> chmod
+> Symbolic Permissions
+> Numeric Permissions
+> chown
+> chgrp
+> sudo
+> SUID, SGID, Sticky Bit
 ```
-
 ```bash
 8. Process Management
 Processes in Linux
