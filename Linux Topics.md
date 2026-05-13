@@ -173,3 +173,14 @@ Pipes (|)
 Tee Command
 Redirecting Errors
 ```
+```bash
+14. Services and System Management
+Systemd
+systemctl
+Starting Services
+Stopping Services
+Restarting Services
+Enabling Services
+Disabling Services
+Service Logs
+```
