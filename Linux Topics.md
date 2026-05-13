@@ -277,3 +277,15 @@ tar
 zip
 gzip
 ```
+
+```bash
+23. Linux Projects
+Build a Home Server
+Bash Automation Scripts
+Web Server Setup
+Log Monitoring Tool
+Backup Automation
+Dockerized Applications
+Linux Networking Lab
+Security Hardening Project
+```
