@@ -90,3 +90,17 @@ useradd
 usermod
 groupadd
 ```
+
+```bash
+8. Process Management
+Processes in Linux
+Foreground and Background Processes
+ps
+top
+htop
+kill
+killall
+Process Priority
+nice and renice
+Job Control
+```
