@@ -161,3 +161,15 @@ Functions
 Arrays in Bash
 Script Automation
 ```
+```bash
+13. Redirection and Pipes
+Standard Input
+Standard Output
+Standard Error
+>
+>>
+<
+Pipes (|)
+Tee Command
+Redirecting Errors
+```
