@@ -181,6 +181,8 @@ Linux Topics Index
 > Pipes (|)
 > Tee Command
 > Redirecting Errors
+```
+```bash
 > Services and System Management
 > Systemd
 > systemctl
