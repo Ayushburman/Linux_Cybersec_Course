@@ -89,19 +89,18 @@ Linux Topics Index
 > SUID, SGID, Sticky Bit
 ```
 ```bash
-8. Process Management
-Processes in Linux
-Foreground and Background Processes
-ps
-top
-htop
-kill
-killall
-Process Priority
-nice and renice
-Job Control
+> Users and Groups
+> Root User
+> Creating Users
+> Deleting Users
+> Modifying Users
+> User Groups
+> Password Management
+> passwd
+> useradd
+> usermod
+> groupadd
 ```
-
 ```bash
 9. Package Management
 Package Managers
