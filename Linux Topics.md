@@ -169,6 +169,8 @@ Linux Topics Index
 > Functions
 > Arrays in Bash
 > Script Automation
+```
+```bash
 > Redirection and Pipes
 > Standard Input
 > Standard Output
