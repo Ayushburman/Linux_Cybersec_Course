@@ -24,3 +24,21 @@ Root Directory (/)
 File Types in Linux
 Absolute and Relative Paths
 ```
+```bash
+3. Basic Linux Commands
+pwd
+ls
+cd
+mkdir
+rmdir
+touch
+cp
+mv
+rm
+cat
+clear
+history
+echo
+man
+help
+```
