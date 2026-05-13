@@ -12,17 +12,17 @@ Linux Topics Index
 > Boot Process
 ```
 ```bash
-2. Linux File System
-Linux Directory Structure
-Root Directory (/)
-/home Directory
-/etc Directory
-/bin and /sbin
-/usr Directory
-/var Directory
-/tmp Directory
-File Types in Linux
-Absolute and Relative Paths
+> Linux File System
+> Linux Directory Structure
+> Root Directory (/)
+> /home Directory
+> /etc Directory
+> /bin and /sbin
+> /usr Directory
+> /var Directory
+> /tmp Directory
+> File Types in Linux
+> Absolute and Relative Paths
 ```
 ```bash
 3. Basic Linux Commands
