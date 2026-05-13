@@ -125,6 +125,8 @@ Linux Topics Index
 > Updating Packages
 > Removing Packages
 > Repository Management
+```
+```bash
 > Networking
 > Networking Basics
 > IP Address
