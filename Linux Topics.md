@@ -278,6 +278,8 @@ Linux Topics Index
 > tar
 > zip
 > gzip
+```
+```bash
 > Linux Projects
 > Build a Home Server
 > Bash Automation Scripts
