@@ -57,4 +57,12 @@ File Compression
 Archiving Files
 File Searching
 ```
+```bash
+5. Text Editors
+Nano Editor
+Vim Editor
+Vim Modes
+Saving and Exiting in Vim
+Editing Shortcuts
+```
 
