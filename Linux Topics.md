@@ -251,5 +251,16 @@ Nginx
 Apache Server
 
 ```
+```bash
+21. Advanced Linux Concepts
+Linux Kernel Compilation
+Device Drivers
+Shell Internals
+Networking Internals
+Performance Tuning
+Linux Internals
+System Calls
+Advanced Bash Scripting
 
+```
 
