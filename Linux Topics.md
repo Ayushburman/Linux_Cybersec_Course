@@ -193,3 +193,12 @@ at Command
 Task Scheduling
 Automated Backups
 ```
+
+```bash
+16. Log Management
+Log Files
+/var/log
+journalctl
+Monitoring Logs
+Log Rotation
+```
