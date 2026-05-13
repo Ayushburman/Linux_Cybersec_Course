@@ -11,6 +11,7 @@ Linux Distributions
 Installing Linux
 Boot Process
 ```
+```bash
 2. Linux File System
 Linux Directory Structure
 Root Directory (/)
@@ -22,3 +23,4 @@ Root Directory (/)
 /tmp Directory
 File Types in Linux
 Absolute and Relative Paths
+```
