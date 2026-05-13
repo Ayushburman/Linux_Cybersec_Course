@@ -289,6 +289,8 @@ Linux Topics Index
 > Dockerized Applications
 > Linux Networking Lab
 > Security Hardening Project
+```
+```bash
 > Linux Career Paths
 > Linux Administrator
 > DevOps Engineer
@@ -298,3 +300,4 @@ Linux Topics Index
 > Penetration Tester
 > System Engineer
 > Backend Developer
+```
