@@ -192,12 +192,16 @@ Linux Topics Index
 > Enabling Services
 > Disabling Services
 > Service Logs
+```
+```bash
 > Scheduling and Automation
 > Cron Jobs
 > crontab
 > at Command
 > Task Scheduling
 > Automated Backups
+```
+```bash
 > Log Management
 > Log Files
 > /var/log
