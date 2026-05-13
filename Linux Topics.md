@@ -243,6 +243,8 @@ Linux Topics Index
 > Docker Images
 > Docker Compose
 > Kubernetes Basics
+```
+```bash
 > DevOps and Cloud Basics
 > Git and GitHub
 > CI/CD Basics
