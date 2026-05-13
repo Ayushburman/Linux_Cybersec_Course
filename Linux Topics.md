@@ -264,6 +264,8 @@ Linux Topics Index
 > Linux Internals
 > System Calls
 > Advanced Bash Scripting
+```
+```bash
 > Linux Tools
 > grep
 > find
