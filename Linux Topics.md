@@ -156,6 +156,8 @@ Linux Topics Index
 > Swap Space
 > Disk Formatting
 > RAID Basics
+```
+```bash
 > Bash and Shell Scripting
 > Bash Shell
 > Shell Variables
