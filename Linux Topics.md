@@ -202,3 +202,17 @@ journalctl
 Monitoring Logs
 Log Rotation
 ```
+
+```bash
+17. Security in Linux
+Linux Security Basics
+Firewall Basics
+ufw
+iptables
+SELinux
+AppArmor
+SSH Security
+File Encryption
+User Security
+Malware Protection
+```
