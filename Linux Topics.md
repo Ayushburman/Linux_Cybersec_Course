@@ -222,7 +222,7 @@ Linux Topics Index
 > User Security
 > Malware Protection
 ```
-
+```bash
 > Linux Administration
 > System Monitoring
 > Resource Usage
@@ -232,6 +232,8 @@ Linux Topics Index
 > User Auditing
 > Kernel Updates
 > Troubleshooting
+```
+```bash
 > Virtualization and Containers
 > Virtual Machines
 > VirtualBox
