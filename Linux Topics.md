@@ -64,19 +64,19 @@ Linux Topics Index
 > Saving and Exiting in Vim
 > Editing Shortcuts
 ```
-
 ```bash
-6. Permissions and Ownership
-Linux Permissions
-Read, Write, Execute
-chmod
-Symbolic Permissions
-Numeric Permissions
-chown
-chgrp
-sudo
-SUID, SGID, Sticky Bit
+> Permissions and Ownership
+> Linux Permissions
+> Read, Write, Execute
+> chmod
+> Symbolic Permissions
+> Numeric Permissions
+> chown
+> chgrp
+> sudo
+> SUID, SGID, Sticky Bit
 ```
+
 ```bash
 7. Users and Groups
 Root User
