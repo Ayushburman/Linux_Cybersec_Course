@@ -229,3 +229,14 @@ Kernel Updates
 Troubleshooting
 
 ```
+```bash
+19. Virtualization and Containers
+Virtual Machines
+VirtualBox
+VMware
+Docker Basics
+Docker Containers
+Docker Images
+Docker Compose
+Kubernetes Basics
+```
