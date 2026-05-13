@@ -208,6 +208,8 @@ Linux Topics Index
 > journalctl
 > Monitoring Logs
 > Log Rotation
+```
+```bash
 > Security in Linux
 > Linux Security Basics
 > Firewall Basics
@@ -219,6 +221,8 @@ Linux Topics Index
 > File Encryption
 > User Security
 > Malware Protection
+```
+
 > Linux Administration
 > System Monitoring
 > Resource Usage
