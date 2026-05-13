@@ -184,3 +184,12 @@ Enabling Services
 Disabling Services
 Service Logs
 ```
+
+```bash
+15. Scheduling and Automation
+Cron Jobs
+crontab
+at Command
+Task Scheduling
+Automated Backups
+```
