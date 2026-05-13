@@ -101,6 +101,7 @@ Linux Topics Index
 > usermod
 > groupadd
 ```
+```bash
 > Process Management
 > Processes in Linux
 > Foreground and Background Processes
@@ -112,6 +113,8 @@ Linux Topics Index
 > Process Priority
 > nice and renice
 > Job Control
+```
+```bash
 > Package Management
 > Package Managers
 > apt
