@@ -104,3 +104,16 @@ Process Priority
 nice and renice
 Job Control
 ```
+
+```bash
+9. Package Management
+Package Managers
+apt
+yum
+dnf
+pacman
+Installing Packages
+Updating Packages
+Removing Packages
+Repository Management
+```
