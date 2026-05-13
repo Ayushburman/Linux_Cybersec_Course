@@ -117,3 +117,21 @@ Updating Packages
 Removing Packages
 Repository Management
 ```
+```bash
+10. Networking
+Networking Basics
+IP Address
+MAC Address
+DNS
+Ports and Protocols
+ping
+ifconfig
+ip Command
+netstat
+ss
+traceroute
+curl
+wget
+SSH Basics
+SCP and SFTP
+```
