@@ -135,3 +135,16 @@ wget
 SSH Basics
 SCP and SFTP
 ```
+```bash
+11. Disk and Storage Management
+Disk Partitions
+Mounting and Unmounting
+df
+du
+fdisk
+lsblk
+File Systems
+Swap Space
+Disk Formatting
+RAID Basics
+```
