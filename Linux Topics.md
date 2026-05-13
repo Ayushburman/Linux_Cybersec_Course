@@ -216,3 +216,16 @@ File Encryption
 User Security
 Malware Protection
 ```
+
+```bash
+18. Linux Administration
+System Monitoring
+Resource Usage
+Performance Optimization
+Backup and Recovery
+Server Management
+User Auditing
+Kernel Updates
+Troubleshooting
+
+```
