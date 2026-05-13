@@ -24,6 +24,7 @@ Linux Topics Index
 > File Types in Linux
 > Absolute and Relative Paths
 ```
+```bash
 > Basic Linux Commands
 > pwd
 > ls
@@ -56,13 +57,14 @@ Linux Topics Index
 > File Searching
 ```
 ```bash
-5. Text Editors
-Nano Editor
-Vim Editor
-Vim Modes
-Saving and Exiting in Vim
-Editing Shortcuts
+> Text Editors
+> Nano Editor
+> Vim Editor
+> Vim Modes
+> Saving and Exiting in Vim
+> Editing Shortcuts
 ```
+
 ```bash
 6. Permissions and Ownership
 Linux Permissions
