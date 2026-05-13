@@ -240,3 +240,16 @@ Docker Images
 Docker Compose
 Kubernetes Basics
 ```
+```bash
+20. DevOps and Cloud Basics
+Git and GitHub
+CI/CD Basics
+Linux for Cloud Computing
+AWS Linux Basics
+Linux Servers
+Nginx
+Apache Server
+
+```
+
+
