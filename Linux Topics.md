@@ -263,4 +263,17 @@ System Calls
 Advanced Bash Scripting
 
 ```
-
+```bash
+22. Linux Tools
+grep
+find
+awk
+sed
+xargs
+sort
+uniq
+cut
+tar
+zip
+gzip
+```
