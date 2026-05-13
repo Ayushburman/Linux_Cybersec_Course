@@ -148,3 +148,16 @@ Swap Space
 Disk Formatting
 RAID Basics
 ```
+```bash
+12. Bash and Shell Scripting
+Bash Shell
+Shell Variables
+Environment Variables
+Bash Scripts
+Input and Output
+Conditional Statements
+Loops
+Functions
+Arrays in Bash
+Script Automation
+```
