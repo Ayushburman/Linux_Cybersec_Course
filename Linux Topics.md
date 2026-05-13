@@ -77,3 +77,16 @@ chgrp
 sudo
 SUID, SGID, Sticky Bit
 ```
+```bash
+7. Users and Groups
+Root User
+Creating Users
+Deleting Users
+Modifying Users
+User Groups
+Password Management
+passwd
+useradd
+usermod
+groupadd
+```
