@@ -143,6 +143,8 @@ Linux Topics Index
 > wget
 > SSH Basics
 > SCP and SFTP
+```
+```bash
 > Disk and Storage Management
 > Disk Partitions
 > Mounting and Unmounting
