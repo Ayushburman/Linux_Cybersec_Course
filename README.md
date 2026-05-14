@@ -1,19 +1,21 @@
-# Linux and Cybersecurity Learning Roadmap
+
+# > Linux and Cybersecurity Learning Roadmap
+ 
 
 A complete step-by-step roadmap to learn Linux and Cybersecurity from beginner to advanced level.
 
 ---
 
 # Table of Contents
-
-1. Linux Learning Roadmap
-2. Linux Commands
-3. Cybersecurity Roadmap
-4. Important Tools
-5. Practice Platforms
-6. Certifications
-7. Recommended Projects
-
+```bash
+> 1. Linux Learning Roadmap
+> 2. Linux Commands
+> 3. Cybersecurity Roadmap
+> 4. Important Tools
+> 5. Practice Platforms
+> 6. Certifications
+> 7. Recommended Projects
+```
 ---
 
 # Linux Learning Roadmap
