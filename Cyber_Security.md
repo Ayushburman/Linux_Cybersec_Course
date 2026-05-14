@@ -24,3 +24,27 @@
 > Virtualization Basics
 ```
 --------------------------------
+```bash
+> 3. Networking Fundamentals
+> OSI Model
+> TCP/IP Model
+> IP Addressing
+> IPv4 and IPv6
+> MAC Address
+> Subnetting
+> Routing and Switching
+> DNS
+> DHCP
+> NAT
+> ARP
+> ICMP
+> TCP vs UDP
+> Ports and Protocols
+> VPN
+> Proxy Servers
+> Firewalls
+> Network Topologies
+> Wireless Networking
+> Wi-Fi Security
+```
+-----------------------------
