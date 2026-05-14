@@ -1,6 +1,6 @@
 ```bash
 1. Recommended Learning Order
-Computer Fundamentals
+2. Computer Fundamentals
 Networking
 Linux + Windows
 Programming
