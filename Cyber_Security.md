@@ -165,3 +165,20 @@
 > Reporting
 ```
 --------------------------------
+```bash
+> 11. Web Application Security
+> OWASP Top 10
+> SQL Injection
+> Cross Site Scripting (XSS)
+> Cross Site Request Forgery (CSRF)
+> Remote Code Execution
+> File Inclusion Vulnerabilities
+> Directory Traversal
+> Broken Authentication
+> Session Hijacking
+> Security Misconfiguration
+> API Security
+> SSRF
+> Command Injection
+```
+--------------------------------
