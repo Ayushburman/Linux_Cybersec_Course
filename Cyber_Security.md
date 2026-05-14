@@ -299,3 +299,15 @@
 > Password Managers
 ```
 ------------------------------
+```bash
+> 22. Exploit Development
+> Buffer Overflow
+> Stack Overflow
+> Heap Overflow
+> Shellcoding
+> Fuzzing
+> Return Oriented Programming
+> Binary Exploitation
+> Memory Corruption
+```
+-------------------------------
