@@ -275,3 +275,16 @@
 > ICS Security
 ```
 --------------------------------
+```bash
+> 20. Social Engineering
+> Phishing
+> Spear Phishing
+> Whaling
+> Vishing
+> Smishing
+> Baiting
+> Human Psychology Attacks
+> Impersonation
+> Shoulder Surfing
+```
+------------------------------
