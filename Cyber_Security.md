@@ -453,3 +453,17 @@
 > Deception Technology
 ```
 ---------------------------
+```bash
+> 35. Certifications
+> CompTIA Security+
+> CEH
+> eJPT
+> PNPT
+> OSCP
+> CISSP
+> CISM
+> CCNA Security
+> CHFI
+> AWS Security Specialty
+```
+------------------------
