@@ -239,3 +239,15 @@
 > Malware Reverse Engineering
 ```
 ------------------------------
+```bash
+> 17. Cloud Security
+> AWS Security
+> Azure Security
+> Google Cloud Security
+> IAM
+> Cloud Misconfigurations
+> Container Security
+> Kubernetes Security
+> Serverless Security
+> Shared Responsibility Model
+```
