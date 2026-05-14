@@ -4,17 +4,17 @@
 > 3. Networking
 > 4. Linux + Windows
 > 5. Programming
-6. Web Basics
-7. Cryptography
-8. Cybersecurity Tools
-9. Ethical Hacking
-10. Web Security
-11. Network Security
-12. Malware + Reverse Engineering
-13. Cloud + Mobile + IoT
-14. SOC + Threat Intelligence
-15. Pentesting + Bug Bounty
-16. Advanced Security Topics
+> 6. Web Basics
+> 7. Cryptography
+> 8. Cybersecurity Tools
+> 9. Ethical Hacking
+> 10. Web Security
+> 11. Network Security
+> 12. Malware + Reverse Engineering
+> 13. Cloud + Mobile + IoT
+> 14. SOC + Threat Intelligence
+> 15. Pentesting + Bug Bounty
+> 16. Advanced Security Topics
 ```
 
 
