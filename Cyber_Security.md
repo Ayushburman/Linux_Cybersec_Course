@@ -441,3 +441,15 @@
 > Steganography Challenges
 ```
 -----------------------------
+```bash
+> 34. Advanced Topics
+> Zero Trust Security
+> Supply Chain Attacks
+> Zero-Day Exploits
+> Nation-State Attacks
+> Cyber Warfare
+> Quantum Cryptography
+> Honeypots
+> Deception Technology
+```
+---------------------------
