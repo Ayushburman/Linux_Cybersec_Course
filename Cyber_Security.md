@@ -1,20 +1,20 @@
 ```bash
 1. Recommended Learning Order
 2. Computer Fundamentals
-Networking
-Linux + Windows
-Programming
-Web Basics
-Cryptography
-Cybersecurity Tools
-Ethical Hacking
-Web Security
-Network Security
-Malware + Reverse Engineering
-Cloud + Mobile + IoT
-SOC + Threat Intelligence
-Pentesting + Bug Bounty
-Advanced Security Topics
+3. Networking
+4. Linux + Windows
+5. Programming
+6. Web Basics
+7. Cryptography
+8. Cybersecurity Tools
+9. Ethical Hacking
+10. Web Security
+11. Network Security
+12. Malware + Reverse Engineering
+13. Cloud + Mobile + IoT
+14. SOC + Threat Intelligence
+15. Pentesting + Bug Bounty
+16. Advanced Security Topics
 ```
 
 
