@@ -264,3 +264,14 @@
 > Rooting and Jailbreaking
 ```
 --------------------------------
+```bash
+> 19. IoT Security
+> Embedded Systems
+> Smart Device Security
+> Firmware Analysis
+> Hardware Hacking
+> RFID Attacks
+> SCADA Security
+> ICS Security
+```
+--------------------------------
