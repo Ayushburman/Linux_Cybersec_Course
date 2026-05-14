@@ -359,3 +359,16 @@
 > APT Groups
 ```
 ---------------------
+```bash
+> 27. Governance Risk and Compliance (GRC)
+> Security Policies
+> ISO 27001
+> NIST Framework
+> GDPR
+> HIPAA
+> Risk Assessment
+> Compliance Auditing
+> Business Continuity
+> Disaster Recovery
+```
+-----------------------------
