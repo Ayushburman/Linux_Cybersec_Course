@@ -396,3 +396,14 @@
 > Responsible Disclosure
 ```
 ---------------------------
+```bash
+> 30. DevSecOps
+> CI/CD Security
+> Secure Pipelines
+> Docker Security
+> Kubernetes Security
+> IaC Security
+> Secret Management
+> Git Security
+```
+----------------------------
