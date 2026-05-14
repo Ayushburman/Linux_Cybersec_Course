@@ -1,9 +1,9 @@
 ```bash
-1. Recommended Learning Order
-2. Computer Fundamentals
-3. Networking
-4. Linux + Windows
-5. Programming
+> 1. Recommended Learning Order
+> 2. Computer Fundamentals
+> 3. Networking
+> 4. Linux + Windows
+> 5. Programming
 6. Web Basics
 7. Cryptography
 8. Cybersecurity Tools
