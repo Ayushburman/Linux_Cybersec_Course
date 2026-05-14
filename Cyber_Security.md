@@ -407,3 +407,13 @@
 > Git Security
 ```
 ----------------------------
+```bash
+> 31. Artificial Intelligence Security
+> AI Threats
+> Adversarial Attacks
+> Prompt Injection
+> AI Model Security
+> Data Poisoning
+> AI Privacy Risks
+```
+-------------------------
