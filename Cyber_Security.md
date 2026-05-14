@@ -84,3 +84,17 @@
 > Windows Hardening
 ```
 ----------------------------------
+```bash
+> 6. Programming for Cybersecurity
+> Python Basics
+> Python for Hacking
+> C Programming
+> Bash Scripting
+> PowerShell Scripting
+> JavaScript Basics
+> SQL Basics
+> Regular Expressions
+> APIs and JSON
+> Automation Scripts
+```
+---------------------------------
