@@ -48,3 +48,23 @@
 > Wi-Fi Security
 ```
 -----------------------------
+```bash
+> 4. Linux Fundamentals
+> Linux Installation
+> Linux File System
+> Linux Permissions
+> User and Group Management
+> Shell Scripting
+> Bash Commands
+> Process Management
+> Networking in Linux
+> SSH
+> Cron Jobs
+> Package Management
+> Linux Hardening
+> System Logs
+> Linux Services
+> File Compression
+> Environment Variables
+```
+----------------------------------
