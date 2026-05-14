@@ -68,3 +68,19 @@
 > Environment Variables
 ```
 ----------------------------------
+```bash
+> 5. Windows Fundamentals
+> Windows Architecture
+> Windows Registry
+> PowerShell
+> CMD Commands
+> Active Directory
+> Windows Services
+> Group Policy
+> Windows Event Logs
+> NTFS Permissions
+> Windows Networking
+> User Management
+> Windows Hardening
+```
+----------------------------------
