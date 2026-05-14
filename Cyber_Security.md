@@ -311,3 +311,15 @@
 > Memory Corruption
 ```
 -------------------------------
+```bash
+> 23. Active Directory Security
+> Domain Controllers
+> Kerberos
+> LDAP
+> Pass the Hash
+> Golden Ticket Attack
+> BloodHound
+> AD Enumeration
+> Privilege Escalation in AD
+```
+------------------------------
