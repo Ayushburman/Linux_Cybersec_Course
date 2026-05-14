@@ -11,3 +11,13 @@
 > Cybersecurity Career Paths
 ```
 --------------------------------
+> 2. Computer Fundamentals
+> Computer Architecture
+> CPU, RAM, ROM
+> Storage Devices
+> Input/Output Devices
+> BIOS and UEFI
+> Operating Systems Basics
+> Processes and Threads
+> File Systems
+> Virtualization Basics
