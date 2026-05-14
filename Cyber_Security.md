@@ -11,6 +11,7 @@
 > Cybersecurity Career Paths
 ```
 --------------------------------
+```bash
 > 2. Computer Fundamentals
 > Computer Architecture
 > CPU, RAM, ROM
@@ -21,3 +22,5 @@
 > Processes and Threads
 > File Systems
 > Virtualization Basics
+```
+--------------------------------
