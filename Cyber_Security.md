@@ -1,3 +1,4 @@
+```bash
 > 1. Introduction to Cybersecurity
 > What is Cybersecurity
 > CIA Triad (Confidentiality, Integrity, Availability)
@@ -8,3 +9,4 @@
 > Cyber Kill Chain
 > Hacker Types (White, Black, Gray)
 > Cybersecurity Career Paths
+```
