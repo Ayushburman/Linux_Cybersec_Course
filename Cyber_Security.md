@@ -210,3 +210,16 @@
 > NFC Security
 ```
 ---------------------------------
+> 14. Malware Analysis
+> Types of Malware
+> Virus
+> Worm
+> Trojan
+> Ransomware
+> Rootkits
+> Spyware
+> Keyloggers
+> Reverse Engineering
+> Static Analysis
+> Dynamic Analysis
+> Sandbox Analysis
