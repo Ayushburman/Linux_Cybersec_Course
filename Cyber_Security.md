@@ -130,3 +130,22 @@
 > Steganography
 ```
 ----------------------------------
+```bash
+> 9. Cybersecurity Tools
+> Wireshark
+> Nmap
+> Burp Suite
+> Metasploit
+> Aircrack-ng
+> Hydra
+> John the Ripper
+> Hashcat
+> Nikto
+> Gobuster
+> SQLmap
+> Nessus
+> OpenVAS
+> Netcat
+> Tcpdump
+```
+---------------------------------
