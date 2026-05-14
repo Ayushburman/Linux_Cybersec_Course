@@ -149,3 +149,19 @@
 > Tcpdump
 ```
 ---------------------------------
+```bash
+> 10. Ethical Hacking
+> Footprinting
+> Reconnaissance
+> Information Gathering
+> OSINT
+> Scanning
+> Enumeration
+> Vulnerability Analysis
+> Exploitation
+> Privilege Escalation
+> Persistence
+> Covering Tracks
+> Reporting
+```
+--------------------------------
