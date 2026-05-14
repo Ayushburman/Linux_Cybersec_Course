@@ -182,3 +182,19 @@
 > Command Injection
 ```
 --------------------------------
+```bash
+> 12. Network Security
+> IDS and IPS
+> Packet Analysis
+> Firewall Rules
+> VPN Security
+> NAC
+> Network Segmentation
+> Wireless Security
+> Rogue Access Points
+> Sniffing Attacks
+> Spoofing Attacks
+> MITM Attacks
+> DDoS Attacks
+```
+--------------------------------
