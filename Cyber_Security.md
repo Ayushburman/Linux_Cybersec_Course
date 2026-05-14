@@ -1,20 +1,35 @@
 ```bash
-> 1. Recommended Learning Order
-> 2. Computer Fundamentals
-> 3. Networking
-> 4. Linux + Windows
-> 5. Programming
-> 6. Web Basics
-> 7. Cryptography
-> 8. Cybersecurity Tools
-> 9. Ethical Hacking
-> 10. Web Security
-> 11. Network Security
-> 12. Malware + Reverse Engineering
-> 13. Cloud + Mobile + IoT
-> 14. SOC + Threat Intelligence
-> 15. Pentesting + Bug Bounty
-> 16. Advanced Security Topics
+**. Recommended Learning Order**
+|
+> 1. Computer Fundamentals
+|
+> 2. Networking
+|
+> 3. Linux + Windows
+|
+> 4. Programming
+|
+> 5. Web Basics
+|
+> 6. Cryptography
+|
+> 7. Cybersecurity Tools
+|
+> 8. Ethical Hacking
+|
+> 9. Web Security
+|
+> 10. Network Security
+|
+> 11. Malware + Reverse Engineering
+|
+> 12. Cloud + Mobile + IoT
+|
+> 13. SOC + Threat Intelligence
+|
+> 14. Pentesting + Bug Bounty
+|
+> 15. Advanced Security Topics
 ```
 
 
