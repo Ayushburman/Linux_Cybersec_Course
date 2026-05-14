@@ -98,3 +98,16 @@
 > Automation Scripts
 ```
 ---------------------------------
+```bash
+> 7. Web Development Basics
+> HTML
+> CSS
+> JavaScript
+> HTTP and HTTPS
+> Cookies and Sessions
+> REST APIs
+> Web Servers
+> Client-Server Architecture
+> Browser Security
+> Authentication Systems
+```
