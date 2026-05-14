@@ -251,3 +251,16 @@
 > Serverless Security
 > Shared Responsibility Model
 ```
+--------------------------------
+```bash
+> 18. Mobile Security
+> Android Security
+> iOS Security
+> APK Analysis
+> Mobile Malware
+> Mobile Pentesting
+> Frida
+> MobSF
+> Rooting and Jailbreaking
+```
+--------------------------------
