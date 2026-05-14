@@ -430,3 +430,14 @@
 
 ```
 ----------------------------
+```bash
+> 33. Capture The Flag (CTF)
+> Web Challenges
+> Crypto Challenges
+> Reverse Engineering Challenges
+> Binary Exploitation
+> OSINT Challenges
+> Forensics Challenges
+> Steganography Challenges
+```
+-----------------------------
