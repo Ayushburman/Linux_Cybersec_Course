@@ -335,4 +335,16 @@
 > Dependency Security
 ```
 ------------------------------
+```bash
 
+> 25. Security Operations Center (SOC)
+> SIEM
+> Log Monitoring
+> Threat Hunting
+> Alert Triage
+> Splunk
+> ELK Stack
+> Incident Detection
+> SOC Workflow
+```
+--------------------------
