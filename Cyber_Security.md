@@ -10,3 +10,4 @@
 > Hacker Types (White, Black, Gray)
 > Cybersecurity Career Paths
 ```
+--------------------------------
