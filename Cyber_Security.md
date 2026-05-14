@@ -372,3 +372,15 @@
 > Disaster Recovery
 ```
 -----------------------------
+```bash
+> 28. Penetration Testing
+> Internal Pentest
+> External Pentest
+> Web Pentest
+> Wireless Pentest
+> Mobile Pentest
+> API Pentest
+> Reporting
+> Exploitation Workflow
+```
+----------------------------
