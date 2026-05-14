@@ -288,3 +288,14 @@
 > Shoulder Surfing
 ```
 ------------------------------
+```bash
+> 21. Password Security
+> Password Cracking
+> Brute Force
+> Dictionary Attacks
+> Rainbow Tables
+> Multi-Factor Authentication
+> Password Policies
+> Password Managers
+```
+------------------------------
