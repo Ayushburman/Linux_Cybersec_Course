@@ -384,3 +384,15 @@
 > Exploitation Workflow
 ```
 ----------------------------
+```bash
+
+> 29. Bug Bounty Hunting
+> Recon Automation
+> Subdomain Enumeration
+> Finding Vulnerabilities
+> Writing Reports
+> HackerOne
+> Bugcrowd
+> Responsible Disclosure
+```
+---------------------------
