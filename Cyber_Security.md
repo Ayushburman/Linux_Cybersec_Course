@@ -1,4 +1,31 @@
 ```bash
+1. Recommended Learning Order
+Computer Fundamentals
+Networking
+Linux + Windows
+Programming
+Web Basics
+Cryptography
+Cybersecurity Tools
+Ethical Hacking
+Web Security
+Network Security
+Malware + Reverse Engineering
+Cloud + Mobile + IoT
+SOC + Threat Intelligence
+Pentesting + Bug Bounty
+Advanced Security Topics
+```
+
+
+
+
+
+
+
+
+
+```bash
 > 1. Introduction to Cybersecurity
 > What is Cybersecurity
 > CIA Triad (Confidentiality, Integrity, Availability)
