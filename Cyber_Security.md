@@ -198,3 +198,15 @@
 > DDoS Attacks
 ```
 --------------------------------
+```bash
+> 13. Wireless Security
+> Wi-Fi Standards
+> WPA/WPA2/WPA3
+> Evil Twin Attack
+> Rogue AP
+> Wireless Sniffing
+> Bluetooth Attacks
+> RFID Security
+> NFC Security
+```
+---------------------------------
