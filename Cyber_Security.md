@@ -210,6 +210,7 @@
 > NFC Security
 ```
 ---------------------------------
+```bash
 > 14. Malware Analysis
 > Types of Malware
 > Virus
@@ -223,5 +224,16 @@
 > Static Analysis
 > Dynamic Analysis
 > Sandbox Analysis
-
-
+```
+-------------------------------
+```bash
+> 15. Reverse Engineering
+> Assembly Language Basics
+> x86 Architecture
+> x64 Architecture
+> Debugging
+> Ghidra
+> IDA Pro
+> Binary Analysis
+> CrackMe Challenges
+> Malware Reverse Engineering
