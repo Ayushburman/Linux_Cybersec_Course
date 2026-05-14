@@ -323,3 +323,16 @@
 > Privilege Escalation in AD
 ```
 ------------------------------
+```bash
+> 24. Secure Coding
+> Input Validation
+> Secure Authentication
+> Secure Session Management
+> Secure APIs
+> Code Review
+> SAST
+> DAST
+> Dependency Security
+```
+------------------------------
+
