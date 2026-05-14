@@ -1,637 +1,413 @@
+<div align="center">
 
-# > Linux and Cybersecurity Learning Roadmap
- 
+```
+██╗     ██╗███╗   ██╗██╗   ██╗██╗  ██╗    ██╗
+██║     ██║████╗  ██║██║   ██║╚██╗██╔╝   ██╔╝
+██║     ██║██╔██╗ ██║██║   ██║ ╚███╔╝   ██╔╝ 
+██║     ██║██║╚██╗██║██║   ██║ ██╔██╗  ██╔╝  
+███████╗██║██║ ╚████║╚██████╔╝██╔╝ ██╗██╔╝   
+╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝╚═╝   
+```
 
-A complete step-by-step roadmap to learn Linux and Cybersecurity from beginner to advanced level.
+```bash
+> CYBERSECURITY  ·  LINUX  ·  HACKING  ·  DEFENSE  ·  MASTERY
+```
+
+[![Roadmap](https://img.shields.io/badge/ROADMAP-Beginner_→_Advanced-orange?style=for-the-badge&logo=roadmap.sh)](https://roadmap.sh)
+[![Linux](https://img.shields.io/badge/Linux-Mastery-yellow?style=for-the-badge&logo=linux&logoColor=black)](https://linux.org)
+[![Cybersecurity](https://img.shields.io/badge/CyberSec-RedTeam_%7C_BlueTeam-red?style=for-the-badge&logo=hackthebox&logoColor=white)](https://hackthebox.com)
+[![CTF](https://img.shields.io/badge/CTF-Practice_Daily-green?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com)
+
+</div>
 
 ---
 
-# Table of Contents
+## `$ cat table_of_contents.txt`
+
 ```bash
-> 1. Linux Learning Roadmap
-> 2. Linux Commands
-> 3. Cybersecurity Roadmap
-> 4. Important Tools
-> 5. Practice Platforms
-> 6. Certifications
-> 7. Recommended Projects
-```
----
-
-# Linux Learning Roadmap
-
-## Beginner Level
-
-### 1. Introduction to Linux
-Learn what Linux is and how operating systems work.
-
-### 2. Linux Distributions
-Understand Linux distributions like Ubuntu, Kali, Fedora, and Arch.
-
-### 3. Linux Installation
-Install Linux using VirtualBox or dual boot.
-
-### 4. Linux File System
-Learn Linux file system structure:
-- `/home`
-- `/etc`
-- `/bin`
-- `/usr`
-
-### 5. Basic Terminal Commands
-Practice basic terminal commands like:
-- `ls`
-- `pwd`
-- `cd`
-
-### 6. File and Directory Operations
-Learn:
-- `mkdir`
-- `rm`
-- `cp`
-- `mv`
-
-### 7. Paths in Linux
-Understand:
-- Absolute paths
-- Relative paths
-
-### 8. Text Editors
-Learn:
-- `nano`
-- `vim`
-
-### 9. Linux Permissions
-Understand:
-- `chmod`
-- `chown`
-- `sudo`
-
-### 10. Users and Groups
-Learn user and group management commands.
-
----
-
-## Intermediate Level
-
-### 11. File Searching
-Practice:
-- `find`
-- `locate`
-- `grep`
-
-### 12. Redirection and Pipes
-Learn:
-- `>`
-- `>>`
-- `|`
-
-### 13. Process Management
-Understand:
-- `ps`
-- `top`
-- `kill`
-- `htop`
-
-### 14. Package Management
-Learn:
-- `apt`
-- `yum`
-- `dnf`
-- `pacman`
-
-### 15. Environment Variables
-Understand shell configuration files and environment variables.
-
-### 16. Bash Scripting Basics
-Learn Bash shell scripting fundamentals.
-
-### 17. Bash Logic Building
-Practice:
-- Loops
-- Conditions
-- Functions
-
-### 18. Networking Commands
-Learn:
-- `ping`
-- `ifconfig`
-- `netstat`
-- `ssh`
-
-### 19. SSH Remote Access
-Understand SSH and remote server access.
-
-### 20. Linux Services
-Learn:
-- `systemctl`
-- Linux services management
-
----
-
-## Advanced Level
-
-### 21. Cron Jobs
-Understand task scheduling using cron jobs.
-
-### 22. Disk Management
-Learn:
-- `df`
-- `du`
-- `fdisk`
-- `mount`
-
-### 23. File Compression
-Practice:
-- `tar`
-- `zip`
-- `gzip`
-
-### 24. Log Monitoring
-Learn:
-- `/var/log`
-- `journalctl`
-
-### 25. Linux Kernel
-Understand Linux kernel basics and boot process.
-
-### 26. Firewall and Security
-Learn:
-- `ufw`
-- `iptables`
-
-### 27. Git and GitHub
-Practice Git and GitHub using Linux terminal.
-
-### 28. Docker Basics
-Learn Docker and container management.
-
-### 29. System Administration
-Explore:
-- Automation
-- Server management
-- Advanced Linux administration
-
-### 30. Real Projects
-Build real-world projects and use Linux daily.
-
----
-
-# Final Goal
-
-By following this roadmap, you will learn:
-- Linux fundamentals
-- Command-line mastery
-- Bash scripting
-- Networking
-- Security
-- Automation
-- DevOps basics
-- System administration
-
----
-
-# Recommended Practice
-
-- Use Linux daily
-- Practice terminal commands regularly
-- Solve Linux challenges
-- Build automation scripts
-- Create real-world projects
-
----
-
-# Outcome
-
-After completing this roadmap, you will be able to:
-- Work confidently in Linux environments
-- Manage servers
-- Write Bash scripts
-- Automate tasks
-- Use Linux for development, cybersecurity, DevOps, and cloud computing
-
----
-
-# 20 Important Linux Commands
-
-## 1. Print Current Directory
-```bash
-pwd
-```
-
-## 2. List Files and Folders
-```bash
-ls
-```
-
-## 3. Change Directory
-```bash
-cd folder_name
-```
-
-## 4. Create New Directory
-```bash
-mkdir new_folder
-```
-
-## 5. Create Empty File
-```bash
-touch file.txt
-```
-
-## 6. Remove File
-```bash
-rm file.txt
-```
-
-## 7. Remove Directory
-```bash
-rmdir folder_name
-```
-
-## 8. Copy Files
-```bash
-cp file1.txt file2.txt
-```
-
-## 9. Move or Rename File
-```bash
-mv old.txt new.txt
-```
-
-## 10. Display File Content
-```bash
-cat file.txt
-```
-
-## 11. Edit File Using Nano
-```bash
-nano file.txt
-```
-
-## 12. Search Text in File
-```bash
-grep "word" file.txt
-```
-
-## 13. Find Files
-```bash
-find /home -name file.txt
-```
-
-## 14. Change File Permissions
-```bash
-chmod 777 file.txt
-```
-
-## 15. Change File Owner
-```bash
-chown user file.txt
-```
-
-## 16. Check Running Processes
-```bash
-ps
-```
-
-## 17. Kill a Process
-```bash
-kill PID
-```
-
-## 18. Check Internet Connection
-```bash
-ping google.com
-```
-
-## 19. Install Package
-```bash
-sudo apt install package_name
-```
-
-## 20. Update System
-```bash
-sudo apt update && sudo apt upgrade
+> [1]  Linux Learning Roadmap        →  Beginner → Intermediate → Advanced
+> [2]  Linux Commands                →  20 Core + Bonus Commands
+> [3]  Cybersecurity Roadmap         →  Beginner → Intermediate → Advanced
+> [4]  Important Tools               →  Industry-Standard Arsenal
+> [5]  Practice Platforms            →  Where to Sharpen Skills
+> [6]  Certifications                →  Career Credentials
+> [7]  Recommended Projects          →  Build. Break. Learn.
 ```
 
 ---
 
-# Bonus Commands
+<div align="center">
 
-## Check System Information
-```bash
-uname -a
 ```
 
-## Check Disk Usage
-```bash
-df -h
+           L I N U X   R O A D M A P              
+
 ```
 
-## Check Memory Usage
+</div>
+
+## `🐧 PHASE 1 — Beginner Level`
+
 ```bash
-free -m
+> STEP 01  →  Introduction to Linux
+             How operating systems work, what Linux is
+             
+> STEP 02  →  Linux Distributions
+             Ubuntu · Kali · Fedora · Arch
+
+> STEP 03  →  Linux Installation
+             VirtualBox · Dual Boot setup
+
+> STEP 04  →  Linux File System
+             /home  /etc  /bin  /usr
+
+> STEP 05  →  Basic Terminal Commands
+             ls  ·  pwd  ·  cd
+
+> STEP 06  →  File & Directory Operations
+             mkdir  ·  rm  ·  cp  ·  mv
+
+> STEP 07  →  Paths in Linux
+             Absolute Paths  ·  Relative Paths
+
+> STEP 08  →  Text Editors
+             nano  ·  vim
+
+> STEP 09  →  Linux Permissions
+             chmod  ·  chown  ·  sudo
+
+> STEP 10  →  Users and Groups
+             User management commands & group control
 ```
 
-## Open Root Terminal
+---
+
+## `⚙️ PHASE 2 — Intermediate Level`
+
 ```bash
-sudo su
+> STEP 11  →  File Searching
+             find  ·  locate  ·  grep
+
+> STEP 12  →  Redirection and Pipes
+             >  ·  >>  ·  |
+
+> STEP 13  →  Process Management
+             ps  ·  top  ·  kill  ·  htop
+
+> STEP 14  →  Package Management
+             apt  ·  yum  ·  dnf  ·  pacman
+
+> STEP 15  →  Environment Variables
+             Shell config files & environment control
+
+> STEP 16  →  Bash Scripting Basics
+             Shell scripting fundamentals
+
+> STEP 17  →  Bash Logic Building
+             Loops  ·  Conditions  ·  Functions
+
+> STEP 18  →  Networking Commands
+             ping  ·  ifconfig  ·  netstat  ·  ssh
+
+> STEP 19  →  SSH Remote Access
+             Secure Shell & remote server access
+
+> STEP 20  →  Linux Services
+             systemctl  ·  service management
 ```
 
 ---
 
-# Cybersecurity Roadmap
+## `🔥 PHASE 3 — Advanced Level`
 
-A complete step-by-step roadmap to learn Cybersecurity from beginner to advanced level.
-
----
-
-## Beginner Level
-
-### 1. Learn Computer Basics
-Understand how computers, operating systems, and networks work.
-
-### 2. Learn Linux
-Master Linux commands, terminal usage, permissions, and file systems.
-
-### 3. Learn Networking Fundamentals
-Study:
-- IP addresses
-- DNS
-- HTTP
-- TCP/IP
-- Routers
-- Ports
-
-### 4. Understand Cybersecurity Basics
-Learn:
-- CIA Triad
-- Threats
-- Vulnerabilities
-- Malware
-- Attacks
-
-### 5. Learn Programming Basics
-Start with:
-- Python
-- Bash
-- Basic scripting
-
-### 6. Understand Web Technologies
-Learn:
-- HTML
-- CSS
-- JavaScript
-- APIs
-
-### 7. Learn Git and GitHub
-Use version control and manage projects.
-
-### 8. Learn Virtualization
-Use:
-- VirtualBox
-- VMware
-
-### 9. Build a Home Lab
-Install:
-- Kali Linux
-- Metasploitable
-
-### 10. Learn Basic Security Tools
-Practice:
-- Nmap
-- Wireshark
-- Burp Suite
-- Netcat
+```bash
+> STEP 21  →  Cron Jobs           — Automate with task scheduling
+> STEP 22  →  Disk Management     — df · du · fdisk · mount
+> STEP 23  →  File Compression    — tar · zip · gzip
+> STEP 24  →  Log Monitoring      — /var/log · journalctl
+> STEP 25  →  Linux Kernel        — Kernel basics & boot process
+> STEP 26  →  Firewall & Security — ufw · iptables
+> STEP 27  →  Git and GitHub      — Version control via terminal
+> STEP 28  →  Docker Basics       — Container management
+> STEP 29  →  System Administration — Automation · Server mgmt
+> STEP 30  →  Real Projects       — Build. Deploy. Master.
+```
 
 ---
 
-## Intermediate Level
+<div align="center">
 
-### 11. Learn Ethical Hacking Concepts
-Understand:
-- Reconnaissance
-- Scanning
-- Exploitation
-- Reporting
+```
+╔══════════════════════════════════════════════════╗
+║       20 CORE LINUX COMMANDS  [ CHEATSHEET ]     ║
+╚══════════════════════════════════════════════════╝
+```
 
-### 12. Practice Information Gathering
-Use:
-- WHOIS
-- DNS lookup
-- OSINT
+</div>
 
-### 13. Learn Vulnerability Scanning
-Use:
-- Nessus
-- OpenVAS
+```bash
+# ── NAVIGATION ──────────────────────────────────────────
+> pwd                          # print current directory
+> ls -la                       # list all files (detailed)
+> cd folder_name               # change directory
 
-### 14. Learn Web Application Security
-Study:
-- SQL Injection
-- XSS
-- CSRF
-- OWASP Top 10
+# ── FILE OPERATIONS ─────────────────────────────────────
+> touch file.txt               # create empty file
+> mkdir new_folder             # create directory
+> cp file1.txt file2.txt       # copy file
+> mv old.txt new.txt           # move / rename
+> rm file.txt                  # remove file
+> rmdir folder_name            # remove directory
+> cat file.txt                 # display file content
 
-### 15. Learn Password Security
-Understand:
-- Hashing
-- Salting
-- Brute force
-- Password cracking
+# ── SEARCH & EDIT ────────────────────────────────────────
+> nano file.txt                # edit with nano
+> grep "word" file.txt         # search text in file
+> find /home -name file.txt    # find files by name
 
-### 16. Learn Wireless Security
-Study:
-- WiFi attacks
-- WPA/WPA2
-- Packet capturing
+# ── PERMISSIONS ──────────────────────────────────────────
+> chmod 777 file.txt           # change file permissions
+> chown user file.txt          # change file owner
 
-### 17. Learn System Security
-Understand Windows and Linux hardening.
+# ── PROCESS & NETWORK ────────────────────────────────────
+> ps                           # check running processes
+> kill PID                     # terminate a process
+> ping google.com              # check internet connection
 
-### 18. Learn Firewalls and IDS/IPS
-Study:
-- Snort
-- Suricata
-- Firewall rules
+# ── PACKAGE MANAGEMENT ───────────────────────────────────
+> sudo apt install pkg_name    # install a package
+> sudo apt update && sudo apt upgrade   # update system
 
-### 19. Learn Cryptography Basics
-Understand:
-- Encryption
-- Hashing
-- RSA
-- AES
-- Digital signatures
-
-### 20. Practice Capture The Flag (CTF)
-Solve beginner cybersecurity challenges.
+# ── BONUS ────────────────────────────────────────────────
+> uname -a                     # system information
+> df -h                        # disk usage (human readable)
+> free -m                      # memory usage in MB
+> sudo su                      # open root terminal
+```
 
 ---
 
-## Advanced Level
+<div align="center">
 
-### 21. Learn Malware Analysis
-Study:
-- Trojans
-- Ransomware
-- Reverse engineering
+```
+╔══════════════════════════════════════════════════╗
+║      C Y B E R S E C U R I T Y   R O A D M A P  ║
+╚══════════════════════════════════════════════════╝
+```
 
-### 22. Learn Reverse Engineering
-Use:
-- Ghidra
-- IDA Free
-- Debuggers
+</div>
 
-### 23. Learn Exploit Development
-Understand:
-- Buffer overflows
-- Memory exploitation
+## `🛡️ PHASE 1 — Foundation`
 
-### 24. Learn Active Directory Security
-Study Windows domain attacks and privilege escalation.
+```bash
+> STEP 01  →  Computer Basics
+             OS internals · Networks · How the web works
 
-### 25. Learn Cloud Security
-Understand:
-- AWS
-- Azure
-- IAM
-- Cloud misconfigurations
+> STEP 02  →  Learn Linux First
+             Terminal · Permissions · File Systems · Scripting
 
-### 26. Learn Container Security
-Study Docker and Kubernetes security.
+> STEP 03  →  Networking Fundamentals
+             IP · DNS · HTTP · TCP/IP · Routers · Ports
 
-### 27. Learn Digital Forensics
-Analyze:
-- Logs
-- Memory dumps
-- Incident evidence
+> STEP 04  →  Cybersecurity Basics
+             CIA Triad · Threats · Vulnerabilities · Malware
 
-### 28. Learn SIEM Tools
-Use:
-- Splunk
-- ELK Stack
-- Wazuh
+> STEP 05  →  Programming Basics
+             Python · Bash · Basic scripting
 
-### 29. Learn Incident Response
-Understand:
-- Detection
-- Containment
-- Eradication
-- Recovery
+> STEP 06  →  Web Technologies
+             HTML · CSS · JavaScript · REST APIs
 
-### 30. Learn Security Automation
-Automate tasks using Python and Bash.
+> STEP 07  →  Git & GitHub
+             Version control · Project management
+
+> STEP 08  →  Virtualization
+             VirtualBox · VMware
+
+> STEP 09  →  Build a Home Lab
+             Kali Linux · Metasploitable · Isolated network
+
+> STEP 10  →  Basic Security Tools
+             Nmap · Wireshark · Burp Suite · Netcat
+```
 
 ---
 
-# Specialized Paths
+## `⚔️ PHASE 2 — Offensive & Defensive`
 
-## Red Team
-- Penetration Testing
-- Exploit Development
-- Social Engineering
-- Web Hacking
+```bash
+> STEP 11  →  Ethical Hacking Concepts
+             Reconnaissance → Scanning → Exploitation → Report
 
-## Blue Team
-- SOC Analysis
-- Threat Hunting
-- Incident Response
-- SIEM Monitoring
+> STEP 12  →  Information Gathering
+             WHOIS · DNS Lookup · OSINT techniques
 
-## Purple Team
-Combination of Red Team and Blue Team operations.
+> STEP 13  →  Vulnerability Scanning
+             Nessus · OpenVAS
 
----
+> STEP 14  →  Web Application Security
+             SQL Injection · XSS · CSRF · OWASP Top 10
 
-# Important Tools
+> STEP 15  →  Password Security
+             Hashing · Salting · Brute Force · Cracking
 
-| Tool | Purpose |
-|------|----------|
-| Nmap | Network Scanning |
-| Wireshark | Packet Analysis |
-| Burp Suite | Web Security Testing |
-| Metasploit | Exploitation Framework |
-| Hydra | Password Cracking |
-| John the Ripper | Password Recovery |
-| Aircrack-ng | Wireless Security |
-| Nikto | Web Vulnerability Scanner |
-| Gobuster | Directory Enumeration |
-| Hashcat | Advanced Password Cracking |
+> STEP 16  →  Wireless Security
+             WiFi Attacks · WPA/WPA2 · Packet Capturing
 
----
+> STEP 17  →  System Hardening
+             Windows & Linux hardening techniques
 
-# Best Platforms for Practice
+> STEP 18  →  Firewalls & IDS/IPS
+             Snort · Suricata · Firewall rule management
 
-- TryHackMe
-- Hack The Box
-- OverTheWire
-- PortSwigger Web Security Academy
-- PicoCTF
+> STEP 19  →  Cryptography Basics
+             Encryption · RSA · AES · Digital Signatures
+
+> STEP 20  →  Capture The Flag (CTF)
+             Solve beginner cybersecurity challenges daily
+```
 
 ---
 
-# Certifications
+## `💀 PHASE 3 — Elite Level`
 
-## Beginner
-- CompTIA Security+
-- Google Cybersecurity Certificate
-
-## Intermediate
-- CEH
-- eJPT
-- PNPT
-
-## Advanced
-- OSCP
-- CISSP
-- OSEP
-
----
-
-# Best Learning Strategy
-
-1. Learn theory
-2. Build labs
-3. Practice daily
-4. Solve CTFs
-5. Build projects
-6. Document work on GitHub
-7. Stay updated with cybersecurity news
+```bash
+> STEP 21  →  Malware Analysis       — Trojans · Ransomware · RE
+> STEP 22  →  Reverse Engineering    — Ghidra · IDA Free · Debuggers
+> STEP 23  →  Exploit Development    — Buffer Overflows · Memory Exploits
+> STEP 24  →  Active Directory       — Domain attacks · Privilege escalation
+> STEP 25  →  Cloud Security         — AWS · Azure · IAM · Misconfigs
+> STEP 26  →  Container Security     — Docker · Kubernetes hardening
+> STEP 27  →  Digital Forensics      — Logs · Memory dumps · Evidence
+> STEP 28  →  SIEM Tools             — Splunk · ELK Stack · Wazuh
+> STEP 29  →  Incident Response      — Detect · Contain · Eradicate · Recover
+> STEP 30  →  Security Automation    — Python + Bash powered pipelines
+```
 
 ---
 
-# Recommended Projects
+<div align="center">
 
-- Port Scanner
-- Keylogger Detector
-- Vulnerability Scanner
-- Packet Sniffer
-- Password Strength Checker
-- Web Security Scanner
-- Log Analyzer
-- Network Monitoring Tool
+```
+╔══════════════════════════════════════════════════╗
+║         CHOOSE  YOUR  PATH                       ║
+╠════════════════╦═════════════════════════════════╣
+║   🔴 RED TEAM  ║   🔵 BLUE TEAM                  ║
+╠════════════════╬═════════════════════════════════╣
+║  Pentest       ║  SOC Analysis                   ║
+║  Exploitation  ║  Threat Hunting                 ║
+║  Social Eng.   ║  Incident Response              ║
+║  Web Hacking   ║  SIEM Monitoring                ║
+╠════════════════╩═════════════════════════════════╣
+║           🟣 PURPLE TEAM = RED + BLUE            ║
+╚══════════════════════════════════════════════════╝
+```
 
----
-
-# Final Outcome
-
-After completing this roadmap, you will understand:
-- Ethical Hacking
-- Network Security
-- Web Security
-- Linux Security
-- Malware Analysis
-- Cloud Security
-- Security Automation
-- Incident Response
+</div>
 
 ---
 
-# Final Advice
+## `🧰 Arsenal — Important Tools`
 
-- Practice more than watching tutorials
-- Build projects consistently
-- Create a cybersecurity portfolio
-- Participate in bug bounty programs
-- Never stop learning because cybersecurity changes daily
-- 
+```bash
+> nmap          →  Network Scanning & Host Discovery
+> wireshark     →  Deep Packet Analysis
+> burpsuite     →  Web Application Security Testing
+> metasploit    →  Exploitation Framework
+> hydra         →  Password Cracking via Brute Force
+> john          →  John the Ripper — Password Recovery
+> aircrack-ng   →  Wireless Network Security Testing
+> nikto         →  Web Vulnerability Scanner
+> gobuster      →  Directory & Subdomain Enumeration
+> hashcat       →  Advanced GPU-Powered Password Cracking
+```
+
+---
+
+## `🏁 Practice Platforms`
+
+```md
+- [TryHackMe](https://tryhackme.com)                     — Guided learning paths, rooms, CTFs
+- [Hack The Box](https://hackthebox.com)                  — Real-world machine hacking challenges
+- [OverTheWire](https://overthewire.org)                  — Wargames for command-line mastery
+- [PortSwigger Web Academy](https://portswigger.net/web-security) — Best web security labs
+- [PicoCTF](https://picoctf.org)                          — Beginner-friendly CTF competition
+```
+
+---
+
+## `🏆 Certifications`
+
+```bash
+# ── BEGINNER ────────────────────────────────────────────
+> CompTIA Security+             # Industry-recognized baseline
+> Google Cybersecurity Cert     # Great for starters
+
+# ── INTERMEDIATE ────────────────────────────────────────
+> CEH                           # Certified Ethical Hacker
+> eJPT                          # eLearnSecurity Junior Pentest
+> PNPT                          # Practical Network Pentest
+
+# ── ADVANCED ────────────────────────────────────────────
+> OSCP                          # Gold standard in pentesting
+> OSEP                          # Advanced evasion & exploitation
+> CISSP                         # Senior security professional
+```
+
+---
+
+## `🚀 Recommended Projects to Build`
+
+```md
+- [Port Scanner]              — Python/Bash network scanner from scratch
+- [Keylogger Detector]        — Monitor suspicious keystroke processes
+- [Vulnerability Scanner]     — Auto-detect common CVEs in a network
+- [Packet Sniffer]            — Capture and analyze raw network traffic
+- [Password Strength Checker] — Entropy-based password analysis tool
+- [Web Security Scanner]      — Crawl and detect OWASP vulnerabilities
+- [Log Analyzer]              — Parse system logs for anomaly detection
+- [Network Monitor]           — Real-time traffic visualization tool
+```
+
+---
+
+## `📋 Best Learning Strategy`
+
+```bash
+> Step 1  →  Learn theory first — understand before you hack
+> Step 2  →  Build labs        — VirtualBox, Kali, Metasploitable
+> Step 3  →  Practice daily    — even 1 hour compounds fast
+> Step 4  →  Solve CTFs        — TryHackMe, PicoCTF, HTB
+> Step 5  →  Build projects    — GitHub portfolio = your resume
+> Step 6  →  Document work     — write writeups, notes, READMEs
+> Step 7  →  Stay updated      — cybersec changes every single day
+```
+
+---
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════╗
+║                  FINAL OUTCOME                           ║
+╠══════════════════════════════════════════════════════════╣
+║                                                          ║
+║   ✦  Ethical Hacking      ✦  Network Security           ║
+║   ✦  Web Security         ✦  Linux Security             ║
+║   ✦  Malware Analysis     ✦  Cloud Security             ║
+║   ✦  Security Automation  ✦  Incident Response          ║
+║                                                          ║
+╚══════════════════════════════════════════════════════════╝
+```
+
+```bash
+> "Practice more than you watch. Build more than you read."
+> "The terminal is your weapon. Learn to wield it."
+> "Never stop — because cybersecurity never stops evolving."
+```
+
+---
+
+*crafted for those who break things to understand them*
+
+</div>
