@@ -1,10 +1,4 @@
 
-    --red-dim:   #7a1a2e;
-    --yellow:    #ffd166;
-    --yellow-dim:#6b4e10;
-    --green:     #06d6a0;
-    --green-dim: #0a4034;
-    --cyan:      #38bdf8;
     --cyan-dim:  #0c3a52;
     --purple:    #c084fc;
     --purple-dim:#3b1f5e;
