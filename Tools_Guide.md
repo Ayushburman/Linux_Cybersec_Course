@@ -4,7 +4,7 @@
 ╚══════════════════════════════════════════════════╝
 
 > NMAP · WIRESHARK · BURPSUITE · METASPLOIT · HYDRA
-> JOHN · AIRCRACK · NIKTO · GOBUSTER · HASHCAT
+> JOHN · AIRCRACK · NIKTO · GOBUSTER · 
 ```
 
 ---
