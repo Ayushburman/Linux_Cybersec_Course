@@ -1,11 +1,4 @@
 
-  :root {
-    --bg:        #0a0c10;
-    --surface:   #111318;
-    --surface2:  #1a1d26;
-    --border:    #1e2230;
-    --border2:   #2a2f45;
-    --red:       #ff3c5f;
     --red-dim:   #7a1a2e;
     --yellow:    #ffd166;
     --yellow-dim:#6b4e10;
