@@ -1,15 +1,4 @@
 
-    font-weight: 800;
-    color: var(--white);
-  }
-  .tool-name span {
-    color: var(--red);
-  }
-  .tool-badge {
-    margin-left: auto;
-    font-size: 10px;
-    padding: 3px 10px;
-    border-radius: 2px;
     letter-spacing: 0.1em;
     flex-shrink: 0;
   }
