@@ -1,14 +1,4 @@
 
-  .hero::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(255,60,95,0.07) 0%, transparent 70%);
-    pointer-events: none;
-  }
-  .hero-badge {
-    display: inline-block;
-    border: 1px solid var(--red);
     color: var(--red);
     font-size: 10px;
     letter-spacing: 0.3em;
