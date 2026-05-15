@@ -3,7 +3,7 @@
 ║     T O O L S   G U I D E  —  A R S E N A L      ║
 ╚══════════════════════════════════════════════════╝
 
-> NMAP · WIRESHARK · BURPSUITE · 
+> NMAP · WIRESHARK · 
 > JOHN · AIRCRACK · 
 ```
 
