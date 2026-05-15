@@ -1,14 +1,4 @@
 
-    color: var(--red);
-    letter-spacing: 0.1em;
-    opacity: 0.7;
-    flex-shrink: 0;
-    width: 28px;
-  }
-  .tool-icon { font-size: 1.6rem; flex-shrink: 0; }
-  .tool-name {
-    font-family: 'Syne', sans-serif;
-    font-size: 1.45rem;
     font-weight: 800;
     color: var(--white);
   }
