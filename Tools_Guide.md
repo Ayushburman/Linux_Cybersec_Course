@@ -1,12 +1,4 @@
 
-
-  /* ── SCANLINE OVERLAY ── */
-  body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background: repeating-linear-gradient(
-      0deg,
       transparent,
       transparent 2px,
       rgba(0,0,0,0.03) 2px,
