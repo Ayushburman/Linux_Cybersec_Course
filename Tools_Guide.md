@@ -4,7 +4,7 @@
 ╚══════════════════════════════════════════════════╝
 
 > NMAP · WIRESHARK · BURPSUITE · 
-> JOHN · AIRCRACK · NIKTO · 
+> JOHN · AIRCRACK · 
 ```
 
 ---
