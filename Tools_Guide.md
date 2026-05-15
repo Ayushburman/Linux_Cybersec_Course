@@ -1,22 +1,4 @@
 
-      transparent,
-      transparent 2px,
-      rgba(0,0,0,0.03) 2px,
-      rgba(0,0,0,0.03) 4px
-    );
-    pointer-events: none;
-    z-index: 9999;
-  }
-
-  /* ── HEADER ── */
-  .hero {
-    background: linear-gradient(135deg, #0a0c10 0%, #0f1220 40%, #0c0e18 100%);
-    border-bottom: 1px solid var(--border2);
-    padding: 60px 40px 50px;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-  }
   .hero::before {
     content: '';
     position: absolute;
