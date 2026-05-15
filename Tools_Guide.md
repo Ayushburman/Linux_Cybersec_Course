@@ -1,11 +1,4 @@
 
-
-  /* ── LAYOUT ── */
-  .container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 50px 30px 80px;
-    display: flex;
     flex-direction: column;
     gap: 60px;
   }
