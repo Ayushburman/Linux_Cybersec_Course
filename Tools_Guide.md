@@ -1,12 +1,4 @@
 
-  }
-  @keyframes fadeUp {
-    from { opacity:0; transform: translateY(16px); }
-    to   { opacity:1; transform: translateY(0); }
-  }
-
-  .tool-header {
-    display: flex;
     align-items: center;
     gap: 16px;
     margin-bottom: 24px;
