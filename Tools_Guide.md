@@ -1,11 +1,4 @@
 
-    font-size: 10px;
-    letter-spacing: 0.15em;
-    color: var(--text-dim);
-  }
-  .dot { width:10px; height:10px; border-radius:50%; }
-  .dot-r { background: #ff5f57; }
-  .dot-y { background: #febc2e; }
   .dot-g { background: #28c840; }
   .code-label { margin-left: 6px; }
 
