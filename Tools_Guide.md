@@ -1,16 +1,4 @@
 
-    flex-direction: column;
-    gap: 60px;
-  }
-
-  /* ── WARNING BANNER ── */
-  .warning {
-    display: flex;
-    align-items: flex-start;
-    gap: 14px;
-    background: linear-gradient(90deg, rgba(255,60,95,0.08), transparent);
-    border: 1px solid rgba(255,60,95,0.3);
-    border-left: 3px solid var(--red);
     border-radius: 4px;
     padding: 16px 20px;
     color: #f08090;
