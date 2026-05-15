@@ -1,12 +1,4 @@
 
-    align-items: center;
-    gap: 16px;
-    margin-bottom: 24px;
-    padding-bottom: 16px;
-    border-bottom: 1px solid var(--border);
-  }
-  .tool-number {
-    font-size: 11px;
     color: var(--red);
     letter-spacing: 0.1em;
     opacity: 0.7;
