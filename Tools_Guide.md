@@ -1,15 +1,4 @@
-ding: 0; }
 
-  html { scroll-behavior: smooth; }
-
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 13.5px;
-    line-height: 1.7;
-    min-height: 100vh;
-  }
 
   /* ── SCANLINE OVERLAY ── */
   body::before {
