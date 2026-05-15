@@ -1,14 +1,4 @@
 
-    line-height: 1.1;
-    margin-bottom: 10px;
-  }
-  .hero h1 span { color: var(--red); }
-  .hero-sub {
-    color: var(--text-dim);
-    font-size: 12px;
-    letter-spacing: 0.15em;
-    margin-top: 14px;
-  }
 
   /* ── TOOL PILLS NAV ── */
   .tool-nav {
