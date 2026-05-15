@@ -3,7 +3,7 @@
 ║     T O O L S   G U I D E  —  A R S E N A L     ║
 ╚══════════════════════════════════════════════════╝
 
-> NMAP · WIRESHARK · BURPSUITE · METASPLOIT · HYDRA
+> NMAP · WIRESHARK · BURPSUITE · METASPLOIT ·
 > JOHN · AIRCRACK · NIKTO · GOBUSTER · 
 ```
 
