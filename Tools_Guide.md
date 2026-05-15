@@ -1,13 +1,4 @@
 
-  .dot-g { background: #28c840; }
-  .code-label { margin-left: 6px; }
-
-  pre {
-    padding: 20px;
-    overflow-x: auto;
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 12.5px;
-    line-height: 1.75;
     white-space: pre;
     tab-size: 4;
   }
