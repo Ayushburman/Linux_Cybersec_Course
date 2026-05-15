@@ -1,14 +1,4 @@
 
-    letter-spacing: 0.1em;
-    flex-shrink: 0;
-  }
-  .badge-net    { background: var(--cyan-dim);   color: var(--cyan);   border: 1px solid rgba(56,189,248,0.3); }
-  .badge-web    { background: var(--purple-dim);  color: var(--purple); border: 1px solid rgba(192,132,252,0.3); }
-  .badge-exploit{ background: var(--red-dim);     color: var(--red);    border: 1px solid rgba(255,60,95,0.3); }
-  .badge-hash   { background: var(--yellow-dim);  color: var(--yellow); border: 1px solid rgba(255,209,102,0.3); }
-  .badge-wifi   { background: var(--green-dim);   color: var(--green);  border: 1px solid rgba(6,214,160,0.3); }
-
-  .install-line {
     display: flex;
     align-items: center;
     gap: 10px;
