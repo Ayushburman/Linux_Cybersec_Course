@@ -1,15 +1,4 @@
-);
-  }
-  .tool-nav a {
-    text-decoration: none;
-    color: var(--text-dim);
-    font-size: 11px;
-    letter-spacing: 0.1em;
-    padding: 5px 12px;
-    border: 1px solid var(--border2);
-    border-radius: 2px;
-    transition: all 0.2s;
-    background: var(--surface2);
+
   }
   .tool-nav a:hover {
     color: var(--yellow);
