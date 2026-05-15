@@ -1,12 +1,4 @@
 
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 20px;
-    font-size: 12px;
-    color: var(--text-dim);
-  }
-  .install-line code {
     background: var(--surface2);
     border: 1px solid var(--border2);
     color: var(--green);
