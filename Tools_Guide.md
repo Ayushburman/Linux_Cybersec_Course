@@ -1,16 +1,4 @@
 
-    animation: pulse 3s ease-in-out infinite;
-  }
-  @keyframes pulse {
-    0%,100% { opacity:1; }
-    50%      { opacity:0.6; }
-  }
-  .hero h1 {
-    font-family: 'Syne', sans-serif;
-    font-size: clamp(2.2rem, 6vw, 4rem);
-    font-weight: 800;
-    letter-spacing: -0.02em;
-    color: var(--white);
     line-height: 1.1;
     margin-bottom: 10px;
   }
