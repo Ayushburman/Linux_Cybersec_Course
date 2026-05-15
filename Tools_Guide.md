@@ -1,18 +1,4 @@
 
-    white-space: pre;
-    tab-size: 4;
-  }
-
-  /* Syntax coloring */
-  .c  { color: var(--muted); }          /* comment */
-  .cmd{ color: var(--cyan); }           /* command name */
-  .fl { color: var(--yellow); }         /* flags like -l -P */
-  .val{ color: var(--green); }          /* values / IPs */
-  .op { color: var(--red); }            /* operators < > | → */
-  .str{ color: #a8d8a8; }              /* strings */
-  .kw { color: var(--purple); }         /* keywords */
-  .sec{ color: var(--white); font-weight:500; letter-spacing:0.05em; } /* section */
-
   /* ── SUMMARY TABLE ── */
   .summary-table {
     width: 100%;
