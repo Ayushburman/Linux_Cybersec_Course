@@ -1,16 +1,4 @@
 
-  /* ── SUMMARY TABLE ── */
-  .summary-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 12.5px;
-  }
-  .summary-table th {
-    text-align: left;
-    font-size: 10px;
-    letter-spacing: 0.2em;
-    color: var(--red);
-    padding: 10px 16px;
     border-bottom: 1px solid var(--border2);
     font-weight: 500;
   }
