@@ -1,15 +1,4 @@
 
-    border-radius: 4px;
-    padding: 16px 20px;
-    color: #f08090;
-    font-size: 12px;
-    line-height: 1.7;
-  }
-  .warning-icon { font-size: 18px; flex-shrink: 0; margin-top: 1px; }
-
-  /* ── TOOL SECTION ── */
-  .tool-section {
-    animation: fadeUp 0.4s ease both;
   }
   @keyframes fadeUp {
     from { opacity:0; transform: translateY(16px); }
