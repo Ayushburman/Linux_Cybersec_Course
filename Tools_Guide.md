@@ -1,18 +1,4 @@
-
-
-  /* ── TOOL PILLS NAV ── */
-  .tool-nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    justify-content: center;
-    padding: 28px 40px;
-    background: var(--surface);
-    border-bottom: 1px solid var(--border);
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    backdrop-filter: blur(12px);
+);
   }
   .tool-nav a {
     text-decoration: none;
