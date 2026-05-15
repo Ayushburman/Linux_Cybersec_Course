@@ -1,11 +1,4 @@
 
-  }
-  .tool-nav a:hover {
-    color: var(--yellow);
-    border-color: var(--yellow);
-    background: rgba(255,209,102,0.06);
-    box-shadow: 0 0 12px rgba(255,209,102,0.15);
-  }
 
   /* ── LAYOUT ── */
   .container {
