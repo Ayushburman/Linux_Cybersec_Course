@@ -1,11 +1,4 @@
 
-    color: var(--red);
-    font-size: 10px;
-    letter-spacing: 0.3em;
-    padding: 4px 14px;
-    border-radius: 2px;
-    margin-bottom: 20px;
-    box-shadow: var(--glow-red);
     animation: pulse 3s ease-in-out infinite;
   }
   @keyframes pulse {
