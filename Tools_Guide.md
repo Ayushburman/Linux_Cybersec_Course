@@ -1,16 +1,4 @@
 
-    border-radius: 6px;
-    overflow: hidden;
-    margin-bottom: 16px;
-    box-shadow: 0 2px 20px rgba(0,0,0,0.4);
-  }
-  .code-header {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 10px 16px;
-    background: var(--surface2);
-    border-bottom: 1px solid var(--border);
     font-size: 10px;
     letter-spacing: 0.15em;
     color: var(--text-dim);
