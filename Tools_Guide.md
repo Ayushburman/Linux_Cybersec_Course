@@ -1,16 +1,4 @@
 
-    background: var(--surface2);
-    border: 1px solid var(--border2);
-    color: var(--green);
-    padding: 3px 10px;
-    border-radius: 3px;
-    font-family: inherit;
-  }
-
-  /* ── CODE BLOCK ── */
-  .code-block {
-    background: var(--surface);
-    border: 1px solid var(--border);
     border-radius: 6px;
     overflow: hidden;
     margin-bottom: 16px;
