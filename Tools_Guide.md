@@ -1,9 +1,5 @@
 
-    --cyan-dim:  #0c3a52;
-    --purple:    #c084fc;
-    --purple-dim:#3b1f5e;
-    --muted:     #4a5068;
-    --text:      #c9d1e0;
+
     --text-dim:  #6b7394;
     --white:     #e8ecf4;
     --glow-red:  0 0 20px rgba(255,60,95,0.3);
