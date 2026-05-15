@@ -1,12 +1,4 @@
-
-
-    --text-dim:  #6b7394;
-    --white:     #e8ecf4;
-    --glow-red:  0 0 20px rgba(255,60,95,0.3);
-    --glow-cyan: 0 0 20px rgba(56,189,248,0.25);
-  }
-
-  * { box-sizing: border-box; margin: 0; padding: 0; }
+ding: 0; }
 
   html { scroll-behavior: smooth; }
 
