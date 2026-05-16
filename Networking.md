@@ -9,7 +9,7 @@
 
 # UDP (User Datagram Protocol)
 > Connectionless — fire and forget
-> Faster but no guarantee of delivery
+
 
 ```
 
