@@ -5,7 +5,7 @@
 # TCP (Transmission Control Protocol)
 > Connection-oriented — 3-way handshake (SYN → SYN-ACK → ACK)
 > Reliable delivery — packets are acknowledged and retransmitted
-> Used by: HTTP, HTTPS, SSH, FTP, SMTP
+
 
 # UDP (User Datagram Protocol)
 
