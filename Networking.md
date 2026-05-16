@@ -8,7 +8,7 @@
 > Used by: HTTP, HTTPS, SSH, FTP, SMTP
 
 # UDP (User Datagram Protocol)
-> Connectionless — fire and forget
+
 
 
 ```
