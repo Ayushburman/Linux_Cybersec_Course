@@ -1,11 +1,6 @@
 
 
-### Why it matters for cybersecurity:
-```
-> Layer 3  →  IP spoofing, routing attacks
-> Layer 4  →  Port scanning, TCP SYN floods
-> Layer 7  →  SQL injection, XSS, web app attacks
-```
+
 
 ---
 
