@@ -1,13 +1,5 @@
 
 
-```
-
-```
-# Quick memory trick:
-> "All People Seem To Need Data Processing"
-  Application → Presentation → Session → Transport → Network → Data Link → Physical
-```
-
 ### Why it matters for cybersecurity:
 ```
 > Layer 3  →  IP spoofing, routing attacks
