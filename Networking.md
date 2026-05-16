@@ -9,17 +9,7 @@
 ## `🧱 OSI Model — 7 Layers`
 
 ```
-┌─────┬──────────────────┬──────────────────────────────────────────────────┐
-│ No. │ Layer            │ Description                                      │
-├─────┼──────────────────┼──────────────────────────────────────────────────┤
-│  7  │ Application      │ End-user layer — HTTP, FTP, DNS, SMTP            │
-│  6  │ Presentation     │ Data formatting, encryption/decryption, SSL/TLS  │
-│  5  │ Session          │ Manages sessions/connections between hosts        │
-│  4  │ Transport        │ TCP / UDP — segmentation, flow control, ports     │
-│  3  │ Network          │ IP addressing, routing — routers operate here     │
-│  2  │ Data Link        │ MAC addresses, switches, frames                  │
-│  1  │ Physical         │ Cables, NICs, radio waves — raw bits             │
-└─────┴──────────────────┴──────────────────────────────────────────────────┘
+
 ```
 
 ```
