@@ -10,7 +10,7 @@
 # UDP (User Datagram Protocol)
 > Connectionless — fire and forget
 > Faster but no guarantee of delivery
-> Used by: DNS, DHCP, VoIP, video streaming, gaming
+
 ```
 
 ### TCP 3-Way Handshake:
