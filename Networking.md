@@ -1,22 +1,5 @@
 
 
-
-
-```
-
-## `🌐 TCP/IP Model`
-
-```
-┌───────────────────┬────────────────────────────────────────────────┐
-│ Layer             │ Protocols                                      │
-├───────────────────┼────────────────────────────────────────────────┤
-│ Application       │ HTTP · HTTPS · FTP · SSH · DNS · SMTP · SNMP  │
-│ Transport         │ TCP · UDP                                      │
-│ Internet          │ IP · ICMP · ARP                               │
-│ Network Access    │ Ethernet · Wi-Fi · MAC                        │
-└───────────────────┴────────────────────────────────────────────────┘
-```
-
 ### TCP vs UDP:
 ```
 # TCP (Transmission Control Protocol)
