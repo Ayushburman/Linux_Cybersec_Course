@@ -1,6 +1,6 @@
 ```
 ╔════════════════════════════════════════════
-N E T W O R K I N G   G 
+N E T W O R K I N G   
 ╚══════════════════════════════════════════
 
 > PROTOCOLS  ·  OSI MODEL  ·  TCP/IP  ·  PORTS  ·  TOOLS
