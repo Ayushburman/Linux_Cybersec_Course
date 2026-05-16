@@ -2,19 +2,7 @@
 ══════════════════════════════════════════════════════════════════
 
 
-```
 
----
-
-## `$ cat networking_intro.txt`
-
-Networking is the backbone of cybersecurity. You cannot hack, defend, or monitor
-what you don't understand. This guide covers everything from how data travels
-across a wire to the tools you use to intercept and analyze it.
-
----
-
-```
 ╔══════════════════════════════════════════════════╗
 ║            T H E   O S I   M O D E L            ║
 ╚══════════════════════════════════════════════════╝
