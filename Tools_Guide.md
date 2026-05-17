@@ -1,12 +1,4 @@
-                      <span class="c"># Full module info</span></pre>
-    </div>
-
-    <div class="code-block">
-      <div class="code-header">
-        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
-        <span class="code-label">CONFIGURE & RUN</span>
-      </div>
-      <pre><span class="cmd">show options</span>                                       <span class="c"># List required options</span>
+                               <span class="c"># List required options</span>
 <span class="cmd">set</span> <span class="kw">RHOSTS</span>  <span class="val">192.168.1.10</span>                          <span class="c"># Target IP</span>
 <span class="cmd">set</span> <span class="kw">RPORT</span>   <span class="val">445</span>                                    <span class="c"># Target port</span>
 <span class="cmd">set</span> <span class="kw">LHOST</span>   <span class="val">192.168.1.5</span>                            <span class="c"># Your listener IP</span>
