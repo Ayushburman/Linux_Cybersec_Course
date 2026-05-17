@@ -1,10 +1,4 @@
-
-    <div class="code-block">
-      <div class="code-header">
-        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
-        <span class="code-label">TSHARK — COMMAND LINE</span>
-      </div>
-      <pre><span class="cmd">tshark</span> <span class="fl">-i</span> eth0                            <span class="c"># Live capture on eth0</span>
+                           <span class="c"># Live capture on eth0</span>
 <span class="cmd">tshark</span> <span class="fl">-i</span> eth0 <span class="fl">-w</span> capture.pcap             <span class="c"># Save to file</span>
 <span class="cmd">tshark</span> <span class="fl">-r</span> capture.pcap                      <span class="c"># Read saved capture</span>
 <span class="cmd">tshark</span> <span class="fl">-i</span> eth0 <span class="fl">-f</span> <span class="str">"port 80"</span>               <span class="c"># Capture filter — HTTP only</span>
