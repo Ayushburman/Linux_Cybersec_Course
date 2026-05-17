@@ -1,11 +1,4 @@
-
-
-    <div class="code-block">
-      <div class="code-header">
-        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
-        <span class="code-label">KEY FLAGS REFERENCE</span>
-      </div>
-      <pre><span class="fl">-l</span>   Single username          <span class="fl">-L</span>   Username list file
+       <span class="fl">-L</span>   Username list file
 <span class="fl">-p</span>   Single password           <span class="fl">-P</span>   Password list file
 <span class="fl">-t</span>   Parallel threads (16)     <span class="fl">-V</span>   Verbose — show each attempt
 <span class="fl">-f</span>   Stop after first hit      <span class="fl">-o</span>   Save results to file</pre>
