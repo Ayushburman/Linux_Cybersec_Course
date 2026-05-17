@@ -1,12 +1,4 @@
 
-   
-
-<!-- ══════════════ HERO ══════════════ -->
-<header class="hero">
-  <div class="hero-badge">CYBERSEC TOOLS GUIDE · v2.0</div>
-  <h1>THE <span>ARSENAL</span></h1>
-  <p class="hero-sub">nmap · wireshark · burpsuite · metasploit · hydra · john · aircrack · nikto · gobuster · hashcat</p>
-</header>
 
 <!-- ══════════════ NAV ══════════════ -->
 <nav class="tool-nav">
