@@ -1,10 +1,4 @@
 
-  
-<span class="kw">Battering</span>   <span class="op">→</span> One position, all combos from one list
-<span class="kw">Cluster</span>     <span class="op">→</span> Multiple positions simultaneously
-<span class="kw">Pitchfork</span>   <span class="op">→</span> Multiple positions, multiple lists <span class="c">(username:password)</span></pre>
-    </div>
-
     <div class="code-block">
       <div class="code-header">
         <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
