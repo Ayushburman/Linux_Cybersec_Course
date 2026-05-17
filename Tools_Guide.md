@@ -3,11 +3,7 @@
 <img width="1347" height="499" alt="image" src="https://github.com/user-attachments/assets/75e9acb1-0513-48d1-af14-42c83fce7e1a" />
 
 
-    border-bottom: 1px solid var(--border);
-    color: var(--text);
-    vertical-align: middle;
-  }
-    font-size: 9px;
+   
     padding: 2px 8px;
     border-radius: 2px;
     letter-spacing: 0.1em;
