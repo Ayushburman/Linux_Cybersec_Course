@@ -1,10 +1,4 @@
 
-    <div class="code-block">
-      <div class="code-header">
-        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
-        <span class="code-label">COMMON PAYLOADS</span>
-      </div>
-      <pre><span class="c"># ── SQL INJECTION ──────────────────────────────────</span>
 id=<span class="val">1</span><span class="op">'</span>
 id=<span class="val">1 OR 1</span><span class="op">=</span><span class="val">1</span><span class="op">--</span>
 id=<span class="val">1</span><span class="op">;</span> <span class="kw">DROP TABLE</span> users<span class="op">--</span>
