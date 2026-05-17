@@ -1,9 +1,4 @@
 
-  <a href="#nikto">09 NIKTO</a>
-  <a href="#gobuster">10 GOBUSTER</a>
-  <a href="#summary">SUMMARY</a>
-</nav>
-
 <div class="container">
 
   <!-- WARNING -->
