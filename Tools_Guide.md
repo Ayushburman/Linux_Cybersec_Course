@@ -1,14 +1,4 @@
 
-      <div class="code-header">
-        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
-        <span class="code-label">SETUP — PROXY INTERCEPTION</span>
-      </div>
-      <pre><span class="c"># 1. Launch Burp → Proxy tab → Intercept: ON</span>
-<span class="c"># 2. Set browser proxy → 127.0.0.1:8080</span>
-<span class="c"># 3. Install Burp CA cert for HTTPS:</span>
-<span class="c">#    Navigate to http://burpsuite → Download certificate</span></pre>
-    </div>
-
     <div class="code-block">
       <div class="code-header">
         <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
