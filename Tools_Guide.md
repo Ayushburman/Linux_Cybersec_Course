@@ -1,15 +1,5 @@
 
 
-  <!-- ══════════════ 01 · NMAP ══════════════ -->
-  <section class="tool-section" id="nmap">
-    <div class="tool-header">
-      <span class="tool-number">01</span>
-      <span class="tool-icon">🔍</span>
-      <span class="tool-name">N<span>MAP</span></span>
-      <span class="tool-badge badge-net">NETWORK</span>
-    </div>
-    <div class="install-line">INSTALL → <code>sudo apt install nmap</code></div>
-
     <div class="code-block">
       <div class="code-header">
         <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
