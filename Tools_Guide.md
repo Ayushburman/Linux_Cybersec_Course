@@ -7,9 +7,6 @@
     color: var(--text);
     vertical-align: middle;
   }
-  .summ
-  .summary-table .cat-pill {
-    display: inline-block;
     font-size: 9px;
     padding: 2px 8px;
     border-radius: 2px;
