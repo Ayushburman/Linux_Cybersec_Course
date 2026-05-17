@@ -1,15 +1,4 @@
 
-<div class="container">
-
-  <!-- WARNING -->
-  <div class="warning">
-    <span class="warning-icon">⚠️</span>
-    <div>
-      <strong style="color:var(--red)">LEGAL WARNING</strong><br>
-      Only use these tools on systems you own or have <strong>explicit written permission</strong> to test.
-      Unauthorized scanning, exploitation, or interception is illegal in most jurisdictions and carries serious criminal penalties.
-    </div>
-  </div>
 
   <!-- ══════════════ 01 · NMAP ══════════════ -->
   <section class="tool-section" id="nmap">
