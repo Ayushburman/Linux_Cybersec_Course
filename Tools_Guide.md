@@ -1,16 +1,3 @@
-            <span class="c"># System info</span>
-<span class="cmd">getuid</span>               <span class="c"># Current user</span>
-<span class="cmd">getsystem</span>            <span class="c"># Attempt privilege escalation</span>
-<span class="cmd">hashdump</span>             <span class="c"># Dump password hashes</span>
-<span class="cmd">ps</span>                   <span class="c"># List processes</span>
-<span class="cmd">migrate</span> <span class="op">&lt;</span>PID<span class="op">&gt;</span>         <span class="c"># Migrate to another process</span>
-<span class="cmd">shell</span>                <span class="c"># Drop to system shell</span>
-<span class="cmd">keyscan_start</span>        <span class="c"># Start keylogger</span>
-<span class="cmd">screenshot</span>           <span class="c"># Take screenshot</span>
-<span class="cmd">upload</span>   <span class="fl">/local</span> <span class="fl">/remote</span>  <span class="c"># Upload file</span>
-<span class="cmd">download</span> <span class="fl">/remote</span> <span class="fl">/local</span>  <span class="c"># Download file</span></pre>
-    </div>
-  </section>
 
   <!-- ══════════════ 05 · HYDRA ══════════════ -->
   <section class="tool-section" id="hydra">
