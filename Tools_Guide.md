@@ -3,13 +3,6 @@
 <img width="1347" height="499" alt="image" src="https://github.com/user-attachments/assets/75e9acb1-0513-48d1-af14-42c83fce7e1a" />
 
 
-
-
-
-
-  
-  .summary-table td {
-    padding: 10px 16px;
     border-bottom: 1px solid var(--border);
     color: var(--text);
     vertical-align: middle;
