@@ -4,13 +4,7 @@
 
 
    
-    padding: 2px 8px;
-    border-radius: 2px;
-    letter-spacing: 0.1em;
-    margin-left: 8px;
-    vertical-align: middle;
-  }
-
+   
   /* ── FOOTER ── */
   .footer {
     text-align: center;
