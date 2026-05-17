@@ -1,13 +1,4 @@
 
-<span class="c"># ── XSS ────────────────────────────────────────────</span>
-<span class="op">&lt;</span>script<span class="op">&gt;</span>alert(1)<span class="op">&lt;</span>/script<span class="op">&gt;</span>
-<span class="str">"&gt;</span><span class="op">&lt;</span>img src<span class="op">=</span>x onerror<span class="op">=</span>alert(1)<span class="op">&gt;</span>
-
-<span class="c"># ── AUTH BYPASS ─────────────────────────────────────</span>
-admin=<span class="op">false</span>  <span class="op">→</span>  admin=<span class="val">true</span>
-role=<span class="op">user</span>    <span class="op">→</span>  role=<span class="val">admin</span></pre>
-    </div>
-  </section>
 
   <!-- ══════════════ 04 · METASPLOIT ══════════════ -->
   <section class="tool-section" id="metasploit">
