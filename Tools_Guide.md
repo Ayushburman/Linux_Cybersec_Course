@@ -1,8 +1,4 @@
-
-            <span class="c"># Default scan (top 1000 ports)</span>
-<span class="cmd">nmap</span> <span class="val">192.168.1.0/24</span>           <span class="c"># Scan entire subnet</span>
-<span class="cmd">nmap</span> <span class="fl">-iL</span> targets.txt           <span class="c"># Scan from file</span>
-<span class="cmd">nmap</span> <span class="val">scanme.nmap.org</span>           <span class="c"># Official safe test target</span></pre>
+         <span class="c"># Official safe test target</span></pre>
     </div>
 
       <pre><span class="cmd">nmap</span> <span class="fl">-p</span> <span class="val">22,80,443</span> <span class="val">192.168.1.1</span>  <span class="c"># Specific ports</span>
