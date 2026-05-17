@@ -1,16 +1,4 @@
 
-  </section>
-
-  <!-- ══════════════ 02 · WIRESHARK ══════════════ -->
-  <section class="tool-section" id="wireshark">
-    <div class="tool-header">
-      <span class="tool-number">02</span>
-      <span class="tool-icon">🦈</span>
-      <span class="tool-name">WIRE<span>SHARK</span></span>
-      <span class="tool-badge badge-net">NETWORK</span>
-    </div>
-    <div class="install-line">INSTALL → <code>sudo apt install wireshark</code></div>
-
     <div class="code-block">
       <div class="code-header">
         <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
