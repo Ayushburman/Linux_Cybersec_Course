@@ -1,10 +1,4 @@
-
-    <div class="code-block">
-      <div class="code-header">
-        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
-        <span class="code-label">METERPRETER — POST EXPLOITATION</span>
-      </div>
-      <pre><span class="cmd">sysinfo</span>              <span class="c"># System info</span>
+            <span class="c"># System info</span>
 <span class="cmd">getuid</span>               <span class="c"># Current user</span>
 <span class="cmd">getsystem</span>            <span class="c"># Attempt privilege escalation</span>
 <span class="cmd">hashdump</span>             <span class="c"># Dump password hashes</span>
