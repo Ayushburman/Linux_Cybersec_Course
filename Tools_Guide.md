@@ -1,15 +1,4 @@
 
-
-<!-- ══════════════ NAV ══════════════ -->
-<nav class="tool-nav">
-  <a href="#nmap">01 NMAP</a>
-  <a href="#wireshark">02 WIRESHARK</a>
-  <a href="#burpsuite">03 BURPSUITE</a>
-  <a href="#metasploit">04 METASPLOIT</a>
-  <a href="#hydra">05 HYDRA</a>
-  <a href="#john">06 JOHN</a>
-  <a href="#hashcat">07 HASHCAT</a>
-  <a href="#aircrack">08 AIRCRACK-NG</a>
   <a href="#nikto">09 NIKTO</a>
   <a href="#gobuster">10 GOBUSTER</a>
   <a href="#summary">SUMMARY</a>
