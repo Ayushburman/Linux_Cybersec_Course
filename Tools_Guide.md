@@ -58,6 +58,9 @@ PORT     STATE  SERVICE   VERSION
 OS Details: Linux 4.15 - 5.6
 Nmap done: 1 IP scanned in 23.4 seconds
 ```
+<img width="433" height="273" alt="image" src="https://github.com/user-attachments/assets/bc5ec00e-61f3-4a87-b2ad-bc5bfbd456b8" />
+
+--------------------------------------
 
 ### 💻 Snapshot: theHarvester OSINT
 
@@ -75,8 +78,10 @@ root@kali:~$ theHarvester -d target.com -b all
 
 [!] Shodan results: 3 hosts exposed to internet
 ```
+<img width="427" height="267" alt="image" src="https://github.com/user-attachments/assets/5b240ee6-d6f3-47f6-af01-f34cea8e1f67" />
 
----
+
+-------------
 
 ## 2. Network Scanning & Enumeration
 
@@ -146,6 +151,7 @@ root@kali:~$ nikto -h http://target.com
 ---------------------------------------------------------------------------
 7 items found | 3 critical | Scan time: 45s
 ```
+<img width="515" height="323" alt="image" src="https://github.com/user-attachments/assets/0e7956eb-d4c1-4a47-872c-8da6e1a942a8" />
 
 ---
 
@@ -183,7 +189,9 @@ root@kali:~$ sqlmap -u "http://site.com/index.php?id=1" --dbs
 
 [*] Fetched data logged to /root/.sqlmap/output/
 ```
+<img width="849" height="527" alt="image" src="https://github.com/user-attachments/assets/7f8b829c-681e-44e7-8fab-011f75737466" />
 
+---------
 ### 💻 Snapshot: Gobuster Directory Brute Force
 
 ```bash
@@ -200,6 +208,7 @@ Gobuster v3.5
 ===============================================================
 Progress: 4614/4614 (100%) | Time: 00:00:23
 ```
+<img width="854" height="535" alt="image" src="https://github.com/user-attachments/assets/26d31cd3-2ecb-4192-a2b0-0655218d0229" />
 
 ---
 
@@ -231,6 +240,8 @@ KEY FOUND! [ mypassword2023 ]
 Master Key     : AB CD EF 01 23 45 ...
 Transcient Key : 12 34 56 78 9A BC ...
 ```
+<img width="904" height="562" alt="image" src="https://github.com/user-attachments/assets/f11d66cb-54d7-4e88-8277-870c32670f09" />
+
 
 ---
 
@@ -266,6 +277,8 @@ Status...........: Exhausted
 Recovered........: 2/3 (66.67%) Digests
 Time.Started.....: 00:01:23
 ```
+<img width="822" height="513" alt="image" src="https://github.com/user-attachments/assets/ed456a15-c190-40a8-aebf-fc86a17e0c12" />
+
 
 ### 💻 Snapshot: Hydra SSH Brute Force
 
@@ -280,6 +293,7 @@ Hydra v9.4 starting...
 
 1 of 1 target successfully completed, 1 valid password found
 ```
+<img width="931" height="585" alt="image" src="https://github.com/user-attachments/assets/a79e7284-48ef-466a-a640-c929af756130" />
 
 ---
 
@@ -322,6 +336,7 @@ meterpreter > shell
 id
 uid=33(www-data) gid=33(www-data) groups=33(www-data)
 ```
+<img width="871" height="541" alt="image" src="https://github.com/user-attachments/assets/052425d5-aece-44d4-9056-8682e6c322e2" />
 
 ### 💻 Snapshot: SearchSploit
 
@@ -375,6 +390,7 @@ Set-Cookie: session=abc123; Path=/; HttpOnly
 
 3 packets captured, 3 received, 0 dropped
 ```
+<img width="884" height="555" alt="image" src="https://github.com/user-attachments/assets/d1eb7185-1870-43ac-bff1-d1b5362a7bee" />
 
 ---
 
@@ -410,6 +426,8 @@ root@kali:~$ volatility -f mem.raw --profile=Win10x64_19041 cmdline -p 3440
 Process: malware.exe
 CommandLine: C:\Users\Admin\AppData\Roaming\malware.exe --connect 185.x.x.x:4444
 ```
+<img width="959" height="597" alt="image" src="https://github.com/user-attachments/assets/1dc6ea6c-20b3-492f-972a-8721d220d50d" />
+
 
 ---
 
