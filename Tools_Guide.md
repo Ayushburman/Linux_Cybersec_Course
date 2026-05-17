@@ -1,8 +1,4 @@
 
-id=<span class="val">1</span><span class="op">'</span>
-id=<span class="val">1 OR 1</span><span class="op">=</span><span class="val">1</span><span class="op">--</span>
-id=<span class="val">1</span><span class="op">;</span> <span class="kw">DROP TABLE</span> users<span class="op">--</span>
-
 <span class="c"># ── XSS ────────────────────────────────────────────</span>
 <span class="op">&lt;</span>script<span class="op">&gt;</span>alert(1)<span class="op">&lt;</span>/script<span class="op">&gt;</span>
 <span class="str">"&gt;</span><span class="op">&lt;</span>img src<span class="op">=</span>x onerror<span class="op">=</span>alert(1)<span class="op">&gt;</span>
