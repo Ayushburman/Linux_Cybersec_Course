@@ -5,14 +5,7 @@
 
    
    
-  /* ── FOOTER ── */
-  .footer {
-    text-align: center;
-    padding: 40px;
-    border-top: 1px solid var(--border);
-    color: var(--muted);
-    font-size: 11px;
-    letter-spacing: 0.1em;
+
   }
   .footer span { color: var(--red); }
 </style>
