@@ -4,13 +4,6 @@
 
 
    
-   
-
-  }
-  .footer span { color: var(--red); }
-</style>
-</head>
-<body>
 
 <!-- ══════════════ HERO ══════════════ -->
 <header class="hero">
