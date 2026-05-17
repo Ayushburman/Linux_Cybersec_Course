@@ -1,16 +1,4 @@
 
-
-  <!-- ══════════════ 03 · BURP SUITE ══════════════ -->
-  <section class="tool-section" id="burpsuite">
-    <div class="tool-header">
-      <span class="tool-number">03</span>
-      <span class="tool-icon">🕷️</span>
-      <span class="tool-name">BURP <span>SUITE</span></span>
-      <span class="tool-badge badge-web">WEB APP</span>
-    </div>
-    <div class="install-line">INSTALL → <code>portswigger.net</code> (Community Edition is free)</div>
-
-    <div class="code-block">
       <div class="code-header">
         <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
         <span class="code-label">SETUP — PROXY INTERCEPTION</span>
