@@ -1,10 +1,4 @@
-
-    <div class="code-block">
-      <div class="code-header">
-        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
-        <span class="code-label">SERVICE & OS DETECTION</span>
-      </div>
-      <pre><span class="cmd">nmap</span> <span class="fl">-sV</span> <span class="val">192.168.1.1</span>  <span class="c"># Service version detection</span>
+"fl">-sV</span> <span class="val">192.168.1.1</span>  <span class="c"># Service version detection</span>
 <span class="cmd">nmap</span> <span class="fl">-O</span>  <span class="val">192.168.1.1</span>  <span class="c"># OS detection (requires root)</span>
 <span class="cmd">nmap</span> <span class="fl">-A</span>  <span class="val">192.168.1.1</span>  <span class="c"># Aggressive: OS + version + scripts + traceroute</span></pre>
     </div>
