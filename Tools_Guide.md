@@ -1,11 +1,3 @@
-         <span class="c"># Official safe test target</span></pre>
-    </div>
-
-      <pre><span class="cmd">nmap</span> <span class="fl">-p</span> <span class="val">22,80,443</span> <span class="val">192.168.1.1</span>  <span class="c"># Specific ports</span>
-<span class="cmd">nmap</span> <span class="fl">-p</span> <span class="val">1-65535</span> <span class="val">192.168.1.1</span>    <span class="c"># ALL ports</span>
-<span class="cmd">nmap</span> <span class="fl">-p-</span> <span class="val">192.168.1.1</span>            <span class="c"># Shorthand — all ports</span>
-<span class="cmd">nmap</span> <span class="fl">--top-ports</span> <span class="val">100</span> <span class="val">192.168.1.1</span> <span class="c"># Top 100 most common</span></pre>
-    </div>
 
       <pre><span class="cmd">nmap</span> <span class="fl">-sS</span> <span class="val">192.168.1.1</span>  <span class="c"># SYN scan — stealth (default w/ root)</span>
 <span class="cmd">nmap</span> <span class="fl">-sT</span> <span class="val">192.168.1.1</span>  <span class="c"># TCP connect — no root needed</span>
