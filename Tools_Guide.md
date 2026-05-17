@@ -1,15 +1,5 @@
 
 
-  <!-- ══════════════ 04 · METASPLOIT ══════════════ -->
-  <section class="tool-section" id="metasploit">
-    <div class="tool-header">
-      <span class="tool-number">04</span>
-      <span class="tool-icon">💀</span>
-      <span class="tool-name">META<span>SPLOIT</span></span>
-      <span class="tool-badge badge-exploit">EXPLOIT</span>
-    </div>
-    <div class="install-line">INSTALL → <code>sudo apt install metasploit-framework</code> (pre-installed on Kali)</div>
-
     <div class="code-block">
       <div class="code-header">
         <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
