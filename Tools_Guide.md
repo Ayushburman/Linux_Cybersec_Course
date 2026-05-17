@@ -1,12 +1,4 @@
-                          <span class="c"># All HTTP traffic</span>
-<span class="kw">http.request.method</span> <span class="op">==</span> <span class="str">"POST"</span>     <span class="c"># Only POST requests</span>
-<span class="kw">ip.addr</span> <span class="op">==</span> <span class="val">192.168.1.10</span>          <span class="c"># Traffic to/from specific IP</span>
-<span class="kw">ip.src</span> <span class="op">==</span> <span class="val">192.168.1.10</span>           <span class="c"># Traffic FROM specific IP</span>
-<span class="kw">tcp.port</span> <span class="op">==</span> <span class="val">443</span>                   <span class="c"># HTTPS traffic</span>
-<span class="kw">dns</span>                                <span class="c"># All DNS queries</span>
-<span class="kw">tcp.flags.syn</span> <span class="op">==</span> <span class="val">1</span>               <span class="c"># SYN packets (connection attempts)</span>
-<span class="op">!</span><span class="str">(arp or dns or icmp)</span>            <span class="c"># Exclude noise</span></pre>
-    </div>
+
 
     <div class="code-block">
       <div class="code-header">
