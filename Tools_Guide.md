@@ -5,11 +5,6 @@
 <span class="cmd">nmap</span> <span class="val">scanme.nmap.org</span>           <span class="c"># Official safe test target</span></pre>
     </div>
 
-    <div class="code-block">
-      <div class="code-header">
-        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
-        <span class="code-label">PORT SPECIFICATION</span>
-      </div>
       <pre><span class="cmd">nmap</span> <span class="fl">-p</span> <span class="val">22,80,443</span> <span class="val">192.168.1.1</span>  <span class="c"># Specific ports</span>
 <span class="cmd">nmap</span> <span class="fl">-p</span> <span class="val">1-65535</span> <span class="val">192.168.1.1</span>    <span class="c"># ALL ports</span>
 <span class="cmd">nmap</span> <span class="fl">-p-</span> <span class="val">192.168.1.1</span>            <span class="c"># Shorthand — all ports</span>
