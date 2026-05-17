@@ -11,11 +11,6 @@
 <span class="cmd">nmap</span> <span class="fl">--top-ports</span> <span class="val">100</span> <span class="val">192.168.1.1</span> <span class="c"># Top 100 most common</span></pre>
     </div>
 
-    <div class="code-block">
-      <div class="code-header">
-        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
-        <span class="code-label">SCAN TYPES</span>
-      </div>
       <pre><span class="cmd">nmap</span> <span class="fl">-sS</span> <span class="val">192.168.1.1</span>  <span class="c"># SYN scan — stealth (default w/ root)</span>
 <span class="cmd">nmap</span> <span class="fl">-sT</span> <span class="val">192.168.1.1</span>  <span class="c"># TCP connect — no root needed</span>
 <span class="cmd">nmap</span> <span class="fl">-sU</span> <span class="val">192.168.1.1</span>  <span class="c"># UDP scan</span>
