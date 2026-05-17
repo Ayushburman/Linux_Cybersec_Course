@@ -1,11 +1,4 @@
 
-    <div class="code-block">
-      <div class="code-header">
-        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
-        <span class="code-label">⭐ PENTEST COMBO — USE THIS</span>
-      </div>
-      <pre><span class="cmd">nmap</span> <span class="fl">-sV -sC -p- -T4</span> <span class="fl">-oN</span> output.txt <span class="val">192.168.1.1</span>
-
 <span class="c"># -sV  → version detection</span>
 <span class="c"># -sC  → default NSE scripts</span>
 <span class="c"># -p-  → scan ALL 65535 ports</span>
