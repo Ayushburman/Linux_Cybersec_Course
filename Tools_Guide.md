@@ -7,9 +7,7 @@
 
 
 
-    border-bottom: 1px solid var(--border2);
-    font-weight: 500;
-  }
+  
   .summary-table td {
     padding: 10px 16px;
     border-bottom: 1px solid var(--border);
