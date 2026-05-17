@@ -9,10 +9,7 @@
   }
   .summary-table tr:last-child td { border-bottom: none; }
   .summary-table tr:hover td { background: var(--surface2); }
-  .summary-table .tool-col {
-    color: var(--cyan);
-    font-weight: 500;
-    white-space: nowrap;
+  .summary-table .tool-col
   }
   .summary-table .cat-pill {
     display: inline-block;
