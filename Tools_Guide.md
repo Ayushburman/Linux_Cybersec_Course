@@ -1,10 +1,4 @@
 
-<span class="c"># -sV  → version detection</span>
-<span class="c"># -sC  → default NSE scripts</span>
-<span class="c"># -p-  → scan ALL 65535 ports</span>
-<span class="c"># -T4  → aggressive timing (fast)</span>
-<span class="c"># -oN  → save readable output to file</span></pre>
-    </div>
   </section>
 
   <!-- ══════════════ 02 · WIRESHARK ══════════════ -->
