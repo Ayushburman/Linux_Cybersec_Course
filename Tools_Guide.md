@@ -1,10 +1,4 @@
-                           <span class="c"># Live capture on eth0</span>
-<span class="cmd">tshark</span> <span class="fl">-i</span> eth0 <span class="fl">-w</span> capture.pcap             <span class="c"># Save to file</span>
-<span class="cmd">tshark</span> <span class="fl">-r</span> capture.pcap                      <span class="c"># Read saved capture</span>
-<span class="cmd">tshark</span> <span class="fl">-i</span> eth0 <span class="fl">-f</span> <span class="str">"port 80"</span>               <span class="c"># Capture filter — HTTP only</span>
-<span class="cmd">tshark</span> <span class="fl">-r</span> file.pcap <span class="fl">-Y</span> <span class="str">"http"</span>             <span class="c"># Display filter — HTTP packets</span>
-<span class="cmd">tshark</span> <span class="fl">-r</span> file.pcap <span class="fl">-T fields -e</span> <span class="kw">http.host</span> <span class="c"># Extract HTTP hostnames</span></pre>
-    </div>
+
 
     <div class="code-block">
       <div class="code-header">
