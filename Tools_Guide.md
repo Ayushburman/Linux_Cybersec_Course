@@ -1,13 +1,4 @@
 
-  <!-- ══════════════ 05 · HYDRA ══════════════ -->
-  <section class="tool-section" id="hydra">
-    <div class="tool-header">
-      <span class="tool-number">05</span>
-      <span class="tool-icon">🔑</span>
-      <span class="tool-name">HY<span>DRA</span></span>
-      <span class="tool-badge badge-exploit">BRUTE FORCE</span>
-    </div>
-    <div class="install-line">INSTALL → <code>sudo apt install hydra</code></div>
 
     <div class="code-block">
       <div class="code-header">
