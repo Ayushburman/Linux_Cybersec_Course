@@ -1,7 +1,3 @@
-"fl">-sV</span> <span class="val">192.168.1.1</span>  <span class="c"># Service version detection</span>
-<span class="cmd">nmap</span> <span class="fl">-O</span>  <span class="val">192.168.1.1</span>  <span class="c"># OS detection (requires root)</span>
-<span class="cmd">nmap</span> <span class="fl">-A</span>  <span class="val">192.168.1.1</span>  <span class="c"># Aggressive: OS + version + scripts + traceroute</span></pre>
-    </div>
 
                   <span class="val">192.168.1.1</span>  <span class="c"># Run default scripts</span>
 <span class="cmd">nmap</span> <span class="fl">--script</span> <span class="kw">vuln</span>         <span class="val">192.168.1.1</span>  <span class="c"># Vulnerability detection</span>
