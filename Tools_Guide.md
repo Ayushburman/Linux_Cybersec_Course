@@ -1,16 +1,5 @@
 
 
-    <div class="code-block">
-      <div class="code-header">
-        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
-        <span class="code-label">DECODE BASE64 CREDENTIALS</span>
-      </div>
-      <pre><span class="c"># Filter: http.authorization  →  look for Basic Auth</span>
-<span class="c"># Base64 decode any encoded credentials:</span>
-<span class="cmd">echo</span> <span class="str">"dXNlcjpwYXNz"</span> <span class="op">|</span> <span class="cmd">base64</span> <span class="fl">-d</span>   <span class="c"># Reveals → user:pass</span></pre>
-    </div>
-  </section>
-
   <!-- ══════════════ 03 · BURP SUITE ══════════════ -->
   <section class="tool-section" id="burpsuite">
     <div class="tool-header">
