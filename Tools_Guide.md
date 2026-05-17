@@ -1,10 +1,4 @@
 
-                  <span class="val">192.168.1.1</span>  <span class="c"># Run default scripts</span>
-<span class="cmd">nmap</span> <span class="fl">--script</span> <span class="kw">vuln</span>         <span class="val">192.168.1.1</span>  <span class="c"># Vulnerability detection</span>
-<span class="cmd">nmap</span> <span class="fl">--script</span> <span class="kw">http-title</span>  <span class="val">192.168.1.1</span>  <span class="c"># Grab HTTP page titles</span>
-<span class="cmd">nmap</span> <span class="fl">--script</span> <span class="kw">ssh-brute</span>   <span class="val">192.168.1.1</span>  <span class="c"># SSH brute force (labs only!)</span></pre>
-    </div>
-
     <div class="code-block">
       <div class="code-header">
         <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
