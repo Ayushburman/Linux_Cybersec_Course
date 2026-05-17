@@ -1,8 +1,4 @@
-                <span class="c"># Launch Metasploit</span>
-<span class="cmd">search</span> <span class="str">eternalblue</span>                          <span class="c"># Search by name/CVE</span>
-<span class="cmd">search</span> type<span class="op">:</span>exploit platform<span class="op">:</span>windows       <span class="c"># Filter results</span>
-<span class="cmd">use</span> exploit/windows/smb/ms17_010_eternalblue <span class="c"># Select module</span>
-<span class="cmd">info</span>                                         <span class="c"># Full module info</span></pre>
+                      <span class="c"># Full module info</span></pre>
     </div>
 
     <div class="code-block">
