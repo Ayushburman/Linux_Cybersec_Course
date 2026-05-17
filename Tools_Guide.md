@@ -1,7 +1,3 @@
-<img width="1350" height="259" alt="image" src="https://github.com/user-attachments/assets/bff38c55-f061-4d67-be64-6c2e1d930c1d" />
-<img width="1350" height="297" alt="image" src="https://github.com/user-attachments/assets/35b5c471-6bda-4aa5-b4de-93757cdec924" />
-<img width="1347" height="499" alt="image" src="https://github.com/user-attachments/assets/75e9acb1-0513-48d1-af14-42c83fce7e1a" />
-
 
    
 
