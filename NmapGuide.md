@@ -37,3 +37,9 @@ openfiltered | OPENFLT | Can't determine if open or filtered (UDP/IP scans)|
 
 
 <img width="653" height="152" alt="image" src="https://github.com/user-attachments/assets/9fce542e-90b9-4d12-a32c-e9fc398a31df" />
+
+<img width="656" height="120" alt="image" src="https://github.com/user-attachments/assets/91da6ec3-1f34-4043-a766-82de3130591b" />
+
+<img width="692" height="330" alt="image" src="https://github.com/user-attachments/assets/012d3199-c30b-4ef7-b2cb-b5a5d07b1c16" />
+
+
