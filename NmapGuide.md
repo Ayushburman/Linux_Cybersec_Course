@@ -15,3 +15,10 @@ How a scan works — packet lifecycle
 > Nmap interpretation -> Response pattern mapped to port state, OS fingerprint, service version
 > Report generation -> Results written to stdout, XML, grepable, or JSON format
 ```
+
+open | OPEN | Application actively accepting connections on this port |
+-----|------|---------------------------------------------------------|
+closed| CLOSED| Port accessible but no application listening |
+filtered| FILTERED| Firewall/filter blocking; nmap can't determine state|
+unfiltered| UNFILTRD| Port accessible but state undetermined (ACK scan) |
+openfiltered | OPENFLT | Can't determine if open or filtered (UDP/IP scans)|
