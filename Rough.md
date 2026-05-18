@@ -8,3 +8,7 @@ roughwork
 -> Now building the full interactive course and the
 -> README file 
 ```
+```cpp
+Now building the full interactive course and the
+ README file simultaneously.
+```
