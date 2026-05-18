@@ -55,3 +55,8 @@ Now building the full interactive course and the
 Now building the full interactive course and the
  README file simultaneously.
 ```
+
+```go
+Now building the full interactive course and the
+ README file simultaneously.
+```
