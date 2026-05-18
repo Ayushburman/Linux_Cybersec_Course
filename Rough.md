@@ -16,3 +16,7 @@ Now building the full interactive course and the
 Now building the full interactive course and the
  README file simultaneously.
 ```
+```python
+Now building the full interactive course and the
+ README file simultaneously.
+```
