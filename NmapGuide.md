@@ -32,3 +32,8 @@ openfiltered | OPENFLT | Can't determine if open or filtered (UDP/IP scans)|
 -> Completes the full 3-way TCP handshake. No root needed. Loud — leaves logs on the target. Default when non-root.
 ```
 <img width="661" height="160" alt="image" src="https://github.com/user-attachments/assets/ffe9cd69-9e22-47be-bde4-4c0237c07fca" />
+
+
+
+
+<img width="653" height="152" alt="image" src="https://github.com/user-attachments/assets/9fce542e-90b9-4d12-a32c-e9fc398a31df" />
