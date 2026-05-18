@@ -33,12 +33,21 @@ openfiltered | OPENFLT | Can't determine if open or filtered (UDP/IP scans)|
 ```
 <img width="661" height="160" alt="image" src="https://github.com/user-attachments/assets/ffe9cd69-9e22-47be-bde4-4c0237c07fca" />
 
-
-
+```bash
+-> SYN stealth scan — -sS (default with root)
+-> Sends SYN, receives SYN-ACK, then sends RST — never completes handshake.
+   Faster, less logged. Requires root/sudo.
+```
 
 <img width="653" height="152" alt="image" src="https://github.com/user-attachments/assets/9fce542e-90b9-4d12-a32c-e9fc398a31df" />
 
+```bash
+-> UDP scan — -sU
+-> Slower than TCP. No handshake. Open = response received.
+   Filtered = ICMP port unreachable. Crucial for DNS (53), SNMP (161), NTP (123).
+```
 <img width="656" height="120" alt="image" src="https://github.com/user-attachments/assets/91da6ec3-1f34-4043-a766-82de3130591b" />
+
 
 <img width="692" height="330" alt="image" src="https://github.com/user-attachments/assets/012d3199-c30b-4ef7-b2cb-b5a5d07b1c16" />
 
