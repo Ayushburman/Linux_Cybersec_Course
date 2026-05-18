@@ -22,3 +22,9 @@ closed| CLOSED| Port accessible but no application listening |
 filtered| FILTERED| Firewall/filter blocking; nmap can't determine state|
 unfiltered| UNFILTRD| Port accessible but state undetermined (ACK scan) |
 openfiltered | OPENFLT | Can't determine if open or filtered (UDP/IP scans)|
+
+
+
+<img width="1063" height="421" alt="image" src="https://github.com/user-attachments/assets/3f766856-8dbe-4ab3-8baf-174290fdc3d3" />
+
+
