@@ -82,7 +82,7 @@ Now building the full interactive course and the
  README file simultaneously.
 ```
 
-```cmd
+```script
 Now building the full interactive course and the
  README file simultaneously.
 ```
