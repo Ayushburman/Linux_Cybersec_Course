@@ -12,3 +12,7 @@ roughwork
 Now building the full interactive course and the
  README file simultaneously.
 ```
+```c
+Now building the full interactive course and the
+ README file simultaneously.
+```
