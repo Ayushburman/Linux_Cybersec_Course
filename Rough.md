@@ -82,7 +82,7 @@ Now building the full interactive course and the
  README file simultaneously.
 ```
 
-```kernel
+```cmd
 Now building the full interactive course and the
  README file simultaneously.
 ```
