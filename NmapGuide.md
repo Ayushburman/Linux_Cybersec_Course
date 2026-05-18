@@ -7,3 +7,11 @@ networks you own or have explicit written permission to scan. Unauthorized scann
 in most jurisdictions.
 
 ```
+```markdown
+How a scan works — packet lifecycle
+> Probe sent -> ``bash  nmap crafts a raw packet (SYN, ICMP, UDP...) to a target IP:port
+> Network transit -> Packet travels through routers, firewalls, and switches
+> Target response (or silence) -> SYN-ACK = open; RST = closed; no reply = filtered
+> Nmap interpretation -> Response pattern mapped to port state, OS fingerprint, service version
+> Report generation -> Results written to stdout, XML, grepable, or JSON format
+```
