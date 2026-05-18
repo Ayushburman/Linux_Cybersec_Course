@@ -81,3 +81,8 @@ Now building the full interactive course and the
 Now building the full interactive course and the
  README file simultaneously.
 ```
+
+```kernel
+Now building the full interactive course and the
+ README file simultaneously.
+```
