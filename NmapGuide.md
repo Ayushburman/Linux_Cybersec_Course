@@ -24,7 +24,11 @@ unfiltered| UNFILTRD| Port accessible but state undetermined (ACK scan) |
 openfiltered | OPENFLT | Can't determine if open or filtered (UDP/IP scans)|
 
 
+<img width="353" height="212" alt="image" src="https://github.com/user-attachments/assets/50750b40-1db1-4162-b697-925de0e96686" />
 
-<img width="1063" height="421" alt="image" src="https://github.com/user-attachments/assets/3f766856-8dbe-4ab3-8baf-174290fdc3d3" />
 
-
+```bash
+-> TCP connect scan — -sT
+-> Completes the full 3-way TCP handshake. No root needed. Loud — leaves logs on the target. Default when non-root.
+```
+<img width="661" height="160" alt="image" src="https://github.com/user-attachments/assets/ffe9cd69-9e22-47be-bde4-4c0237c07fca" />
