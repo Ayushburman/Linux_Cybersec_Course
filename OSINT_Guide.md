@@ -1,17 +1,4 @@
 
-
-### 4.4 LinkedIn OSINT (No Account Needed)
-
-```bash
-# Google dorking LinkedIn:
-site:linkedin.com/in "Company Name" "Job Title"
-site:linkedin.com/in "software engineer" "Chandigarh"
-
-# Tools:
-─ IntelligenceX     ─ LinkedIn Sales Navigator (paid)
-─ Proxycurl API     ─ Hunter.io (find emails from profiles)
-```
-
 ---
 
 ## ⬛ MODULE 05 — PEOPLE SEARCH & IDENTITY TRACING
