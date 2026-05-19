@@ -1,12 +1,4 @@
 
-┌─────────────────────────────────────────────────────────┐
-│  WHAT IS OSINT?                                         │
-│                                                         │
-│  Publicly          Legally           Intelligently      │
-│  Available    →    Collected    →    Analyzed           │
-│  Data              Information       Intelligence       │
-└─────────────────────────────────────────────────────────┘
-```
 
 ### 0.1 Definition
 
