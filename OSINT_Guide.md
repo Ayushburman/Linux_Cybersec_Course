@@ -1,18 +1,4 @@
 
-                        ┌─────────────────┐
-                        │  OSINT SOURCES  │
-                        └────────┬────────┘
-          ┌─────────────────────┼─────────────────────┐
-          ▼                     ▼                     ▼
-   ┌─────────────┐      ┌─────────────┐      ┌─────────────┐
-   │   INTERNET  │      │  DATABASES  │      │   PHYSICAL  │
-   │             │      │             │      │             │
-   │ Social Media│      │ Gov Records │      │ Newspapers  │
-   │ Websites    │      │ Patents      │      │ Magazines   │
-   │ Forums      │      │ Court Docs  │      │ Conferences │
-   │ Dark Web    │      │ Business Reg│      │ Radio/TV    │
-   └─────────────┘      └─────────────┘      └─────────────┘
-```
 
 ### 1.2 OSINT Framework Map (Simplified)
 
