@@ -1,28 +1,5 @@
 
 
-```
-PLATFORM     WHAT YOU CAN FIND
-──────────────────────────────────────────────────────────────
-Twitter/X    Real-time location hints, connections, opinions
-             Advanced Search: (from:user since:2023-01-01)
-
-LinkedIn     Employment history, connections, company intel
-             Skills, endorsements, education
-
-Instagram    Geotags, tagged locations, facial recognition
-             Story highlights, tagged by others
-
-Facebook     Life events, family links, check-ins, old posts
-
-Reddit       Usernames, interests, writing style analysis
-
-TikTok       Geotagged videos, background details, metadata
-
-GitHub       Real names, emails in commits, project history
-
-Discord      Server membership, usernames
-```
-
 ### 4.2 Twitter / X Advanced Search Operators
 
 ```
