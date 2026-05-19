@@ -1,13 +1,5 @@
 
 
-> **Other Dork-able Engines:** Bing, Yandex, DuckDuckGo, Shodan, Censys
-
----
-
-## ⬛ MODULE 04 — SOCIAL MEDIA INTELLIGENCE (SOCMINT)
-
-### 4.1 Platform Intelligence Map
-
 ```
 PLATFORM     WHAT YOU CAN FIND
 ──────────────────────────────────────────────────────────────
