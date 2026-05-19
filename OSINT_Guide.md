@@ -1,24 +1,4 @@
 
-
-### 3.1 Core Operators
-
-```
-OPERATOR          EXAMPLE                    WHAT IT FINDS
-────────────────────────────────────────────────────────────
-site:             site:github.com osint      All indexed GitHub OSINT pages
-filetype:         filetype:pdf resume        PDF files matching resume
-inurl:            inurl:admin login          URLs containing "admin"
-intitle:          intitle:"index of"         Directory listings
-intext:           intext:"confidential"      Pages containing that word
-cache:            cache:example.com          Google's cached copy
-link:             link:example.com           Pages linking to a site
-"quotes"          "John Smith" "New York"    Exact phrase match
--minus            python -snake              Exclude word
-*wildcard         "CEO of * Inc"             Fill-in-the-blank search
-OR                hacking OR security        Either term
-..range           salary $50,000..$100,000   Number ranges
-```
-
 ### 3.2 Powerful Dork Combinations
 
 ```bash
