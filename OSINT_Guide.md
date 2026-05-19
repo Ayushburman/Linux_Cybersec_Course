@@ -1,20 +1,5 @@
 
 
-> Direct URL: `https://twitter.com/search-advanced`
-
-### 4.3 Facebook OSINT
-
-```
-Graph Search (via URL manipulation):
-
-https://www.facebook.com/search/people/?q=John+Smith
-https://www.facebook.com/search/posts/?q=osint+tools
-
-Stalkscan.com alternative:
-── Enter Facebook profile URL
-── Get all public activity aggregated
-```
-
 ### 4.4 LinkedIn OSINT (No Account Needed)
 
 ```bash
