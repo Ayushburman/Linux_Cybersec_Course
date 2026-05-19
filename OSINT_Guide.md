@@ -1,22 +1,5 @@
 
 
-### 5.2 Username Enumeration
-
-```bash
-# Sherlock (Python tool)
-pip install sherlock-project
-sherlock username_here
-
-# WhatsMyName (browser + CLI)
-https://whatsmyname.app
-
-# Namechk
-https://namechk.com
-
-# Knowem
-https://knowem.com
-```
-
 ### 5.3 Email OSINT
 
 ```
