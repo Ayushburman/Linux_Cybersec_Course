@@ -1,8 +1,5 @@
 # ░▒▓ OSINT MASTERCLASS ▓▒░
-### Open Source Intelligence — From Zero to Operative
-> *"The best
-> 
- ██████╗ ███████╗██╗███╗   ██╗████████╗
+### Open Source Intelligence — From Zero to Op██████╗ ███████╗██╗███╗   ██╗████████╗
 ██╔═══██╗██╔════╝██║████╗  ██║╚══██╔══╝
 ██║   ██║███████╗██║██╔██╗ ██║   ██║   
 ██║   ██║╚════██║██║██║╚██╗██║   ██║   
