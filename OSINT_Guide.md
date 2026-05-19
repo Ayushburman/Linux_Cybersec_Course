@@ -1,14 +1,5 @@
 
 
-## ⬛ MODULE 03 — GOOGLE DORKING & ADVANCED SEARCH
-
-```
-╔═══════════════════════════════════════════════════════╗
-║          G O O G L E   D O R K I N G                 ║
-║   Using search operators to find hidden information  ║
-╚═══════════════════════════════════════════════════════╝
-```
-
 ### 3.1 Core Operators
 
 ```
