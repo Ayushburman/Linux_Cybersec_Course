@@ -1,25 +1,5 @@
 
 
-### 4.2 Twitter / X Advanced Search Operators
-
-```
-Operator              Example
-──────────────────────────────────────────────────
-from:user             from:elonmusk
-to:user               to:elonmusk
-@mention              @CIA
-"exact phrase"        "confirmed dead"
-#hashtag              #OSINT
-since:YYYY-MM-DD      since:2023-01-01
-until:YYYY-MM-DD      until:2023-06-01
-near:"city"           near:"New York"
-geocode:lat,lng,km    geocode:28.61,77.20,5km
-filter:media          filter:media (only tweets with images)
-filter:links          filter:links
--filter:retweets      (exclude retweets)
-lang:en               lang:en
-```
-
 > Direct URL: `https://twitter.com/search-advanced`
 
 ### 4.3 Facebook OSINT
