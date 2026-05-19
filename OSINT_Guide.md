@@ -1,11 +1,4 @@
 
----
-
-## ⬛ MODULE 05 — PEOPLE SEARCH & IDENTITY TRACING
-
-### 5.1 The Identity Web
-
-```
               ┌───────────────┐
               │   REAL NAME   │
               └───────┬───────┘
