@@ -1,14 +1,4 @@
 
-
-> Full interactive map: **https://osintframework.com**
-
----
-
-## ⬛ MODULE 02 — ENVIRONMENT SETUP
-
-### 2.1 Recommended OSINT OS
-
-```
 ┌──────────────────────────────────────────────────┐
 │  OPTION A: Kali Linux (pre-installed tools)      │
 │  OPTION B: Tails OS   (ephemeral, maximum OPSEC) │
