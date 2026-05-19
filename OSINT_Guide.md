@@ -1,22 +1,5 @@
 
 
-### 3.3 Google Dork Cheatsheet Visual
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│  site: ────► Restrict to domain                            │
-│  filetype: ─► Restrict to file extension                   │
-│  inurl: ────► URL must contain string                      │
-│  intitle: ──► Page title must contain string               │
-│  intext: ───► Page body must contain string                │
-│  "..." ─────► Exact phrase                                 │
-│  -word ─────► Exclude term                                 │
-│  OR ────────► Either / both                                │
-│  * ─────────► Wildcard                                     │
-│  .. ────────► Numeric range                                │
-└─────────────────────────────────────────────────────────────┘
-```
-
 > **Other Dork-able Engines:** Bing, Yandex, DuckDuckGo, Shodan, Censys
 
 ---
