@@ -1,16 +1,4 @@
 
-
-| Phase | Description |
-|-------|-------------|
-| **Planning** | Define objective, scope, key intelligence requirements |
-| **Collection** | Gather raw data from sources |
-| **Processing** | Clean, translate, verify data |
-| **Analysis** | Find patterns, draw conclusions |
-| **Dissemination** | Report findings |
-| **Feedback** | Refine based on results |
-
-### 0.3 Legal & Ethical Boundaries
-
 ```
 ✅ LEGAL / ETHICAL          ❌ ILLEGAL / UNETHICAL
 ─────────────────────────   ──────────────────────────────
