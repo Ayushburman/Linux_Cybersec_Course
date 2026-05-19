@@ -5,7 +5,7 @@
 ██║   ██║╚════██║██║██║╚██╗██║   ██║   
 ╚██████╔╝███████║██║██║ ╚████║   ██║   
  ╚═════╝ ╚══════╝╚═╝╚═╝  ╚═══╝   ╚═╝  
-  Open Source Intelligence — Full Course
+  Open Source Intelligence — Full
 ```
 
 ---
