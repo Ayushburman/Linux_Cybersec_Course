@@ -1,10 +1,4 @@
 
-
-## ⬛ MODULE 01 — THE OSINT FRAMEWORK
-
-### 1.1 Source Categories
-
-```
                         ┌─────────────────┐
                         │  OSINT SOURCES  │
                         └────────┬────────┘
