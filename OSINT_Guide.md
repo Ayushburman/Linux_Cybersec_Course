@@ -1,14 +1,4 @@
 
-
-### 1.2 OSINT Framework Map (Simplified)
-
-```
-OSINT FRAMEWORK
-│
-├── 👤 Username
-│   ├── Namechk
-│   ├── Sherlock
-│   └── WhatsMyName
 │
 ├── 📧 Email Address
 │   ├── Hunter.io
