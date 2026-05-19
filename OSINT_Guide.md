@@ -21,7 +21,7 @@ MODULE 12 ──── Case Studies & Capstone
 
 ---
 
-## ⬛ MODULE 00 — FOUNDATIONS & MINDSET
+## ⬛ MODULE 00 — FOUNDATIONS 
 
 ```
 ┌─────────────────────────────────────────────────────────┐
