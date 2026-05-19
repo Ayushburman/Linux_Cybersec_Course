@@ -1,4 +1,8 @@
 # ░▒▓ OSINT MASTERCLASS ▓▒░
+
+
+
+
 ### Open Source Intelligence — From Zero to 
 MODULE 00 ──── Foundations & Mindset
 MODULE 01 ──── The OSINT Framework
