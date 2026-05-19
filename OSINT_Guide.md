@@ -1,21 +1,5 @@
 
 
-### Open Source Intelligence — From Zero to 
-MODULE 00 ──── Foundations & Mindset
-MODULE 01 ──── The OSINT Framework
-MODULE 02 ──── Search Engine Intelligence (SOCMINT Setup)
-MODULE 03 ──── Google Dorking & Advanced Search
-MODULE 04 ──── Social Media Intelligence (SOCMINT)
-MODULE 05 ──── People Search & Identity Tracing
-MODULE 06 ──── Domain & IP Intelligence
-MODULE 07 ──── Image & Video OSINT (IMINT)
-MODULE 08 ──── Geolocation Intelligence (GEOINT)
-MODULE 09 ──── Dark Web & Breach Data Intelligence
-MODULE 10 ──── OSINT Automation & Tooling
-MODULE 11 ──── Operational Security (OPSEC)
-MODULE 12 ──── Case Studies & Capstone
-```
-
 ---
 
 ## ⬛ MODULE 00 — FOUNDATIONS 
