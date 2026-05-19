@@ -1,19 +1,4 @@
 
-```
-✅ LEGAL / ETHICAL          ❌ ILLEGAL / UNETHICAL
-─────────────────────────   ──────────────────────────────
-Public social profiles      Accessing private accounts
-Public records              Bypassing authentication
-WHOIS data                  Scraping behind login walls
-News & media                Doxxing with intent to harm
-Court records               Stalking individuals
-Job postings                Unauthorized interception
-```
-
-> **Rule #1:** If it requires credentials you don't own, stop.
-> **Rule #2:** Knowing someone's address ≠ publishing it.
-
----
 
 ## ⬛ MODULE 01 — THE OSINT FRAMEWORK
 
