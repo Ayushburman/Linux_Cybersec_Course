@@ -1,6 +1,3 @@
-# ░▒▓ OSINT MASTERCLASS ▓▒░
-
-
 
 
 ### Open Source Intelligence — From Zero to 
