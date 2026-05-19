@@ -1,13 +1,4 @@
 
-
-### 0.1 Definition
-
-**OSINT** (Open Source Intelligence) is the collection, analysis, and use of information gathered from **publicly available sources** to produce actionable intelligence.
-
-> It is NOT hacking. It is NOT illegal. It IS a skill.
-
-### 0.2 The Intelligence Cycle
-
 ```
          ┌──────────────────────────────┐
          │                              │
