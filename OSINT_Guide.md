@@ -1,7 +1,6 @@
 # ░▒▓ OSINT MASTERCLASS ▓▒░
 ### Open Source Intelligence — From Zero to Operative
-> *"The best intelligence is 
-
+> *"The best intelligence 
 ```
  ██████╗ ███████╗██╗███╗   ██╗████████╗
 ██╔═══██╗██╔════╝██║████╗  ██║╚══██╔══╝
