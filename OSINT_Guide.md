@@ -1,20 +1,5 @@
 
 
-> **Do not investigate from your home IP.** Ever.
-
-### 2.4 Essential Tools (Free)
-
-| Tool | Purpose | Link |
-|------|---------|------|
-| **Maltego CE** | Link analysis / graph | maltego.com |
-| **Spiderfoot** | Automated OSINT | spiderfoot.net |
-| **theHarvester** | Emails, domains, IPs | GitHub |
-| **Sherlock** | Username across platforms | GitHub |
-| **recon-ng** | Modular recon framework | GitHub |
-| **Metagoofil** | Document metadata | GitHub |
-
----
-
 ## ⬛ MODULE 03 — GOOGLE DORKING & ADVANCED SEARCH
 
 ```
