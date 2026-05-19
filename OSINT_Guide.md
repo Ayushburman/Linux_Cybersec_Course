@@ -1,34 +1,4 @@
 
-### 3.2 Powerful Dork Combinations
-
-```bash
-# Find exposed login pages
-site:target.com inurl:login
-
-# Find exposed documents
-site:target.com filetype:pdf OR filetype:xlsx OR filetype:docx
-
-# Find employee emails
-"@target.com" filetype:pdf
-
-# Find open directories
-intitle:"index of" "parent directory"
-
-# Find exposed cameras (ETHICAL USE ONLY — research/education)
-inurl:/view/index.shtml
-
-# Find subdomains
-site:*.target.com -www
-
-# Find cached pages
-cache:target.com/deleted-page
-
-# Find social profiles
-"John Smith" site:linkedin.com OR site:twitter.com
-
-# Exposed passwords (study only)
-filetype:env "DB_PASSWORD"
-```
 
 ### 3.3 Google Dork Cheatsheet Visual
 
