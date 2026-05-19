@@ -1,12 +1,4 @@
-\
 
-### 2.3 VPN + Proxy Chain Concept
-
-```
-YOU → VPN → Tor → Target Site
- │
- └── Your real IP is never exposed to target
-```
 
 > **Do not investigate from your home IP.** Ever.
 
