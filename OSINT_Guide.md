@@ -1,4 +1,416 @@
+# ░▒▓ OSINT MASTERCLASS ▓▒░
+### Open Source Intelligence — From Zero to Operative
+> *"The best intelligence is hiding in plain sight."*
 
+---
+
+```
+ ██████╗ ███████╗██╗███╗   ██╗████████╗
+██╔═══██╗██╔════╝██║████╗  ██║╚══██╔══╝
+██║   ██║███████╗██║██╔██╗ ██║   ██║   
+██║   ██║╚════██║██║██║╚██╗██║   ██║   
+╚██████╔╝███████║██║██║ ╚████║   ██║   
+ ╚═════╝ ╚══════╝╚═╝╚═╝  ╚═══╝   ╚═╝  
+  Open Source Intelligence — Full Course
+```
+
+---
+
+## 📡 TABLE OF CONTENTS
+
+```
+MODULE 00 ──── Foundations & Mindset
+MODULE 01 ──── The OSINT Framework
+MODULE 02 ──── Search Engine Intelligence (SOCMINT Setup)
+MODULE 03 ──── Google Dorking & Advanced Search
+MODULE 04 ──── Social Media Intelligence (SOCMINT)
+MODULE 05 ──── People Search & Identity Tracing
+MODULE 06 ──── Domain & IP Intelligence
+MODULE 07 ──── Image & Video OSINT (IMINT)
+MODULE 08 ──── Geolocation Intelligence (GEOINT)
+MODULE 09 ──── Dark Web & Breach Data Intelligence
+MODULE 10 ──── OSINT Automation & Tooling
+MODULE 11 ──── Operational Security (OPSEC)
+MODULE 12 ──── Case Studies & Capstone
+```
+
+---
+
+## ⬛ MODULE 00 — FOUNDATIONS & MINDSET
+
+```
+┌─────────────────────────────────────────────────────────┐
+│  WHAT IS OSINT?                                         │
+│                                                         │
+│  Publicly          Legally           Intelligently      │
+│  Available    →    Collected    →    Analyzed           │
+│  Data              Information       Intelligence       │
+└─────────────────────────────────────────────────────────┘
+```
+
+### 0.1 Definition
+
+**OSINT** (Open Source Intelligence) is the collection, analysis, and use of information gathered from **publicly available sources** to produce actionable intelligence.
+
+> It is NOT hacking. It is NOT illegal. It IS a skill.
+
+### 0.2 The Intelligence Cycle
+
+```
+         ┌──────────────────────────────┐
+         │                              │
+    ┌────▼────┐    ┌──────────┐    ┌────▼────┐
+    │PLANNING │───►│COLLECTION│───►│PROCESS  │
+    └─────────┘    └──────────┘    └────┬────┘
+         ▲                              │
+    ┌────┴────┐    ┌──────────┐    ┌────▼────┐
+    │FEEDBACK │◄───│DISSEM.   │◄───│ANALYSIS │
+    └─────────┘    └──────────┘    └─────────┘
+```
+
+| Phase | Description |
+|-------|-------------|
+| **Planning** | Define objective, scope, key intelligence requirements |
+| **Collection** | Gather raw data from sources |
+| **Processing** | Clean, translate, verify data |
+| **Analysis** | Find patterns, draw conclusions |
+| **Dissemination** | Report findings |
+| **Feedback** | Refine based on results |
+
+### 0.3 Legal & Ethical Boundaries
+
+```
+✅ LEGAL / ETHICAL          ❌ ILLEGAL / UNETHICAL
+─────────────────────────   ──────────────────────────────
+Public social profiles      Accessing private accounts
+Public records              Bypassing authentication
+WHOIS data                  Scraping behind login walls
+News & media                Doxxing with intent to harm
+Court records               Stalking individuals
+Job postings                Unauthorized interception
+```
+
+> **Rule #1:** If it requires credentials you don't own, stop.
+> **Rule #2:** Knowing someone's address ≠ publishing it.
+
+---
+
+## ⬛ MODULE 01 — THE OSINT FRAMEWORK
+
+### 1.1 Source Categories
+
+```
+                        ┌─────────────────┐
+                        │  OSINT SOURCES  │
+                        └────────┬────────┘
+          ┌─────────────────────┼─────────────────────┐
+          ▼                     ▼                     ▼
+   ┌─────────────┐      ┌─────────────┐      ┌─────────────┐
+   │   INTERNET  │      │  DATABASES  │      │   PHYSICAL  │
+   │             │      │             │      │             │
+   │ Social Media│      │ Gov Records │      │ Newspapers  │
+   │ Websites    │      │ Patents      │      │ Magazines   │
+   │ Forums      │      │ Court Docs  │      │ Conferences │
+   │ Dark Web    │      │ Business Reg│      │ Radio/TV    │
+   └─────────────┘      └─────────────┘      └─────────────┘
+```
+
+### 1.2 OSINT Framework Map (Simplified)
+
+```
+OSINT FRAMEWORK
+│
+├── 👤 Username
+│   ├── Namechk
+│   ├── Sherlock
+│   └── WhatsMyName
+│
+├── 📧 Email Address
+│   ├── Hunter.io
+│   ├── Have I Been Pwned
+│   └── EmailRep.io
+│
+├── 🌐 Domain / IP
+│   ├── WHOIS
+│   ├── Shodan
+│   ├── BuiltWith
+│   └── crt.sh (certs)
+│
+├── 📷 Images
+│   ├── TinEye
+│   ├── Google Images
+│   ├── Yandex
+│   └── PimEyes
+│
+├── 📍 Geolocation
+│   ├── Google Maps
+│   ├── Bellingcat Toolkit
+│   └── SunCalc
+│
+└── 🧑 People
+    ├── LinkedIn
+    ├── Pipl
+    ├── Spokeo
+    └── BeenVerified
+```
+
+> Full interactive map: **https://osintframework.com**
+
+---
+
+## ⬛ MODULE 02 — ENVIRONMENT SETUP
+
+### 2.1 Recommended OSINT OS
+
+```
+┌──────────────────────────────────────────────────┐
+│  OPTION A: Kali Linux (pre-installed tools)      │
+│  OPTION B: Tails OS   (ephemeral, maximum OPSEC) │
+│  OPTION C: Whonix     (Tor-routed VM)            │
+│  OPTION D: Windows + VPN + VM (beginner-safe)    │
+└──────────────────────────────────────────────────┘
+```
+
+### 2.2 Browser Setup
+
+```
+Firefox (Recommended)
+│
+├── Extensions
+│   ├── uBlock Origin          (block trackers)
+│   ├── Privacy Badger         (behavioral blocking)
+│   ├── EXIF Viewer Pro        (image metadata)
+│   ├── SingleFile             (archive pages)
+│   └── Web Archives           (cached versions)
+│
+└── Settings
+    ├── DNS-over-HTTPS: ON
+    ├── Fingerprinting: STRICT
+    └── Cookies: CLEAR ON EXIT
+```
+
+### 2.3 VPN + Proxy Chain Concept
+
+```
+YOU → VPN → Tor → Target Site
+ │
+ └── Your real IP is never exposed to target
+```
+
+> **Do not investigate from your home IP.** Ever.
+
+### 2.4 Essential Tools (Free)
+
+| Tool | Purpose | Link |
+|------|---------|------|
+| **Maltego CE** | Link analysis / graph | maltego.com |
+| **Spiderfoot** | Automated OSINT | spiderfoot.net |
+| **theHarvester** | Emails, domains, IPs | GitHub |
+| **Sherlock** | Username across platforms | GitHub |
+| **recon-ng** | Modular recon framework | GitHub |
+| **Metagoofil** | Document metadata | GitHub |
+
+---
+
+## ⬛ MODULE 03 — GOOGLE DORKING & ADVANCED SEARCH
+
+```
+╔═══════════════════════════════════════════════════════╗
+║          G O O G L E   D O R K I N G                 ║
+║   Using search operators to find hidden information  ║
+╚═══════════════════════════════════════════════════════╝
+```
+
+### 3.1 Core Operators
+
+```
+OPERATOR          EXAMPLE                    WHAT IT FINDS
+────────────────────────────────────────────────────────────
+site:             site:github.com osint      All indexed GitHub OSINT pages
+filetype:         filetype:pdf resume        PDF files matching resume
+inurl:            inurl:admin login          URLs containing "admin"
+intitle:          intitle:"index of"         Directory listings
+intext:           intext:"confidential"      Pages containing that word
+cache:            cache:example.com          Google's cached copy
+link:             link:example.com           Pages linking to a site
+"quotes"          "John Smith" "New York"    Exact phrase match
+-minus            python -snake              Exclude word
+*wildcard         "CEO of * Inc"             Fill-in-the-blank search
+OR                hacking OR security        Either term
+..range           salary $50,000..$100,000   Number ranges
+```
+
+### 3.2 Powerful Dork Combinations
+
+```bash
+# Find exposed login pages
+site:target.com inurl:login
+
+# Find exposed documents
+site:target.com filetype:pdf OR filetype:xlsx OR filetype:docx
+
+# Find employee emails
+"@target.com" filetype:pdf
+
+# Find open directories
+intitle:"index of" "parent directory"
+
+# Find exposed cameras (ETHICAL USE ONLY — research/education)
+inurl:/view/index.shtml
+
+# Find subdomains
+site:*.target.com -www
+
+# Find cached pages
+cache:target.com/deleted-page
+
+# Find social profiles
+"John Smith" site:linkedin.com OR site:twitter.com
+
+# Exposed passwords (study only)
+filetype:env "DB_PASSWORD"
+```
+
+### 3.3 Google Dork Cheatsheet Visual
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│  site: ────► Restrict to domain                            │
+│  filetype: ─► Restrict to file extension                   │
+│  inurl: ────► URL must contain string                      │
+│  intitle: ──► Page title must contain string               │
+│  intext: ───► Page body must contain string                │
+│  "..." ─────► Exact phrase                                 │
+│  -word ─────► Exclude term                                 │
+│  OR ────────► Either / both                                │
+│  * ─────────► Wildcard                                     │
+│  .. ────────► Numeric range                                │
+└─────────────────────────────────────────────────────────────┘
+```
+
+> **Other Dork-able Engines:** Bing, Yandex, DuckDuckGo, Shodan, Censys
+
+---
+
+## ⬛ MODULE 04 — SOCIAL MEDIA INTELLIGENCE (SOCMINT)
+
+### 4.1 Platform Intelligence Map
+
+```
+PLATFORM     WHAT YOU CAN FIND
+──────────────────────────────────────────────────────────────
+Twitter/X    Real-time location hints, connections, opinions
+             Advanced Search: (from:user since:2023-01-01)
+
+LinkedIn     Employment history, connections, company intel
+             Skills, endorsements, education
+
+Instagram    Geotags, tagged locations, facial recognition
+             Story highlights, tagged by others
+
+Facebook     Life events, family links, check-ins, old posts
+
+Reddit       Usernames, interests, writing style analysis
+
+TikTok       Geotagged videos, background details, metadata
+
+GitHub       Real names, emails in commits, project history
+
+Discord      Server membership, usernames
+```
+
+### 4.2 Twitter / X Advanced Search Operators
+
+```
+Operator              Example
+──────────────────────────────────────────────────
+from:user             from:elonmusk
+to:user               to:elonmusk
+@mention              @CIA
+"exact phrase"        "confirmed dead"
+#hashtag              #OSINT
+since:YYYY-MM-DD      since:2023-01-01
+until:YYYY-MM-DD      until:2023-06-01
+near:"city"           near:"New York"
+geocode:lat,lng,km    geocode:28.61,77.20,5km
+filter:media          filter:media (only tweets with images)
+filter:links          filter:links
+-filter:retweets      (exclude retweets)
+lang:en               lang:en
+```
+
+> Direct URL: `https://twitter.com/search-advanced`
+
+### 4.3 Facebook OSINT
+
+```
+Graph Search (via URL manipulation):
+
+https://www.facebook.com/search/people/?q=John+Smith
+https://www.facebook.com/search/posts/?q=osint+tools
+
+Stalkscan.com alternative:
+── Enter Facebook profile URL
+── Get all public activity aggregated
+```
+
+### 4.4 LinkedIn OSINT (No Account Needed)
+
+```bash
+# Google dorking LinkedIn:
+site:linkedin.com/in "Company Name" "Job Title"
+site:linkedin.com/in "software engineer" "Chandigarh"
+
+# Tools:
+─ IntelligenceX     ─ LinkedIn Sales Navigator (paid)
+─ Proxycurl API     ─ Hunter.io (find emails from profiles)
+```
+
+---
+
+## ⬛ MODULE 05 — PEOPLE SEARCH & IDENTITY TRACING
+
+### 5.1 The Identity Web
+
+```
+              ┌───────────────┐
+              │   REAL NAME   │
+              └───────┬───────┘
+         ┌────────────┼────────────┐
+         ▼            ▼            ▼
+   ┌──────────┐ ┌──────────┐ ┌──────────┐
+   │ USERNAME │ │  EMAIL   │ │  PHONE   │
+   └────┬─────┘ └────┬─────┘ └────┬─────┘
+        │            │            │
+        ▼            ▼            ▼
+   ┌──────────┐ ┌──────────┐ ┌──────────┐
+   │  Social  │ │  Breach  │ │  Carrier │
+   │ Profiles │ │   Data   │ │   Info   │
+   └──────────┘ └──────────┘ └──────────┘
+        │            │            │
+        └────────────┼────────────┘
+                     ▼
+              ┌───────────────┐
+              │ FULL PROFILE  │
+              └───────────────┘
+```
+
+### 5.2 Username Enumeration
+
+```bash
+# Sherlock (Python tool)
+pip install sherlock-project
+sherlock username_here
+
+# WhatsMyName (browser + CLI)
+https://whatsmyname.app
+
+# Namechk
+https://namechk.com
+
+# Knowem
+https://knowem.com
+```
 
 ### 5.3 Email OSINT
 
