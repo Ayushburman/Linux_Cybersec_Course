@@ -1,33 +1,4 @@
 
-│
-├── 📧 Email Address
-│   ├── Hunter.io
-│   ├── Have I Been Pwned
-│   └── EmailRep.io
-│
-├── 🌐 Domain / IP
-│   ├── WHOIS
-│   ├── Shodan
-│   ├── BuiltWith
-│   └── crt.sh (certs)
-│
-├── 📷 Images
-│   ├── TinEye
-│   ├── Google Images
-│   ├── Yandex
-│   └── PimEyes
-│
-├── 📍 Geolocation
-│   ├── Google Maps
-│   ├── Bellingcat Toolkit
-│   └── SunCalc
-│
-└── 🧑 People
-    ├── LinkedIn
-    ├── Pipl
-    ├── Spokeo
-    └── BeenVerified
-```
 
 > Full interactive map: **https://osintframework.com**
 
