@@ -1,22 +1,4 @@
-
-
-### 2.2 Browser Setup
-
-```
-Firefox (Recommended)
-│
-├── Extensions
-│   ├── uBlock Origin          (block trackers)
-│   ├── Privacy Badger         (behavioral blocking)
-│   ├── EXIF Viewer Pro        (image metadata)
-│   ├── SingleFile             (archive pages)
-│   └── Web Archives           (cached versions)
-│
-└── Settings
-    ├── DNS-over-HTTPS: ON
-    ├── Fingerprinting: STRICT
-    └── Cookies: CLEAR ON EXIT
-```
+\
 
 ### 2.3 VPN + Proxy Chain Concept
 
