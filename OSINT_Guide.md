@@ -1,11 +1,4 @@
 
-┌──────────────────────────────────────────────────┐
-│  OPTION A: Kali Linux (pre-installed tools)      │
-│  OPTION B: Tails OS   (ephemeral, maximum OPSEC) │
-│  OPTION C: Whonix     (Tor-routed VM)            │
-│  OPTION D: Windows + VPN + VM (beginner-safe)    │
-└──────────────────────────────────────────────────┘
-```
 
 ### 2.2 Browser Setup
 
